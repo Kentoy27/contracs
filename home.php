@@ -124,7 +124,7 @@ function deny_home_key(string $message, int $status = 403): void
                         <h1 class="display-4 fw-bold mb-2"><?php echo (int)$status; ?></h1>
                         <h4 class="fw-semibold mb-3">Access denied</h4>
                         <p class="text-muted mb-4"><?php echo $m; ?></p>
-                        <a href="index" class="btn btn-primary">Back to Index</a>
+                        <a href="<?php echo ctr_url('index'); ?>" class="btn btn-primary">Back to Index</a>
                     </div>
                 </div>
             </div>
@@ -3286,7 +3286,7 @@ ctr_cookie_consent_banner();
                     <div class="home-profile-name" id="homeProfileName">--</div>
                     <div class="home-profile-sub" id="homeProfileSub">--</div>
                     <div class="home-profile-actions" style="grid-template-columns: 1fr;">
-                        <a class="primary" id="homeProfileDashboardLink" href="index" aria-label="Go to dashboard">Dashboard</a>
+                        <a class="primary" id="homeProfileDashboardLink" href="<?php echo ctr_url('index'); ?>" aria-label="Go to dashboard">Dashboard</a>
                     </div>
                     <div class="home-sr-only" id="homeProfileAnnounce" role="status" aria-live="polite" aria-atomic="true"></div>
                 </div>
@@ -3358,7 +3358,7 @@ ctr_cookie_consent_banner();
                     <div class="home-profile-sub">You will need to sign in again to access the dashboard.</div>
                     <div class="home-profile-actions">
                         <button class="primary" id="homeConfirmCancelBtn" type="button" aria-label="Cancel logout">Cancel</button>
-                        <a class="danger" id="homeConfirmLogoutLink" href="logout" aria-label="Confirm logout">Logout</a>
+                        <a class="danger" id="homeConfirmLogoutLink" href="<?php echo ctr_url('logout'); ?>" aria-label="Confirm logout">Logout</a>
                     </div>
                 </div>
             </div>
@@ -6689,7 +6689,7 @@ ctr_cookie_consent_banner();
                 profileIcon.addEventListener('click', function () {
                     var loggedIn = profileIcon.getAttribute('data-logged-in') === '1';
                     if (!loggedIn) {
-                        try { location.href = 'login'; } catch (e) {}
+                        try { location.href = <?php echo json_encode(ctr_url('login')); ?>; } catch (e) {}
                         return;
                     }
                     bumpUsage('profile_open');

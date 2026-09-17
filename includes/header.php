@@ -25,6 +25,7 @@ $is_pjax = (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUEST
     <!--! END:  Apps Title-->
     <!--! CSRF token for the AJAX layer (see includes/scripts.php) !-->
     <?php echo ctr_csrf_meta(); ?>
+    <script>window.CTR_CONFIG = { phpUrls: <?php echo CTR_PHP_URLS ? 'true' : 'false'; ?> };</script>
     <!--! BEGIN: Favicon-->
     <link rel="icon" type="image/png" href="assets/images/favicon.png?v=<?php echo @filemtime(__DIR__ . '/../assets/images/favicon.png'); ?>" />
     <!--! END: Favicon-->

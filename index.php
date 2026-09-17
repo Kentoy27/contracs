@@ -579,9 +579,9 @@ ctr_cookie_consent_banner();
             <a class="btn btn-outline-info" href="forms/Instruction%20_admin_side.docx" download><i class="feather-download me-1"></i>Instruction Guide</a>
             <?php endif; ?>
             <?php if ($sessionRole === 'superadmin'): ?>
-            <a class="btn btn-outline-success" href="home"><i class="feather-home me-1"></i>Go to Home</a>
+            <a class="btn btn-outline-success" href="<?php echo ctr_url('home'); ?>"><i class="feather-home me-1"></i>Go to Home</a>
             <?php endif; ?>
-            <a class="btn btn-outline-secondary" href="attendance">Go to Attendance</a>
+            <a class="btn btn-outline-secondary" href="<?php echo ctr_url('attendance'); ?>">Go to Attendance</a>
         </div>
     </div>
 
@@ -621,7 +621,7 @@ ctr_cookie_consent_banner();
                 <div class="text-muted small">Admin only</div>
             </div>
             <div class="alert d-none mb-3" id="adminHomeTitleAlert" role="alert"></div>
-            <form method="post" action="index" id="adminHomeTitleForm">
+            <form method="post" action="<?php echo ctr_url('index'); ?>" id="adminHomeTitleForm">
                 <input type="hidden" name="action" value="save_admin_home_title">
                 <label class="form-label" for="adminHomeTitleInput">School Name for Home Page</label>
                 <div class="d-flex gap-2 align-items-end">

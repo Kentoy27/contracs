@@ -155,6 +155,19 @@
         return normalizeRoute(name);
     }
 
+    // Server-provided flag: when the app runs on a server without a rewrite
+    // layer (bare "php -S"), page URLs carry an explicit .php suffix. Map
+    // query-based API endpoints ("users?ajax=1") to match.
+    var CTR_PHP_URLS = (function () {
+        try { return !!(window.CTR_CONFIG && window.CTR_CONFIG.phpUrls); }
+        catch (e) { return false; }
+    })();
+
+    function pageUrl(name) {
+        var n = normalizeRoute(name);
+        return CTR_PHP_URLS ? n + '.php' : n;
+    }
+
     function setActiveRoute(route) {
         var r = normalizeRoute(route);
         var links = document.querySelectorAll('.nxl-link');
@@ -380,7 +393,7 @@
                 if (payload[k] === undefined || payload[k] === null) return;
                 body.set(k, String(payload[k]));
             });
-            return fetchJson('users?ajax=1&action=' + encodeURIComponent(action), {
+            return fetchJson(pageUrl('users') + '?ajax=1&action=' + encodeURIComponent(action), {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' },
                 body: body.toString()
@@ -390,7 +403,7 @@
         function openModal() {
             var modal = el('superAdminProfileModal');
             if (!modal) return;
-            fetchJson('users?ajax=1&action=get_my_profile', { method: 'GET' }).then(function (res) {
+            fetchJson(pageUrl('users') + '?ajax=1&action=get_my_profile', { method: 'GET' }).then(function (res) {
                 if (!res.data || res.data.ok !== true) {
                     var msg = (res.data && res.data.message) ? res.data.message : 'Request failed.';
                     if (window.Swal) Swal.fire({ icon: 'error', title: 'Error', text: msg });
@@ -624,7 +637,7 @@
 
             if (window.bootstrap && window.bootstrap.Modal) window.bootstrap.Modal.getOrCreateInstance(modal).show();
 
-            fetchJson('users?ajax=1&action=get_my_plan_usage', { method: 'GET' }).then(function (res) {
+            fetchJson(pageUrl('users') + '?ajax=1&action=get_my_plan_usage', { method: 'GET' }).then(function (res) {
                 if (!res.data || res.data.ok !== true) {
                     var msg = (res.data && res.data.message) ? res.data.message : 'Request failed.';
                     setBadge('Error', 'danger');
@@ -1212,7 +1225,7 @@
 
             if (window.bootstrap && window.bootstrap.Modal) window.bootstrap.Modal.getOrCreateInstance(modal).show();
 
-            fetchJson('users?ajax=1&action=get_my_home_links', { method: 'GET' }).then(function (res) {
+            fetchJson(pageUrl('users') + '?ajax=1&action=get_my_home_links', { method: 'GET' }).then(function (res) {
                 if (!res.data || res.data.ok !== true) {
                     var msg = (res.data && res.data.message) ? res.data.message : 'Request failed.';
                     setBadge('Error', 'danger');
@@ -1247,7 +1260,7 @@
         function issueNewLink() {
             setAlert('');
             var body = new URLSearchParams();
-            fetchJson('users?ajax=1&action=issue_my_home_link', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: body.toString() }).then(function (res) {
+            fetchJson(pageUrl('users') + '?ajax=1&action=issue_my_home_link', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: body.toString() }).then(function (res) {
                 if (!res.data || res.data.ok !== true) {
                     var msg = (res.data && res.data.message) ? res.data.message : 'Failed to create link.';
                     setAlert(msg);
@@ -1906,7 +1919,7 @@
     })();
 
     pages.users = (function () {
-        var apiBase = 'users?ajax=1';
+        var apiBase = pageUrl('users') + '?ajax=1';
         var users = [];
         var adminUsers = [];
         var adminUsersAdminId = null;
@@ -2232,7 +2245,7 @@
             var fd = new FormData();
             fd.append('action', 'bulk_create_users');
             fd.append('file', pendingUploadUserTemplateFile);
-            fetch('users?ajax=1', { method: 'POST', headers: { 'Accept': 'application/json' }, body: fd })
+            fetch(pageUrl('users') + '?ajax=1', { method: 'POST', headers: { 'Accept': 'application/json' }, body: fd })
                 .then(function (r) { return r.json().then(function (data) { return { ok: r.ok, status: r.status, data: data }; }); })
                 .then(function (res) {
                     if (btn) { btn.disabled = false; btn.innerHTML = '<i class="feather-upload me-1"></i> Upload & Create Users'; }
@@ -3554,7 +3567,7 @@
                 var fd = new FormData();
                 fd.append('subject_id', String(faceDiag.subjectId));
                 fd.append('face_data', JSON.stringify(payload));
-                return fetch('attendance?ajax=1&action=face_diag_capture', { method: 'POST', body: fd, cache: 'no-store' });
+                return fetch(pageUrl('attendance') + '?ajax=1&action=face_diag_capture', { method: 'POST', body: fd, cache: 'no-store' });
             })
                 .then(function (r) {
                     return r.text().then(function (t) {
@@ -3598,7 +3611,7 @@
         }
 
         function loadFaceDiagStats() {
-            fetch('attendance?ajax=1&action=face_diag_stats', { cache: 'no-store' })
+            fetch(pageUrl('attendance') + '?ajax=1&action=face_diag_stats', { cache: 'no-store' })
                 .then(function (r) { return r.json(); })
                 .then(function (res) {
                     if (res && res.ok) renderFaceDiagStats(res);
@@ -3693,7 +3706,7 @@
         }
 
         function doClearFaceDiag() {
-            fetch('attendance?ajax=1&action=face_diag_clear', { method: 'POST', cache: 'no-store' })
+            fetch(pageUrl('attendance') + '?ajax=1&action=face_diag_clear', { method: 'POST', cache: 'no-store' })
                 .then(function (r) { return r.json(); })
                 .then(function (res) {
                     if (res && res.ok) loadFaceDiagStats();
@@ -4710,7 +4723,7 @@ function deleteFaceEnroll() {
             bindOnce(el('bulkIdTemplateBtn'), 'click', 'bulkidtpl', function () { openIdTemplateModal(selectedIdsOrdered()); });
             bindOnce(el('downloadUserTemplateBtn'), 'click', 'dlut', function () {
                 var a = document.createElement('a');
-                a.href = 'users?download_user_template=1';
+                a.href = pageUrl('users') + '?download_user_template=1';
                 document.body.appendChild(a);
                 a.click();
                 a.remove();
@@ -4864,7 +4877,7 @@ function deleteFaceEnroll() {
                 var tpl = checked && checked.value ? String(checked.value) : 'cos_jo';
                 var ids = pendingIdTemplateIds.slice(0);
                 var a = document.createElement('a');
-                a.href = 'users?download_id_template=1&template=' + encodeURIComponent(tpl) + '&ids=' + encodeURIComponent(ids.join(','));
+                a.href = pageUrl('users') + '?download_id_template=1&template=' + encodeURIComponent(tpl) + '&ids=' + encodeURIComponent(ids.join(','));
                 document.body.appendChild(a);
                 a.click();
                 a.remove();
@@ -5097,7 +5110,7 @@ function deleteFaceEnroll() {
                 var id = lastQrUserId;
                 if (!id) return;
                 var a = document.createElement('a');
-                a.href = 'users?download_qr=1&id=' + encodeURIComponent(String(id)) + '&t=' + encodeURIComponent(String(Date.now ? Date.now() : new Date().getTime()));
+                a.href = pageUrl('users') + '?download_qr=1&id=' + encodeURIComponent(String(id)) + '&t=' + encodeURIComponent(String(Date.now ? Date.now() : new Date().getTime()));
                 a.download = 'qr.png';
                 document.body.appendChild(a);
                 a.click();
@@ -5239,7 +5252,7 @@ function deleteFaceEnroll() {
     })();
 
     pages['print-dtr'] = (function () {
-        var usersApiBase = 'users?ajax=1';
+        var usersApiBase = pageUrl('users') + '?ajax=1';
         var attendanceApiBase = 'attendance.php?ajax=1';
         var users = [];
         var selectedUser = null;

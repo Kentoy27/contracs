@@ -152,7 +152,7 @@ $profileSub = trim($profileRole . ($profileId !== '' ? (' • ' . $profileId) : 
                                 <i class="feather-key"></i>
                                 <span>Reset Password</span>
                             </a>
-                            <a href="logout" class="dropdown-item">
+                            <a href="<?php echo ctr_url('logout'); ?>" class="dropdown-item">
                                 <i class="feather-log-out"></i>
                                 <span>Logout</span>
                             </a>
@@ -1572,7 +1572,7 @@ $profileSub = trim($profileRole . ($profileId !== '' ? (' • ' . $profileId) : 
                             if (ok) { ok.textContent = 'Password updated successfully! Redirecting to login...'; ok.classList.remove('d-none'); }
                             if (al) al.classList.add('d-none');
                             setTimeout(function() {
-                                window.location.href = 'logout';
+                                window.location.href = <?php echo json_encode(ctr_url('logout')); ?>;
                             }, 1500);
                         } else {
                             var msg = (res && res.message) ? res.message : 'Failed to update password.';

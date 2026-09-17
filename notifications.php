@@ -974,7 +974,7 @@ if ($action === 'mock_gcash_checkout') {
             $body .= '<div class="muted" style="margin-top:12px;">Payment already marked as paid. You can close this window.</div>';
             $body .= '<div style="margin-top:14px;"><button class="btn btn2" onclick="try{window.close();}catch(e){}">Close</button></div>';
         } else {
-            $body .= '<form method="post" action="notifications" style="margin-top:14px;">';
+            $body .= '<form method="post" action="' . htmlspecialchars(ctr_url('notifications'), ENT_QUOTES, 'UTF-8') . '" style="margin-top:14px;">';
             $body .= '<input type="hidden" name="action" value="mock_gcash_pay">';
             $body .= '<input type="hidden" name="payment_id" value="' . htmlspecialchars((string)$pid, ENT_QUOTES, 'UTF-8') . '">';
             $body .= '<button type="submit" class="btn">Pay Now</button> ';

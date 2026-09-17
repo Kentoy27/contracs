@@ -32,9 +32,43 @@ if (!defined('CTR_CACHE_HEADERS_LOADED')) {
         define('CTR_BASE_PATH', $bp);
     }
 
+    /**
+     * When true, page links are emitted as explicit "/login.php" style URLs
+     * instead of extensionless "/login" ones. Extensionless URLs need a
+     * rewrite layer (Apache + .htaccess, or PHP's built-in server with the
+     * bundled router.php). With .php URLs the app also runs correctly on a
+     * bare "php -S localhost:8000" server that has no router attached.
+     *
+     * Default: off (matches the historical Apache setup). Turn it on with
+     * CONTRACS_PHP_URLS=1 when serving with a plain php -S server.
+     */
+    if (!defined('CTR_PHP_URLS')) {
+        $phpUrls = strtolower(trim((string)(getenv('CONTRACS_PHP_URLS') ?: '')));
+        if ($phpUrls !== '') {
+            $phpUrlsOn = in_array($phpUrls, ['1', 'true', 'on', 'yes'], true);
+        } else {
+            // Auto: PHP's built-in server has no rewrite layer unless the
+            // bundled router.php is attached, so emit explicit .php URLs
+            // there. Apache (+ .htaccess) keeps serving clean URLs.
+            $phpUrlsOn = (PHP_SAPI === 'cli-server');
+        }
+        define('CTR_PHP_URLS', $phpUrlsOn);
+    }
+
     function ctr_url(string $path = ''): string
     {
         $p = ltrim($path, '/');
+        if ($p === '') {
+            return CTR_BASE_PATH === '' ? '/' : CTR_BASE_PATH . '/';
+        }
+        if (CTR_PHP_URLS) {
+            $qpos = strpos($p, '?');
+            $file = $qpos === false ? $p : substr($p, 0, $qpos);
+            $rest = $qpos === false ? '' : substr($p, $qpos);
+            if ($file !== '' && !preg_match('/\.[A-Za-z0-9]{1,5}$/', $file) && is_file(__DIR__ . '/../' . $file . '.php')) {
+                $p = $file . '.php' . $rest;
+            }
+        }
         if (CTR_BASE_PATH === '') {
             return '/' . $p;
         }

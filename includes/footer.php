@@ -12,7 +12,7 @@ if (!$is_pjax) {
                     document.write(new Date().getFullYear());
                 </script>
                 <span class="ms-2">•</span>
-                <a href="credits" class="text-muted text-decoration-none ms-2">Credits</a>
+                <a href="<?php echo ctr_url('credits'); ?>" class="text-muted text-decoration-none ms-2">Credits</a>
             </p>
             </div>
     </footer>

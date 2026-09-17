@@ -1,1 +1,2713 @@
 [Thu Sep 17 13:07:53 2026] PHP 8.2.12 Development Server (http://localhost:8001) started
+[Thu Sep 17 13:08:20 2026] [::1]:57109 Accepted
+[Thu Sep 17 13:08:20 2026] [::1]:57109 Closing
+[Thu Sep 17 13:08:20 2026] [::1]:57111 Accepted
+[Thu Sep 17 13:08:20 2026] [::1]:57111 [200]: GET /assets/css/bootstrap.min.css
+[Thu Sep 17 13:08:20 2026] [::1]:57111 Closing
+[Thu Sep 17 13:08:20 2026] [::1]:57112 Accepted
+[Thu Sep 17 13:08:20 2026] [::1]:57112 Closing
+[Thu Sep 17 13:08:20 2026] [::1]:57113 Accepted
+[Thu Sep 17 13:08:20 2026] [::1]:57113 Closing
+[Thu Sep 17 13:08:26 2026] [::1]:57117 Accepted
+[Thu Sep 17 13:08:26 2026] [::1]:57117 Closing
+[Thu Sep 17 13:08:26 2026] [::1]:57120 Accepted
+[Thu Sep 17 13:08:26 2026] [::1]:57120 Closing
+[Thu Sep 17 13:08:26 2026] [::1]:57122 Accepted
+[Thu Sep 17 13:08:26 2026] [::1]:57122 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57124 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57125 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57126 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57127 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57128 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57129 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57124 [200]: GET /assets/css/inter.css
+[Thu Sep 17 13:08:27 2026] [::1]:57125 [200]: GET /assets/css/bootstrap.min.css
+[Thu Sep 17 13:08:27 2026] [::1]:57126 [200]: GET /assets/vendors/css/vendors.min.css
+[Thu Sep 17 13:08:27 2026] [::1]:57127 [200]: GET /assets/css/theme.min.css
+[Thu Sep 17 13:08:27 2026] [::1]:57128 [200]: GET /assets/css/custom.css
+[Thu Sep 17 13:08:27 2026] [::1]:57129 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:08:27 2026] [::1]:57124 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57128 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57125 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57127 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57126 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57130 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57130 [200]: GET /assets/vendors/js/vendors.min.js
+[Thu Sep 17 13:08:27 2026] [::1]:57129 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57130 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57132 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57132 [200]: GET /assets/js/common-init.min.js
+[Thu Sep 17 13:08:27 2026] [::1]:57132 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57133 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57134 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57133 [200]: GET /assets/js/theme-customizer-init.min.js
+[Thu Sep 17 13:08:27 2026] [::1]:57134 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:08:27 2026] [::1]:57133 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57134 Closing
+[Thu Sep 17 13:08:27 2026] [::1]:57135 Accepted
+[Thu Sep 17 13:08:27 2026] [::1]:57135 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:08:27 2026] [::1]:57135 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55265 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55265 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55267 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55268 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55267 [200]: GET /assets/css/inter.css
+[Thu Sep 17 13:08:37 2026] [::1]:55269 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55268 [200]: GET /assets/css/bootstrap.min.css
+[Thu Sep 17 13:08:37 2026] [::1]:55270 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55269 [200]: GET /assets/vendors/css/vendors.min.css
+[Thu Sep 17 13:08:37 2026] [::1]:55271 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55270 [200]: GET /assets/css/theme.min.css
+[Thu Sep 17 13:08:37 2026] [::1]:55267 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55272 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55271 [200]: GET /assets/css/custom.css
+[Thu Sep 17 13:08:37 2026] [::1]:55273 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55272 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:08:37 2026] [::1]:55268 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55273 [200]: GET /assets/vendors/js/vendors.min.js
+[Thu Sep 17 13:08:37 2026] [::1]:55269 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55270 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55271 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55272 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55273 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55274 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55274 [200]: GET /assets/js/common-init.min.js
+[Thu Sep 17 13:08:37 2026] [::1]:55274 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55275 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55276 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55275 [200]: GET /assets/js/theme-customizer-init.min.js
+[Thu Sep 17 13:08:37 2026] [::1]:55276 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:08:37 2026] [::1]:55275 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55276 Closing
+[Thu Sep 17 13:08:37 2026] [::1]:55277 Accepted
+[Thu Sep 17 13:08:37 2026] [::1]:55277 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:08:37 2026] [::1]:55277 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:55248 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:55248 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:53214 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:53214 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:63257 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:49975 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:63523 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:56644 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:63257 [200]: GET /assets/css/inter.css
+[Thu Sep 17 13:09:21 2026] [::1]:49975 [200]: GET /assets/css/bootstrap.min.css
+[Thu Sep 17 13:09:21 2026] [::1]:63523 [200]: GET /assets/vendors/css/vendors.min.css
+[Thu Sep 17 13:09:21 2026] [::1]:56644 [200]: GET /assets/css/theme.min.css
+[Thu Sep 17 13:09:21 2026] [::1]:51534 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:58678 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:51534 [200]: GET /assets/css/custom.css
+[Thu Sep 17 13:09:21 2026] [::1]:63257 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:61499 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:58678 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:09:21 2026] [::1]:61499 [200]: GET /assets/vendors/js/vendors.min.js
+[Thu Sep 17 13:09:21 2026] [::1]:49975 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:56644 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:63523 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:51534 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:59960 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:59960 [200]: GET /assets/js/common-init.min.js
+[Thu Sep 17 13:09:21 2026] [::1]:51071 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:58678 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:59960 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:51071 [200]: GET /assets/js/theme-customizer-init.min.js
+[Thu Sep 17 13:09:21 2026] [::1]:55385 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:55385 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:09:21 2026] [::1]:51071 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:55385 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:61499 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:53993 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:53993 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:09:21 2026] [::1]:53993 Closing
+[Thu Sep 17 13:09:21 2026] [::1]:56108 Accepted
+[Thu Sep 17 13:09:21 2026] [::1]:56108 [200]: GET /assets/images/favicon.png?v=1786499851
+[Thu Sep 17 13:09:21 2026] [::1]:56108 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51957 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51957 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51959 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51959 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51961 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51961 [200]: GET /assets/css/inter.css
+[Thu Sep 17 13:09:29 2026] [::1]:51962 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51963 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51961 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51964 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51962 [200]: GET /assets/css/bootstrap.min.css
+[Thu Sep 17 13:09:29 2026] [::1]:51965 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51963 [200]: GET /assets/vendors/css/vendors.min.css
+[Thu Sep 17 13:09:29 2026] [::1]:51964 [200]: GET /assets/css/theme.min.css
+[Thu Sep 17 13:09:29 2026] [::1]:51966 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51965 [200]: GET /assets/css/custom.css
+[Thu Sep 17 13:09:29 2026] [::1]:51967 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51966 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:09:29 2026] [::1]:51967 [200]: GET /assets/vendors/js/vendors.min.js
+[Thu Sep 17 13:09:29 2026] [::1]:51962 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51964 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51965 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51963 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51968 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51968 [200]: GET /assets/js/common-init.min.js
+[Thu Sep 17 13:09:29 2026] [::1]:51966 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51968 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51969 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51970 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51969 [200]: GET /assets/js/theme-customizer-init.min.js
+[Thu Sep 17 13:09:29 2026] [::1]:51970 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:09:29 2026] [::1]:51969 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51970 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51967 Closing
+[Thu Sep 17 13:09:29 2026] [::1]:51971 Accepted
+[Thu Sep 17 13:09:29 2026] [::1]:51971 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:09:29 2026] [::1]:51971 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51974 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51974 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51976 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51976 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51978 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51979 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51980 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51981 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51982 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51983 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51978 [200]: GET /assets/css/bootstrap.min.css?v=1785815138
+[Thu Sep 17 13:09:38 2026] [::1]:51979 [200]: GET /assets/vendors/css/vendors.min.css?v=1785815139
+[Thu Sep 17 13:09:38 2026] [::1]:51980 [200]: GET /assets/vendors/css/daterangepicker.min.css?v=1785815139
+[Thu Sep 17 13:09:38 2026] [::1]:51981 [200]: GET /assets/vendors/css/dataTables.bs5.min.css?v=1785815139
+[Thu Sep 17 13:09:38 2026] [::1]:51982 [200]: GET /assets/vendors/css/sweetalert2.min.css?v=1785815139
+[Thu Sep 17 13:09:38 2026] [::1]:51983 [200]: GET /assets/css/theme.min.css?v=1785815138
+[Thu Sep 17 13:09:38 2026] [::1]:51978 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51980 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51981 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51982 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51983 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51979 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51984 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51984 [200]: GET /assets/css/custom.css?v=1787017986
+[Thu Sep 17 13:09:38 2026] [::1]:51984 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51985 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51985 [200]: GET /assets/vendors/js/vendors.min.js?v=1785815140
+[Thu Sep 17 13:09:38 2026] [::1]:51986 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51987 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51988 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51986 [200]: GET /assets/vendors/js/daterangepicker.min.js?v=1785815139
+[Thu Sep 17 13:09:38 2026] [::1]:51989 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51987 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:09:38 2026] [::1]:51988 [200]: GET /assets/vendors/js/apexcharts.min.js?v=1785815139
+[Thu Sep 17 13:09:38 2026] [::1]:51989 [200]: GET /assets/vendors/js/circle-progress.min.js?v=1785815139
+[Thu Sep 17 13:09:38 2026] [::1]:51990 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51986 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51990 [200]: GET /assets/js/common-init.min.js?v=1785815138
+[Thu Sep 17 13:09:38 2026] [::1]:51989 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51991 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51990 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51991 [200]: GET /assets/vendors/js/dataTables.min.js?v=1785815139
+[Thu Sep 17 13:09:38 2026] [::1]:51987 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51988 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51992 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51991 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51985 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51992 [200]: GET /assets/vendors/js/dataTables.bs5.min.js?v=1785815139
+[Thu Sep 17 13:09:38 2026] [::1]:51993 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51992 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51993 [200]: GET /assets/vendors/js/sweetalert2.min.js?v=1785815140
+[Thu Sep 17 13:09:38 2026] [::1]:51993 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51994 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51995 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51994 [200]: GET /assets/js/app-main.js?v=1789443610
+[Thu Sep 17 13:09:38 2026] [::1]:51995 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:09:38 2026] [::1]:51995 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51994 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51996 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51996 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:09:38 2026] [::1]:51996 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51997 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51997 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:09:38 2026] [::1]:51997 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:51998 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51999 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51998 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:09:38 2026] [::1]:51998 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:52000 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:51999 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:09:38 2026] [::1]:51999 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:52001 Accepted
+[Thu Sep 17 13:09:38 2026] [::1]:52000 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:09:38 2026] [::1]:52000 Closing
+[Thu Sep 17 13:09:38 2026] [::1]:52001 [200]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:09:38 2026] [::1]:52001 Closing
+[Thu Sep 17 13:09:41 2026] [::1]:52005 Accepted
+[Thu Sep 17 13:09:41 2026] [::1]:52005 Closing
+[Thu Sep 17 13:09:41 2026] [::1]:52007 Accepted
+[Thu Sep 17 13:09:41 2026] [::1]:52007 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:09:41 2026] [::1]:52007 Closing
+[Thu Sep 17 13:09:41 2026] [::1]:52009 Accepted
+[Thu Sep 17 13:09:41 2026] [::1]:52010 Accepted
+[Thu Sep 17 13:09:41 2026] [::1]:52009 [200]: GET /uploads/attendance/20260806/u299_112350_ae511860.png
+[Thu Sep 17 13:09:41 2026] [::1]:52010 Closing
+[Thu Sep 17 13:09:41 2026] [::1]:52009 Closing
+[Thu Sep 17 13:09:42 2026] [::1]:52011 Accepted
+[Thu Sep 17 13:09:42 2026] [::1]:52011 Closing
+[Thu Sep 17 13:09:42 2026] [::1]:52013 Accepted
+[Thu Sep 17 13:09:42 2026] [::1]:52013 Closing
+[Thu Sep 17 13:09:42 2026] [::1]:52014 Accepted
+[Thu Sep 17 13:09:42 2026] [::1]:52014 Closing
+[Thu Sep 17 13:09:43 2026] [::1]:52017 Accepted
+[Thu Sep 17 13:09:43 2026] [::1]:52017 Closing
+[Thu Sep 17 13:09:43 2026] [::1]:52019 Accepted
+[Thu Sep 17 13:09:43 2026] [::1]:52019 Closing
+[Thu Sep 17 13:09:43 2026] [::1]:52021 Accepted
+[Thu Sep 17 13:09:43 2026] [::1]:52021 Closing
+[Thu Sep 17 13:09:48 2026] [::1]:52023 Accepted
+[Thu Sep 17 13:09:48 2026] [::1]:52023 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:09:48 2026] [::1]:52023 Closing
+[Thu Sep 17 13:09:51 2026] [::1]:52027 Accepted
+[Thu Sep 17 13:09:51 2026] [::1]:52027 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:09:51 2026] [::1]:52027 Closing
+[Thu Sep 17 13:09:54 2026] [::1]:52029 Accepted
+[Thu Sep 17 13:09:54 2026] [::1]:52029 Closing
+[Thu Sep 17 13:09:54 2026] [::1]:52031 Accepted
+[Thu Sep 17 13:09:54 2026] [::1]:52031 Closing
+[Thu Sep 17 13:09:58 2026] [::1]:52033 Accepted
+[Thu Sep 17 13:09:58 2026] [::1]:52033 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:09:58 2026] [::1]:52033 Closing
+[Thu Sep 17 13:10:03 2026] [::1]:52035 Accepted
+[Thu Sep 17 13:10:03 2026] [::1]:52035 Closing
+[Thu Sep 17 13:10:06 2026] [::1]:52038 Accepted
+[Thu Sep 17 13:10:06 2026] [::1]:52038 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:10:06 2026] [::1]:52038 Closing
+[Thu Sep 17 13:10:08 2026] [::1]:52041 Accepted
+[Thu Sep 17 13:10:08 2026] [::1]:52041 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:10:08 2026] [::1]:52041 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:57235 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:57235 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:52774 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:52774 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:61646 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:61646 [200]: GET /assets/css/inter.css
+[Thu Sep 17 13:10:10 2026] [::1]:56840 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:65500 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:56840 [200]: GET /assets/css/bootstrap.min.css
+[Thu Sep 17 13:10:10 2026] [::1]:52868 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:65500 [200]: GET /assets/vendors/css/vendors.min.css
+[Thu Sep 17 13:10:10 2026] [::1]:61646 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:60386 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:52868 [200]: GET /assets/css/theme.min.css
+[Thu Sep 17 13:10:10 2026] [::1]:56075 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:60386 [200]: GET /assets/css/custom.css
+[Thu Sep 17 13:10:10 2026] [::1]:52464 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:56075 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:10:10 2026] [::1]:56840 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:52464 [200]: GET /assets/vendors/js/vendors.min.js
+[Thu Sep 17 13:10:10 2026] [::1]:64784 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:65500 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:52868 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:60386 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:64784 [200]: GET /assets/js/common-init.min.js
+[Thu Sep 17 13:10:10 2026] [::1]:64784 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:65335 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:59291 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:56075 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:65335 [200]: GET /assets/js/theme-customizer-init.min.js
+[Thu Sep 17 13:10:10 2026] [::1]:59291 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:10:10 2026] [::1]:52464 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:65335 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:59291 Closing
+[Thu Sep 17 13:10:10 2026] [::1]:62605 Accepted
+[Thu Sep 17 13:10:10 2026] [::1]:62605 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:10:10 2026] [::1]:62605 Closing
+[Thu Sep 17 13:10:17 2026] [::1]:51561 Accepted
+[Thu Sep 17 13:10:17 2026] [::1]:51561 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:10:17 2026] [::1]:51561 Closing
+[Thu Sep 17 13:10:18 2026] [::1]:51564 Accepted
+[Thu Sep 17 13:10:18 2026] [::1]:51564 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:10:18 2026] [::1]:51564 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:52857 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:52857 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:65366 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:65366 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:57846 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:51424 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:63679 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:56207 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:57846 [200]: GET /assets/css/inter.css
+[Thu Sep 17 13:10:22 2026] [::1]:59032 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:51424 [200]: GET /assets/css/bootstrap.min.css
+[Thu Sep 17 13:10:22 2026] [::1]:63679 [200]: GET /assets/vendors/css/vendors.min.css
+[Thu Sep 17 13:10:22 2026] [::1]:56207 [200]: GET /assets/css/theme.min.css
+[Thu Sep 17 13:10:22 2026] [::1]:51455 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:59032 [200]: GET /assets/css/custom.css
+[Thu Sep 17 13:10:22 2026] [::1]:51455 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:10:22 2026] [::1]:57846 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:51424 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:56207 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:59032 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:50144 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:63679 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:50144 [200]: GET /assets/vendors/js/vendors.min.js
+[Thu Sep 17 13:10:22 2026] [::1]:51455 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:61674 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:61674 [200]: GET /assets/js/common-init.min.js
+[Thu Sep 17 13:10:22 2026] [::1]:63031 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:51164 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:63031 [200]: GET /assets/js/theme-customizer-init.min.js
+[Thu Sep 17 13:10:22 2026] [::1]:51164 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:10:22 2026] [::1]:50144 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:61674 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:63031 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:51164 Closing
+[Thu Sep 17 13:10:22 2026] [::1]:52949 Accepted
+[Thu Sep 17 13:10:22 2026] [::1]:52949 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:10:22 2026] [::1]:52949 Closing
+[Thu Sep 17 13:10:24 2026] [::1]:62835 Accepted
+[Thu Sep 17 13:10:24 2026] [::1]:62835 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:58064 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:58064 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:65338 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:65338 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:61121 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:60053 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:61121 [200]: GET /assets/css/bootstrap.min.css?v=1785815138
+[Thu Sep 17 13:10:28 2026] [::1]:60053 [200]: GET /assets/vendors/css/vendors.min.css?v=1785815139
+[Thu Sep 17 13:10:28 2026] [::1]:64763 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:54601 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:64763 [200]: GET /assets/vendors/css/daterangepicker.min.css?v=1785815139
+[Thu Sep 17 13:10:28 2026] [::1]:65108 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:54601 [200]: GET /assets/vendors/css/dataTables.bs5.min.css?v=1785815139
+[Thu Sep 17 13:10:28 2026] [::1]:49159 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:65108 [200]: GET /assets/vendors/css/sweetalert2.min.css?v=1785815139
+[Thu Sep 17 13:10:28 2026] [::1]:61121 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:60851 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:49159 [200]: GET /assets/css/theme.min.css?v=1785815138
+[Thu Sep 17 13:10:28 2026] [::1]:60053 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:64763 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:60851 [200]: GET /assets/css/custom.css?v=1787017986
+[Thu Sep 17 13:10:28 2026] [::1]:54601 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:65108 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:49159 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:60851 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:56166 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:51548 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:61944 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:56166 [200]: GET /assets/vendors/js/vendors.min.js?v=1785815140
+[Thu Sep 17 13:10:28 2026] [::1]:51548 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:10:28 2026] [::1]:61944 [200]: GET /assets/vendors/js/daterangepicker.min.js?v=1785815139
+[Thu Sep 17 13:10:28 2026] [::1]:52810 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:52810 [200]: GET /assets/vendors/js/apexcharts.min.js?v=1785815139
+[Thu Sep 17 13:10:28 2026] [::1]:58659 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:61944 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:59442 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:58659 [200]: GET /assets/vendors/js/circle-progress.min.js?v=1785815139
+[Thu Sep 17 13:10:28 2026] [::1]:59442 [200]: GET /assets/js/common-init.min.js?v=1785815138
+[Thu Sep 17 13:10:28 2026] [::1]:51545 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:51548 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:56166 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:58659 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:51545 [200]: GET /assets/vendors/js/dataTables.min.js?v=1785815139
+[Thu Sep 17 13:10:28 2026] [::1]:52810 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:59442 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:51545 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:59905 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:59905 [200]: GET /assets/vendors/js/dataTables.bs5.min.js?v=1785815139
+[Thu Sep 17 13:10:28 2026] [::1]:59905 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:65524 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:65524 [200]: GET /assets/vendors/js/sweetalert2.min.js?v=1785815140
+[Thu Sep 17 13:10:28 2026] [::1]:65524 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:54516 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:54516 [200]: GET /assets/js/app-main.js?v=1789443610
+[Thu Sep 17 13:10:28 2026] [::1]:59952 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:59952 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:10:28 2026] [::1]:54516 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:59952 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:59306 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:59306 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:10:28 2026] [::1]:59306 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:64592 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:58854 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:64592 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:10:28 2026] [::1]:64592 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:57941 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:58854 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:10:28 2026] [::1]:58854 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:54944 Accepted
+[Thu Sep 17 13:10:28 2026] [::1]:57941 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:10:28 2026] [::1]:57941 Closing
+[Thu Sep 17 13:10:28 2026] [::1]:57887 Accepted
+[Thu Sep 17 13:10:29 2026] [::1]:54944 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:10:29 2026] [::1]:54944 Closing
+[Thu Sep 17 13:10:29 2026] [::1]:57887 [200]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:10:29 2026] [::1]:57887 Closing
+[Thu Sep 17 13:10:29 2026] [::1]:56038 Accepted
+[Thu Sep 17 13:10:29 2026] [::1]:56039 Accepted
+[Thu Sep 17 13:10:29 2026] [::1]:56038 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:10:29 2026] [::1]:56038 Closing
+[Thu Sep 17 13:10:29 2026] [::1]:56039 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:10:29 2026] [::1]:56039 Closing
+[Thu Sep 17 13:10:32 2026] [::1]:61906 Accepted
+[Thu Sep 17 13:10:32 2026] [::1]:61906 Closing
+[Thu Sep 17 13:10:32 2026] [::1]:57420 Accepted
+[Thu Sep 17 13:10:32 2026] [::1]:57420 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:10:32 2026] [::1]:57420 Closing
+[Thu Sep 17 13:10:32 2026] [::1]:52655 Accepted
+[Thu Sep 17 13:10:32 2026] [::1]:57231 Accepted
+[Thu Sep 17 13:10:32 2026] [::1]:52655 [200]: GET /uploads/attendance/20260806/u299_112350_ae511860.png
+[Thu Sep 17 13:10:32 2026] [::1]:57231 Closing
+[Thu Sep 17 13:10:32 2026] [::1]:52655 Closing
+[Thu Sep 17 13:10:33 2026] [::1]:49912 Accepted
+[Thu Sep 17 13:10:33 2026] [::1]:49912 Closing
+[Thu Sep 17 13:10:39 2026] [::1]:59309 Accepted
+[Thu Sep 17 13:10:39 2026] [::1]:59309 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:10:39 2026] [::1]:59309 Closing
+[Thu Sep 17 13:10:44 2026] [::1]:53197 Accepted
+[Thu Sep 17 13:10:44 2026] [::1]:53198 Accepted
+[Thu Sep 17 13:10:44 2026] [::1]:53197 Closing
+[Thu Sep 17 13:10:44 2026] [::1]:53198 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:10:44 2026] [::1]:53198 Closing
+[Thu Sep 17 13:10:49 2026] [::1]:50466 Accepted
+[Thu Sep 17 13:10:49 2026] [::1]:50466 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:10:49 2026] [::1]:50466 Closing
+[Thu Sep 17 13:10:59 2026] [::1]:57961 Accepted
+[Thu Sep 17 13:10:59 2026] [::1]:57962 Accepted
+[Thu Sep 17 13:10:59 2026] [::1]:57961 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:10:59 2026] [::1]:57961 Closing
+[Thu Sep 17 13:10:59 2026] [::1]:57962 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:10:59 2026] [::1]:57962 Closing
+[Thu Sep 17 13:11:04 2026] [::1]:57966 Accepted
+[Thu Sep 17 13:11:04 2026] [::1]:57966 Closing
+[Thu Sep 17 13:11:09 2026] [::1]:57968 Accepted
+[Thu Sep 17 13:11:09 2026] [::1]:57968 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:11:09 2026] [::1]:57968 Closing
+[Thu Sep 17 13:11:11 2026] [::1]:57970 Accepted
+[Thu Sep 17 13:11:11 2026] [::1]:57970 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:11:11 2026] [::1]:57970 Closing
+[Thu Sep 17 13:11:19 2026] [::1]:52630 Accepted
+[Thu Sep 17 13:11:19 2026] [::1]:52630 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:11:19 2026] [::1]:52630 Closing
+[Thu Sep 17 13:11:24 2026] [::1]:58002 Accepted
+[Thu Sep 17 13:11:24 2026] [::1]:58003 Accepted
+[Thu Sep 17 13:11:24 2026] [::1]:58002 Closing
+[Thu Sep 17 13:11:24 2026] [::1]:58003 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:11:24 2026] [::1]:58003 Closing
+[Thu Sep 17 13:11:29 2026] [::1]:58008 Accepted
+[Thu Sep 17 13:11:29 2026] [::1]:58008 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:11:29 2026] [::1]:58008 Closing
+[Thu Sep 17 13:11:39 2026] [::1]:58012 Accepted
+[Thu Sep 17 13:11:39 2026] [::1]:58013 Accepted
+[Thu Sep 17 13:11:39 2026] [::1]:58012 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:11:39 2026] [::1]:58012 Closing
+[Thu Sep 17 13:11:39 2026] [::1]:58013 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:11:39 2026] [::1]:58013 Closing
+[Thu Sep 17 13:11:44 2026] [::1]:58016 Accepted
+[Thu Sep 17 13:11:44 2026] [::1]:58016 Closing
+[Thu Sep 17 13:11:49 2026] [::1]:58019 Accepted
+[Thu Sep 17 13:11:49 2026] [::1]:58019 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:11:49 2026] [::1]:58019 Closing
+[Thu Sep 17 13:11:54 2026] [::1]:58022 Accepted
+[Thu Sep 17 13:11:54 2026] [::1]:58022 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:11:54 2026] [::1]:58022 Closing
+[Thu Sep 17 13:11:59 2026] [::1]:58024 Accepted
+[Thu Sep 17 13:11:59 2026] [::1]:58024 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:11:59 2026] [::1]:58024 Closing
+[Thu Sep 17 13:12:04 2026] [::1]:58026 Accepted
+[Thu Sep 17 13:12:04 2026] [::1]:58026 Closing
+[Thu Sep 17 13:12:22 2026] [::1]:58034 Accepted
+[Thu Sep 17 13:12:22 2026] [::1]:58035 Accepted
+[Thu Sep 17 13:12:22 2026] [::1]:58034 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:12:22 2026] [::1]:58034 Closing
+[Thu Sep 17 13:12:22 2026] [::1]:58035 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:12:22 2026] [::1]:58035 Closing
+[Thu Sep 17 13:13:22 2026] [::1]:54042 Accepted
+[Thu Sep 17 13:13:22 2026] [::1]:54043 Accepted
+[Thu Sep 17 13:13:22 2026] [::1]:54042 Closing
+[Thu Sep 17 13:13:22 2026] [::1]:54044 Accepted
+[Thu Sep 17 13:13:22 2026] [::1]:54043 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:13:22 2026] [::1]:54043 Closing
+[Thu Sep 17 13:13:22 2026] [::1]:54044 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:13:22 2026] [::1]:54044 Closing
+[Thu Sep 17 13:14:22 2026] [::1]:58477 Accepted
+[Thu Sep 17 13:14:22 2026] [::1]:58478 Accepted
+[Thu Sep 17 13:14:22 2026] [::1]:58477 Closing
+[Thu Sep 17 13:14:22 2026] [::1]:58479 Accepted
+[Thu Sep 17 13:14:22 2026] [::1]:58478 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:14:22 2026] [::1]:58478 Closing
+[Thu Sep 17 13:14:22 2026] [::1]:58479 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:14:22 2026] [::1]:58479 Closing
+[Thu Sep 17 13:14:51 2026] [::1]:57944 Accepted
+[Thu Sep 17 13:14:51 2026] [::1]:57945 Accepted
+[Thu Sep 17 13:14:51 2026] [::1]:57944 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:14:51 2026] [::1]:57944 Closing
+[Thu Sep 17 13:14:51 2026] [::1]:57946 Accepted
+[Thu Sep 17 13:14:51 2026] [::1]:57945 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:14:51 2026] [::1]:57945 Closing
+[Thu Sep 17 13:14:51 2026] [::1]:57946 Closing
+[Thu Sep 17 13:15:01 2026] [::1]:57951 Accepted
+[Thu Sep 17 13:15:01 2026] [::1]:57952 Accepted
+[Thu Sep 17 13:15:01 2026] [::1]:57951 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:15:01 2026] [::1]:57951 Closing
+[Thu Sep 17 13:15:01 2026] [::1]:57952 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:15:01 2026] [::1]:57952 Closing
+[Thu Sep 17 13:15:03 2026] [::1]:57955 Accepted
+[Thu Sep 17 13:15:03 2026] [::1]:57955 Closing
+[Thu Sep 17 13:15:11 2026] [::1]:57957 Accepted
+[Thu Sep 17 13:15:11 2026] [::1]:57957 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:15:11 2026] [::1]:57957 Closing
+[Thu Sep 17 13:15:16 2026] [::1]:57960 Accepted
+[Thu Sep 17 13:15:16 2026] [::1]:57960 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:15:16 2026] [::1]:57960 Closing
+[Thu Sep 17 13:15:19 2026] [::1]:57962 Accepted
+[Thu Sep 17 13:15:19 2026] [::1]:57962 [200]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:15:19 2026] [::1]:57962 Closing
+[Thu Sep 17 13:15:21 2026] [::1]:57965 Accepted
+[Thu Sep 17 13:15:21 2026] [::1]:57965 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:15:21 2026] [::1]:57965 Closing
+[Thu Sep 17 13:15:23 2026] [::1]:59521 Accepted
+[Thu Sep 17 13:15:23 2026] [::1]:59521 Closing
+[Thu Sep 17 13:15:31 2026] [::1]:59525 Accepted
+[Thu Sep 17 13:15:31 2026] [::1]:59526 Accepted
+[Thu Sep 17 13:15:31 2026] [::1]:59525 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:15:31 2026] [::1]:59525 Closing
+[Thu Sep 17 13:15:31 2026] [::1]:59526 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:15:31 2026] [::1]:59526 Closing
+[Thu Sep 17 13:15:41 2026] [::1]:59530 Accepted
+[Thu Sep 17 13:15:41 2026] [::1]:59530 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:15:41 2026] [::1]:59530 Closing
+[Thu Sep 17 13:15:43 2026] [::1]:59532 Accepted
+[Thu Sep 17 13:15:43 2026] [::1]:59532 Closing
+[Thu Sep 17 13:15:46 2026] [::1]:59534 Accepted
+[Thu Sep 17 13:15:46 2026] [::1]:59534 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:15:46 2026] [::1]:59534 Closing
+[Thu Sep 17 13:15:51 2026] [::1]:59537 Accepted
+[Thu Sep 17 13:15:51 2026] [::1]:59537 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:15:51 2026] [::1]:59537 Closing
+[Thu Sep 17 13:16:01 2026] [::1]:59540 Accepted
+[Thu Sep 17 13:16:01 2026] [::1]:59541 Accepted
+[Thu Sep 17 13:16:01 2026] [::1]:59540 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:16:01 2026] [::1]:59540 Closing
+[Thu Sep 17 13:16:01 2026] [::1]:59541 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:16:01 2026] [::1]:59541 Closing
+[Thu Sep 17 13:16:03 2026] [::1]:59544 Accepted
+[Thu Sep 17 13:16:03 2026] [::1]:59544 Closing
+[Thu Sep 17 13:16:11 2026] [::1]:59548 Accepted
+[Thu Sep 17 13:16:11 2026] [::1]:59548 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:16:11 2026] [::1]:59548 Closing
+[Thu Sep 17 13:16:13 2026] [::1]:59550 Accepted
+[Thu Sep 17 13:16:13 2026] [::1]:59550 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:16:13 2026] [::1]:59550 Closing
+[Thu Sep 17 13:16:21 2026] [::1]:59554 Accepted
+[Thu Sep 17 13:16:21 2026] [::1]:59554 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:16:21 2026] [::1]:59554 Closing
+[Thu Sep 17 13:16:23 2026] [::1]:62978 Accepted
+[Thu Sep 17 13:16:23 2026] [::1]:62978 Closing
+[Thu Sep 17 13:16:28 2026] [::1]:62980 Accepted
+[Thu Sep 17 13:16:28 2026] [::1]:62980 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:16:28 2026] [::1]:62980 Closing
+[Thu Sep 17 13:16:31 2026] [::1]:62982 Accepted
+[Thu Sep 17 13:16:31 2026] [::1]:62982 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:16:31 2026] [::1]:62982 Closing
+[Thu Sep 17 13:16:41 2026] [::1]:62985 Accepted
+[Thu Sep 17 13:16:41 2026] [::1]:62985 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:16:41 2026] [::1]:62985 Closing
+[Thu Sep 17 13:16:43 2026] [::1]:62987 Accepted
+[Thu Sep 17 13:16:43 2026] [::1]:62987 Closing
+[Thu Sep 17 13:16:43 2026] [::1]:62989 Accepted
+[Thu Sep 17 13:16:43 2026] [::1]:62989 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:16:43 2026] [::1]:62989 Closing
+[Thu Sep 17 13:16:51 2026] [::1]:62994 Accepted
+[Thu Sep 17 13:16:51 2026] [::1]:62994 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:16:51 2026] [::1]:62994 Closing
+[Thu Sep 17 13:16:58 2026] [::1]:62996 Accepted
+[Thu Sep 17 13:16:58 2026] [::1]:62996 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:16:58 2026] [::1]:62996 Closing
+[Thu Sep 17 13:17:01 2026] [::1]:62999 Accepted
+[Thu Sep 17 13:17:01 2026] [::1]:62999 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:17:01 2026] [::1]:62999 Closing
+[Thu Sep 17 13:17:03 2026] [::1]:63001 Accepted
+[Thu Sep 17 13:17:03 2026] [::1]:63001 Closing
+[Thu Sep 17 13:17:11 2026] [::1]:63003 Accepted
+[Thu Sep 17 13:17:11 2026] [::1]:63003 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:17:11 2026] [::1]:63003 Closing
+[Thu Sep 17 13:17:13 2026] [::1]:63006 Accepted
+[Thu Sep 17 13:17:13 2026] [::1]:63006 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:17:13 2026] [::1]:63006 Closing
+[Thu Sep 17 13:17:21 2026] [::1]:63010 Accepted
+[Thu Sep 17 13:17:21 2026] [::1]:63010 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:17:21 2026] [::1]:63010 Closing
+[Thu Sep 17 13:17:23 2026] [::1]:62111 Accepted
+[Thu Sep 17 13:17:23 2026] [::1]:62111 Closing
+[Thu Sep 17 13:17:26 2026] [::1]:62114 Accepted
+[Thu Sep 17 13:17:26 2026] [::1]:62114 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:17:26 2026] [::1]:62114 Closing
+[Thu Sep 17 13:17:31 2026] [::1]:62117 Accepted
+[Thu Sep 17 13:17:31 2026] [::1]:62117 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:17:31 2026] [::1]:62117 Closing
+[Thu Sep 17 13:17:41 2026] [::1]:62124 Accepted
+[Thu Sep 17 13:17:41 2026] [::1]:62125 Accepted
+[Thu Sep 17 13:17:41 2026] [::1]:62124 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:17:41 2026] [::1]:62124 Closing
+[Thu Sep 17 13:17:41 2026] [::1]:62125 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:17:41 2026] [::1]:62125 Closing
+[Thu Sep 17 13:17:43 2026] [::1]:62128 Accepted
+[Thu Sep 17 13:17:43 2026] [::1]:62128 Closing
+[Thu Sep 17 13:17:51 2026] [::1]:62131 Accepted
+[Thu Sep 17 13:17:51 2026] [::1]:62131 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:17:51 2026] [::1]:62131 Closing
+[Thu Sep 17 13:17:53 2026] [::1]:50571 Accepted
+[Thu Sep 17 13:17:53 2026] [::1]:50571 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:17:53 2026] [::1]:50571 Closing
+[Thu Sep 17 13:18:04 2026] [::1]:50573 Accepted
+[Thu Sep 17 13:18:04 2026] [::1]:50573 Closing
+[Thu Sep 17 13:18:24 2026] [::1]:61120 Accepted
+[Thu Sep 17 13:18:24 2026] [::1]:61120 Closing
+[Thu Sep 17 13:18:44 2026] [::1]:63926 Accepted
+[Thu Sep 17 13:18:44 2026] [::1]:63926 Closing
+[Thu Sep 17 13:19:22 2026] [::1]:64496 Accepted
+[Thu Sep 17 13:19:22 2026] [::1]:64496 Closing
+[Thu Sep 17 13:20:22 2026] [::1]:49774 Accepted
+[Thu Sep 17 13:20:22 2026] [::1]:49774 Closing
+[Thu Sep 17 13:21:22 2026] [::1]:55001 Accepted
+[Thu Sep 17 13:21:22 2026] [::1]:55001 Closing
+[Thu Sep 17 13:22:22 2026] [::1]:62042 Accepted
+[Thu Sep 17 13:22:22 2026] [::1]:62042 Closing
+[Thu Sep 17 13:23:19 2026] [::1]:62099 Accepted
+[Thu Sep 17 13:23:19 2026] [::1]:62100 Accepted
+[Thu Sep 17 13:23:19 2026] [::1]:62099 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:23:19 2026] [::1]:62099 Closing
+[Thu Sep 17 13:23:19 2026] [::1]:62101 Accepted
+[Thu Sep 17 13:23:19 2026] [::1]:62100 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:23:19 2026] [::1]:62100 Closing
+[Thu Sep 17 13:23:19 2026] [::1]:62101 Closing
+[Thu Sep 17 13:23:23 2026] [::1]:51186 Accepted
+[Thu Sep 17 13:23:23 2026] [::1]:51186 Closing
+[Thu Sep 17 13:23:30 2026] [::1]:51189 Accepted
+[Thu Sep 17 13:23:30 2026] [::1]:51189 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:23:30 2026] [::1]:51189 Closing
+[Thu Sep 17 13:23:32 2026] [::1]:51191 Accepted
+[Thu Sep 17 13:23:32 2026] [::1]:51191 Closing
+[Thu Sep 17 13:23:32 2026] [::1]:51193 Accepted
+[Thu Sep 17 13:23:32 2026] [::1]:51193 [200]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:23:32 2026] [::1]:51193 Closing
+[Thu Sep 17 13:23:33 2026] [::1]:51199 Accepted
+[Thu Sep 17 13:23:33 2026] [::1]:51199 Closing
+[Thu Sep 17 13:23:33 2026] [::1]:51201 Accepted
+[Thu Sep 17 13:23:33 2026] [::1]:51201 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:23:33 2026] [::1]:51201 Closing
+[Thu Sep 17 13:23:33 2026] [::1]:51203 Accepted
+[Thu Sep 17 13:23:33 2026] [::1]:51203 [200]: GET /uploads/attendance/20260806/u299_112350_ae511860.png
+[Thu Sep 17 13:23:33 2026] [::1]:51203 Closing
+[Thu Sep 17 13:23:33 2026] [::1]:51204 Accepted
+[Thu Sep 17 13:23:33 2026] [::1]:51204 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:23:33 2026] [::1]:51204 Closing
+[Thu Sep 17 13:23:34 2026] [::1]:51206 Accepted
+[Thu Sep 17 13:23:34 2026] [::1]:51206 Closing
+[Thu Sep 17 13:23:34 2026] [::1]:51208 Accepted
+[Thu Sep 17 13:23:34 2026] [::1]:51208 Closing
+[Thu Sep 17 13:23:34 2026] [::1]:51209 Accepted
+[Thu Sep 17 13:23:34 2026] [::1]:51209 Closing
+[Thu Sep 17 13:23:34 2026] [::1]:51212 Accepted
+[Thu Sep 17 13:23:34 2026] [::1]:51212 Closing
+[Thu Sep 17 13:23:34 2026] [::1]:51214 Accepted
+[Thu Sep 17 13:23:34 2026] [::1]:51214 Closing
+[Thu Sep 17 13:23:34 2026] [::1]:51216 Accepted
+[Thu Sep 17 13:23:34 2026] [::1]:51216 Closing
+[Thu Sep 17 13:23:36 2026] [::1]:51218 Accepted
+[Thu Sep 17 13:23:36 2026] [::1]:51218 Closing
+[Thu Sep 17 13:23:36 2026] [::1]:51220 Accepted
+[Thu Sep 17 13:23:36 2026] [::1]:51221 Accepted
+[Thu Sep 17 13:23:36 2026] [::1]:51222 Accepted
+[Thu Sep 17 13:23:36 2026] [::1]:51223 Accepted
+[Thu Sep 17 13:23:36 2026] [::1]:51224 Accepted
+[Thu Sep 17 13:23:36 2026] [::1]:51220 Closing
+[Thu Sep 17 13:23:36 2026] [::1]:51221 Closing
+[Thu Sep 17 13:23:36 2026] [::1]:51222 Closing
+[Thu Sep 17 13:23:36 2026] [::1]:51223 Closing
+[Thu Sep 17 13:23:36 2026] [::1]:51224 Closing
+[Thu Sep 17 13:23:40 2026] [::1]:51232 Accepted
+[Thu Sep 17 13:23:40 2026] [::1]:51232 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:23:40 2026] [::1]:51232 Closing
+[Thu Sep 17 13:23:46 2026] [::1]:51235 Accepted
+[Thu Sep 17 13:23:46 2026] [::1]:51235 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:23:46 2026] [::1]:51235 Closing
+[Thu Sep 17 13:23:50 2026] [::1]:51240 Accepted
+[Thu Sep 17 13:23:50 2026] [::1]:51240 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:23:50 2026] [::1]:51240 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:58638 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:63596 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:58638 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:23:54 2026] [::1]:58638 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:63596 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:23:54 2026] [::1]:63596 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:55163 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:55163 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:57163 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:57163 [200]: GET /assets/css/bootstrap.min.css?v=1785815138
+[Thu Sep 17 13:23:54 2026] [::1]:53301 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:53966 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:61107 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:57163 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:59929 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:53301 [200]: GET /assets/vendors/css/vendors.min.css?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:58174 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:53966 [200]: GET /assets/vendors/css/daterangepicker.min.css?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:61107 [200]: GET /assets/vendors/css/dataTables.bs5.min.css?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:59929 [200]: GET /assets/vendors/css/sweetalert2.min.css?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:51895 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:58174 [200]: GET /assets/css/theme.min.css?v=1785815138
+[Thu Sep 17 13:23:54 2026] [::1]:51895 [200]: GET /assets/css/custom.css?v=1787017986
+[Thu Sep 17 13:23:54 2026] [::1]:53966 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:61107 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:59929 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:53301 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:58174 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:51895 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:58840 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:58420 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:62090 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:59713 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:58840 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:23:54 2026] [::1]:58420 [200]: GET /assets/vendors/js/vendors.min.js?v=1785815140
+[Thu Sep 17 13:23:54 2026] [::1]:62090 [200]: GET /assets/vendors/js/daterangepicker.min.js?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:59713 [200]: GET /assets/vendors/js/apexcharts.min.js?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:54770 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:65120 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:54770 [200]: GET /assets/vendors/js/circle-progress.min.js?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:65120 [200]: GET /assets/js/common-init.min.js?v=1785815138
+[Thu Sep 17 13:23:54 2026] [::1]:62090 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:58840 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:54770 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:59713 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:65120 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:58436 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:58420 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:58436 [200]: GET /assets/vendors/js/dataTables.min.js?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:58436 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:59626 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:61566 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:56110 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:60019 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:59626 [200]: GET /assets/vendors/js/dataTables.bs5.min.js?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:61566 [200]: GET /assets/vendors/js/sweetalert2.min.js?v=1785815140
+[Thu Sep 17 13:23:54 2026] [::1]:56110 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:23:54 2026] [::1]:60019 [200]: GET /assets/js/app-main.js?v=1789443610
+[Thu Sep 17 13:23:54 2026] [::1]:59626 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:61566 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:56110 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:60019 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:62282 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:62282 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:23:54 2026] [::1]:62282 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:56216 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:56216 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:23:54 2026] [::1]:56216 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:64468 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:64468 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:23:54 2026] [::1]:64468 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:51482 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:51482 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:60264 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:60264 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:64686 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:64686 [200]: GET /assets/images/favicon.png?v=1786499851
+[Thu Sep 17 13:23:54 2026] [::1]:64686 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:49870 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:49870 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:63784 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:62373 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:63784 [200]: GET /assets/css/bootstrap.min.css?v=1785815138
+[Thu Sep 17 13:23:54 2026] [::1]:62373 [200]: GET /assets/vendors/css/vendors.min.css?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:60195 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:56598 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:60195 [200]: GET /assets/vendors/css/daterangepicker.min.css?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:60717 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:56598 [200]: GET /assets/vendors/css/dataTables.bs5.min.css?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:52445 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:60717 [200]: GET /assets/vendors/css/sweetalert2.min.css?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:63784 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:65119 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:52445 [200]: GET /assets/css/theme.min.css?v=1785815138
+[Thu Sep 17 13:23:54 2026] [::1]:62373 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:60195 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:65119 [200]: GET /assets/css/custom.css?v=1787017986
+[Thu Sep 17 13:23:54 2026] [::1]:56598 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:60717 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:52445 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:65119 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:62196 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:51135 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:62196 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:23:54 2026] [::1]:56871 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:51135 [200]: GET /assets/vendors/js/vendors.min.js?v=1785815140
+[Thu Sep 17 13:23:54 2026] [::1]:56871 [200]: GET /assets/vendors/js/daterangepicker.min.js?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:59228 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:60749 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:59228 [200]: GET /assets/vendors/js/apexcharts.min.js?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:59371 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:60749 [200]: GET /assets/vendors/js/circle-progress.min.js?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:62196 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:56871 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:59371 [200]: GET /assets/js/common-init.min.js?v=1785815138
+[Thu Sep 17 13:23:54 2026] [::1]:63685 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:63685 [200]: GET /assets/vendors/js/dataTables.min.js?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:51135 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:60749 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:60561 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:59371 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:60561 [200]: GET /assets/vendors/js/dataTables.bs5.min.js?v=1785815139
+[Thu Sep 17 13:23:54 2026] [::1]:59228 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:63685 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:60561 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:59384 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:53921 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:50767 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:59384 [200]: GET /assets/vendors/js/sweetalert2.min.js?v=1785815140
+[Thu Sep 17 13:23:54 2026] [::1]:53921 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:23:54 2026] [::1]:50767 [200]: GET /assets/js/app-main.js?v=1789443610
+[Thu Sep 17 13:23:54 2026] [::1]:59384 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:53921 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:50767 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:54414 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:54414 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:23:54 2026] [::1]:54414 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:49973 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:49973 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:23:54 2026] [::1]:49973 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:57713 Accepted
+[Thu Sep 17 13:23:54 2026] [::1]:57713 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:23:54 2026] [::1]:57713 Closing
+[Thu Sep 17 13:23:54 2026] [::1]:55856 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:55856 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:56190 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:56190 [200]: GET /assets/images/favicon.png?v=1786499851
+[Thu Sep 17 13:23:55 2026] [::1]:56190 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:61360 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:61360 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:63697 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:63697 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:56040 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:50508 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:56040 [200]: GET /assets/css/bootstrap.min.css?v=1785815138
+[Thu Sep 17 13:23:55 2026] [::1]:54758 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:50508 [200]: GET /assets/vendors/css/vendors.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:52234 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:54758 [200]: GET /assets/vendors/css/daterangepicker.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:52508 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:52234 [200]: GET /assets/vendors/css/dataTables.bs5.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:60370 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:52508 [200]: GET /assets/vendors/css/sweetalert2.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:56040 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:58407 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:60370 [200]: GET /assets/css/theme.min.css?v=1785815138
+[Thu Sep 17 13:23:55 2026] [::1]:54758 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:58407 [200]: GET /assets/css/custom.css?v=1787017986
+[Thu Sep 17 13:23:55 2026] [::1]:50508 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:52234 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:62349 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:52508 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:62349 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:23:55 2026] [::1]:52719 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:60370 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:58407 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:57366 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:52719 [200]: GET /assets/vendors/js/vendors.min.js?v=1785815140
+[Thu Sep 17 13:23:55 2026] [::1]:57821 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:57366 [200]: GET /assets/vendors/js/daterangepicker.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:57821 [200]: GET /assets/vendors/js/apexcharts.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:53691 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:57088 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:57366 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:53691 [200]: GET /assets/vendors/js/circle-progress.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:62349 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:57088 [200]: GET /assets/js/common-init.min.js?v=1785815138
+[Thu Sep 17 13:23:55 2026] [::1]:52719 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:57821 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:53691 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:57088 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:54281 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:63935 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:54281 [200]: GET /assets/vendors/js/dataTables.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:63935 [200]: GET /assets/vendors/js/dataTables.bs5.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:54281 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:63935 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:64503 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:61509 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:54607 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:64503 [200]: GET /assets/vendors/js/sweetalert2.min.js?v=1785815140
+[Thu Sep 17 13:23:55 2026] [::1]:61509 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:23:55 2026] [::1]:54607 [200]: GET /assets/js/app-main.js?v=1789443610
+[Thu Sep 17 13:23:55 2026] [::1]:64503 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:61509 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:54607 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:52946 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:52946 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:23:55 2026] [::1]:52946 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:50119 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:53270 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:50119 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:23:55 2026] [::1]:50119 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:65497 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:53270 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:23:55 2026] [::1]:53270 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:65497 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:57011 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:57011 [200]: GET /assets/images/favicon.png?v=1786499851
+[Thu Sep 17 13:23:55 2026] [::1]:57011 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:62011 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:62011 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:51152 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:51152 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:62839 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:62839 [200]: GET /assets/css/bootstrap.min.css?v=1785815138
+[Thu Sep 17 13:23:55 2026] [::1]:64456 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:51416 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:61103 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:64456 [200]: GET /assets/vendors/css/vendors.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:51416 [200]: GET /assets/vendors/css/daterangepicker.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:56520 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:61103 [200]: GET /assets/vendors/css/dataTables.bs5.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:62839 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:54053 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:56520 [200]: GET /assets/vendors/css/sweetalert2.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:58167 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:54053 [200]: GET /assets/css/theme.min.css?v=1785815138
+[Thu Sep 17 13:23:55 2026] [::1]:51416 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:57774 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:58167 [200]: GET /assets/css/custom.css?v=1787017986
+[Thu Sep 17 13:23:55 2026] [::1]:61103 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:57774 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:23:55 2026] [::1]:64456 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:56520 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:64502 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:64502 [200]: GET /assets/vendors/js/vendors.min.js?v=1785815140
+[Thu Sep 17 13:23:55 2026] [::1]:54053 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:58167 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:50757 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:53233 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:50757 [200]: GET /assets/vendors/js/daterangepicker.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:53233 [200]: GET /assets/vendors/js/apexcharts.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:57774 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:50163 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:50757 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:59392 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:50163 [200]: GET /assets/vendors/js/circle-progress.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:59392 [200]: GET /assets/js/common-init.min.js?v=1785815138
+[Thu Sep 17 13:23:55 2026] [::1]:64502 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:53233 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:58912 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:50163 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:59392 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:50766 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:58912 [200]: GET /assets/vendors/js/dataTables.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:50766 [200]: GET /assets/vendors/js/dataTables.bs5.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:58912 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:50766 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:53030 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:50243 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:63148 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:53030 [200]: GET /assets/vendors/js/sweetalert2.min.js?v=1785815140
+[Thu Sep 17 13:23:55 2026] [::1]:50243 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:23:55 2026] [::1]:63148 [200]: GET /assets/js/app-main.js?v=1789443610
+[Thu Sep 17 13:23:55 2026] [::1]:53030 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:50243 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:63148 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:61868 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:61868 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:23:55 2026] [::1]:61868 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:53290 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:60209 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:53290 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:23:55 2026] [::1]:53290 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:65366 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:60209 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:23:55 2026] [::1]:60209 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:65366 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:52736 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:52736 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:52982 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:53199 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:52982 [200]: GET /assets/images/favicon.png?v=1786499851
+[Thu Sep 17 13:23:55 2026] [::1]:53199 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:52982 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:51461 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:51461 [200]: GET /assets/css/bootstrap.min.css?v=1785815138
+[Thu Sep 17 13:23:55 2026] [::1]:58819 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:58819 [200]: GET /assets/vendors/css/vendors.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:56003 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:61292 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:56003 [200]: GET /assets/vendors/css/daterangepicker.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:51461 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:52990 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:61292 [200]: GET /assets/vendors/css/dataTables.bs5.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:53687 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:52990 [200]: GET /assets/vendors/css/sweetalert2.min.css?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:58446 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:53687 [200]: GET /assets/css/theme.min.css?v=1785815138
+[Thu Sep 17 13:23:55 2026] [::1]:58819 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:56003 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:58446 [200]: GET /assets/css/custom.css?v=1787017986
+[Thu Sep 17 13:23:55 2026] [::1]:61292 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:61962 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:52990 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:65428 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:61962 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:23:55 2026] [::1]:53307 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:65428 [200]: GET /assets/vendors/js/vendors.min.js?v=1785815140
+[Thu Sep 17 13:23:55 2026] [::1]:53687 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:58446 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:63397 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:53307 [200]: GET /assets/vendors/js/daterangepicker.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:65346 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:63397 [200]: GET /assets/vendors/js/apexcharts.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:60741 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:65346 [200]: GET /assets/vendors/js/circle-progress.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:60741 [200]: GET /assets/js/common-init.min.js?v=1785815138
+[Thu Sep 17 13:23:55 2026] [::1]:53307 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:61962 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:65346 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:56343 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:65428 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:60741 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:63397 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:56343 [200]: GET /assets/vendors/js/dataTables.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:56343 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:49537 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:49537 [200]: GET /assets/vendors/js/dataTables.bs5.min.js?v=1785815139
+[Thu Sep 17 13:23:55 2026] [::1]:49537 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:61344 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:49860 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:61344 [200]: GET /assets/vendors/js/sweetalert2.min.js?v=1785815140
+[Thu Sep 17 13:23:55 2026] [::1]:49860 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:23:55 2026] [::1]:57954 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:61344 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:57954 [200]: GET /assets/js/app-main.js?v=1789443610
+[Thu Sep 17 13:23:55 2026] [::1]:49860 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:57954 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:51304 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:51304 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:23:55 2026] [::1]:51304 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:60963 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:60963 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:23:55 2026] [::1]:60963 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:54106 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:54106 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:23:55 2026] [::1]:54106 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:56911 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:56911 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:65176 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:65176 [200]: GET /assets/images/favicon.png?v=1786499851
+[Thu Sep 17 13:23:55 2026] [::1]:65176 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:65369 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:65369 Closing
+[Thu Sep 17 13:23:55 2026] [::1]:65371 Accepted
+[Thu Sep 17 13:23:55 2026] [::1]:65371 Closing
+[Thu Sep 17 13:23:59 2026] [::1]:65374 Accepted
+[Thu Sep 17 13:23:59 2026] [::1]:65374 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:23:59 2026] [::1]:65374 Closing
+[Thu Sep 17 13:24:01 2026] [::1]:54921 Accepted
+[Thu Sep 17 13:24:01 2026] [::1]:54921 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:24:01 2026] [::1]:54921 Closing
+[Thu Sep 17 13:24:11 2026] [::1]:50124 Accepted
+[Thu Sep 17 13:24:11 2026] [::1]:50124 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:24:11 2026] [::1]:50124 Closing
+[Thu Sep 17 13:24:14 2026] [::1]:50127 Accepted
+[Thu Sep 17 13:24:14 2026] [::1]:50127 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:24:14 2026] [::1]:50127 Closing
+[Thu Sep 17 13:24:15 2026] [::1]:61729 Accepted
+[Thu Sep 17 13:24:15 2026] [::1]:61730 Accepted
+[Thu Sep 17 13:24:15 2026] [::1]:61729 Closing
+[Thu Sep 17 13:24:15 2026] [::1]:61730 Closing
+[Thu Sep 17 13:24:21 2026] [::1]:61734 Accepted
+[Thu Sep 17 13:24:21 2026] [::1]:61734 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:24:21 2026] [::1]:61734 Closing
+[Thu Sep 17 13:24:26 2026] [::1]:58589 Accepted
+[Thu Sep 17 13:24:26 2026] [::1]:58589 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:24:26 2026] [::1]:58589 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:49386 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:58188 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:49386 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:24:27 2026] [::1]:49386 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:58188 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:24:27 2026] [::1]:58188 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:49825 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:49825 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:63693 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:63693 [200]: GET /assets/css/bootstrap.min.css?v=1785815138
+[Thu Sep 17 13:24:27 2026] [::1]:63693 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:61725 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:52862 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:49710 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:61568 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:61725 [200]: GET /assets/vendors/css/vendors.min.css?v=1785815139
+[Thu Sep 17 13:24:27 2026] [::1]:63426 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:52862 [200]: GET /assets/vendors/css/daterangepicker.min.css?v=1785815139
+[Thu Sep 17 13:24:27 2026] [::1]:49710 [200]: GET /assets/vendors/css/dataTables.bs5.min.css?v=1785815139
+[Thu Sep 17 13:24:27 2026] [::1]:61568 [200]: GET /assets/vendors/css/sweetalert2.min.css?v=1785815139
+[Thu Sep 17 13:24:27 2026] [::1]:63234 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:63426 [200]: GET /assets/css/theme.min.css?v=1785815138
+[Thu Sep 17 13:24:27 2026] [::1]:63234 [200]: GET /assets/css/custom.css?v=1787017986
+[Thu Sep 17 13:24:27 2026] [::1]:52862 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:49710 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:61568 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:61725 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:63426 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:63234 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:54323 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:55304 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:57900 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:50743 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:54323 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:24:27 2026] [::1]:55304 [200]: GET /assets/vendors/js/vendors.min.js?v=1785815140
+[Thu Sep 17 13:24:27 2026] [::1]:57900 [200]: GET /assets/vendors/js/daterangepicker.min.js?v=1785815139
+[Thu Sep 17 13:24:27 2026] [::1]:50743 [200]: GET /assets/vendors/js/apexcharts.min.js?v=1785815139
+[Thu Sep 17 13:24:27 2026] [::1]:61128 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:65079 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:61128 [200]: GET /assets/vendors/js/circle-progress.min.js?v=1785815139
+[Thu Sep 17 13:24:27 2026] [::1]:65079 [200]: GET /assets/js/common-init.min.js?v=1785815138
+[Thu Sep 17 13:24:27 2026] [::1]:57900 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:54323 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:61128 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:50743 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:65079 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:62812 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:55304 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:62812 [200]: GET /assets/vendors/js/dataTables.min.js?v=1785815139
+[Thu Sep 17 13:24:27 2026] [::1]:62812 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:59781 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:55459 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:60151 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:51458 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:59781 [200]: GET /assets/vendors/js/dataTables.bs5.min.js?v=1785815139
+[Thu Sep 17 13:24:27 2026] [::1]:55459 [200]: GET /assets/vendors/js/sweetalert2.min.js?v=1785815140
+[Thu Sep 17 13:24:27 2026] [::1]:60151 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:24:27 2026] [::1]:51458 [200]: GET /assets/js/app-main.js?v=1789443610
+[Thu Sep 17 13:24:27 2026] [::1]:59781 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:55459 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:60151 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:51458 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:56167 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:56167 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:24:27 2026] [::1]:56167 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:56234 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:56234 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:24:27 2026] [::1]:56234 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:58570 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:58570 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:24:27 2026] [::1]:58570 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:60460 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:60460 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:54142 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:54142 [200]: GET /assets/images/favicon.png?v=1786499851
+[Thu Sep 17 13:24:27 2026] [::1]:54142 Closing
+[Thu Sep 17 13:24:27 2026] [::1]:50747 Accepted
+[Thu Sep 17 13:24:27 2026] [::1]:50747 Closing
+[Thu Sep 17 13:24:29 2026] [::1]:50966 Accepted
+[Thu Sep 17 13:24:29 2026] [::1]:50966 Closing
+[Thu Sep 17 13:24:29 2026] [::1]:53737 Accepted
+[Thu Sep 17 13:24:29 2026] [::1]:53737 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:24:29 2026] [::1]:53737 Closing
+[Thu Sep 17 13:24:29 2026] [::1]:65152 Accepted
+[Thu Sep 17 13:24:29 2026] [::1]:65152 [200]: GET /uploads/attendance/20260806/u299_112350_ae511860.png
+[Thu Sep 17 13:24:29 2026] [::1]:65152 Closing
+[Thu Sep 17 13:24:30 2026] [::1]:60863 Accepted
+[Thu Sep 17 13:24:30 2026] [::1]:60863 Closing
+[Thu Sep 17 13:24:30 2026] [::1]:55018 Accepted
+[Thu Sep 17 13:24:30 2026] [::1]:55018 [200]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:24:30 2026] [::1]:55018 Closing
+[Thu Sep 17 13:24:31 2026] [::1]:55020 Accepted
+[Thu Sep 17 13:24:31 2026] [::1]:55020 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:24:31 2026] [::1]:55020 Closing
+[Thu Sep 17 13:24:34 2026] [::1]:55025 Accepted
+[Thu Sep 17 13:24:34 2026] [::1]:55025 Closing
+[Thu Sep 17 13:24:38 2026] [::1]:55030 Accepted
+[Thu Sep 17 13:24:38 2026] [::1]:55030 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:24:38 2026] [::1]:55030 Closing
+[Thu Sep 17 13:24:41 2026] [::1]:55033 Accepted
+[Thu Sep 17 13:24:41 2026] [::1]:55033 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:24:41 2026] [::1]:55033 Closing
+[Thu Sep 17 13:24:51 2026] [::1]:55037 Accepted
+[Thu Sep 17 13:24:51 2026] [::1]:55038 Accepted
+[Thu Sep 17 13:24:51 2026] [::1]:55037 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:24:51 2026] [::1]:55037 Closing
+[Thu Sep 17 13:24:51 2026] [::1]:55038 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:24:51 2026] [::1]:55038 Closing
+[Thu Sep 17 13:24:54 2026] [::1]:55041 Accepted
+[Thu Sep 17 13:24:54 2026] [::1]:55041 Closing
+[Thu Sep 17 13:25:00 2026] [::1]:63679 Accepted
+[Thu Sep 17 13:25:00 2026] [::1]:63679 [200]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:25:00 2026] [::1]:63679 Closing
+[Thu Sep 17 13:25:01 2026] [::1]:63681 Accepted
+[Thu Sep 17 13:25:01 2026] [::1]:63681 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:25:01 2026] [::1]:63681 Closing
+[Thu Sep 17 13:25:06 2026] [::1]:63685 Accepted
+[Thu Sep 17 13:25:06 2026] [::1]:63685 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:25:06 2026] [::1]:63685 Closing
+[Thu Sep 17 13:25:11 2026] [::1]:52946 Accepted
+[Thu Sep 17 13:25:11 2026] [::1]:52946 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:25:11 2026] [::1]:52946 Closing
+[Thu Sep 17 13:25:15 2026] [::1]:52413 Accepted
+[Thu Sep 17 13:25:15 2026] [::1]:52413 Closing
+[Thu Sep 17 13:25:16 2026] [::1]:52415 Accepted
+[Thu Sep 17 13:25:16 2026] [::1]:52415 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:25:16 2026] [::1]:52415 Closing
+[Thu Sep 17 13:25:21 2026] [::1]:55299 Accepted
+[Thu Sep 17 13:25:21 2026] [::1]:55299 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:25:21 2026] [::1]:55299 Closing
+[Thu Sep 17 13:25:29 2026] [::1]:63844 Accepted
+[Thu Sep 17 13:25:29 2026] [::1]:63844 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:25:29 2026] [::1]:63844 Closing
+[Thu Sep 17 13:25:30 2026] [::1]:55687 Accepted
+[Thu Sep 17 13:25:30 2026] [::1]:55687 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:25:30 2026] [::1]:55687 Closing
+[Thu Sep 17 13:25:31 2026] [::1]:55689 Accepted
+[Thu Sep 17 13:25:31 2026] [::1]:55689 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:25:31 2026] [::1]:55689 Closing
+[Thu Sep 17 13:25:35 2026] [::1]:52637 Accepted
+[Thu Sep 17 13:25:35 2026] [::1]:52637 Closing
+[Thu Sep 17 13:25:41 2026] [::1]:64991 Accepted
+[Thu Sep 17 13:25:41 2026] [::1]:64991 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:25:41 2026] [::1]:64991 Closing
+[Thu Sep 17 13:25:44 2026] [::1]:64994 Accepted
+[Thu Sep 17 13:25:45 2026] [::1]:64994 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:25:45 2026] [::1]:64994 Closing
+[Thu Sep 17 13:25:51 2026] [::1]:57307 Accepted
+[Thu Sep 17 13:25:51 2026] [::1]:57307 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:25:51 2026] [::1]:57307 Closing
+[Thu Sep 17 13:25:55 2026] [::1]:65410 Accepted
+[Thu Sep 17 13:25:56 2026] [::1]:65410 Closing
+[Thu Sep 17 13:25:59 2026] [::1]:65413 Accepted
+[Thu Sep 17 13:25:59 2026] [::1]:65413 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:25:59 2026] [::1]:65413 Closing
+[Thu Sep 17 13:26:00 2026] [::1]:50869 Accepted
+[Thu Sep 17 13:26:00 2026] [::1]:50869 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:26:00 2026] [::1]:50869 Closing
+[Thu Sep 17 13:26:01 2026] [::1]:50871 Accepted
+[Thu Sep 17 13:26:01 2026] [::1]:50871 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:26:01 2026] [::1]:50871 Closing
+[Thu Sep 17 13:26:22 2026] [::1]:62831 Accepted
+[Thu Sep 17 13:26:23 2026] [::1]:62832 Accepted
+[Thu Sep 17 13:26:23 2026] [::1]:62831 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:26:23 2026] [::1]:62831 Closing
+[Thu Sep 17 13:26:23 2026] [::1]:62833 Accepted
+[Thu Sep 17 13:26:23 2026] [::1]:62832 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:26:23 2026] [::1]:62832 Closing
+[Thu Sep 17 13:26:23 2026] [::1]:62833 Closing
+[Thu Sep 17 13:26:30 2026] [::1]:55403 Accepted
+[Thu Sep 17 13:26:31 2026] [::1]:55403 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:26:31 2026] [::1]:55403 Closing
+[Thu Sep 17 13:27:00 2026] [::1]:59595 Accepted
+[Thu Sep 17 13:27:00 2026] [::1]:59595 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:27:00 2026] [::1]:59595 Closing
+[Thu Sep 17 13:27:14 2026] [::1]:51885 Accepted
+[Thu Sep 17 13:27:14 2026] [::1]:51885 Closing
+[Thu Sep 17 13:27:14 2026] [::1]:51887 Accepted
+[Thu Sep 17 13:27:14 2026] [::1]:51887 Closing
+[Thu Sep 17 13:27:14 2026] [::1]:51889 Accepted
+[Thu Sep 17 13:27:14 2026] [::1]:51889 Closing
+[Thu Sep 17 13:27:22 2026] [::1]:62670 Accepted
+[Thu Sep 17 13:27:22 2026] [::1]:62671 Accepted
+[Thu Sep 17 13:27:22 2026] [::1]:62670 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:27:22 2026] [::1]:62670 Closing
+[Thu Sep 17 13:27:22 2026] [::1]:62672 Accepted
+[Thu Sep 17 13:27:22 2026] [::1]:62671 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:27:23 2026] [::1]:62671 Closing
+[Thu Sep 17 13:27:23 2026] [::1]:62672 Closing
+[Thu Sep 17 13:27:30 2026] [::1]:60943 Accepted
+[Thu Sep 17 13:27:30 2026] [::1]:60943 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:27:30 2026] [::1]:60943 Closing
+[Thu Sep 17 13:27:33 2026] [::1]:60948 Accepted
+[Thu Sep 17 13:27:34 2026] [::1]:60948 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:27:34 2026] [::1]:60948 Closing
+[Thu Sep 17 13:27:34 2026] [::1]:61424 Accepted
+[Thu Sep 17 13:27:34 2026] [::1]:61424 Closing
+[Thu Sep 17 13:27:36 2026] [::1]:61429 Accepted
+[Thu Sep 17 13:27:36 2026] [::1]:61429 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:27:36 2026] [::1]:61429 Closing
+[Thu Sep 17 13:27:46 2026] [::1]:61433 Accepted
+[Thu Sep 17 13:27:46 2026] [::1]:61433 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:27:46 2026] [::1]:61433 Closing
+[Thu Sep 17 13:27:51 2026] [::1]:61436 Accepted
+[Thu Sep 17 13:27:51 2026] [::1]:61436 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:27:51 2026] [::1]:61436 Closing
+[Thu Sep 17 13:27:54 2026] [::1]:60113 Accepted
+[Thu Sep 17 13:27:54 2026] [::1]:60113 Closing
+[Thu Sep 17 13:27:56 2026] [::1]:60115 Accepted
+[Thu Sep 17 13:27:56 2026] [::1]:60115 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:27:56 2026] [::1]:60115 Closing
+[Thu Sep 17 13:28:06 2026] [::1]:61579 Accepted
+[Thu Sep 17 13:28:06 2026] [::1]:61580 Accepted
+[Thu Sep 17 13:28:06 2026] [::1]:61579 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:28:06 2026] [::1]:61579 Closing
+[Thu Sep 17 13:28:06 2026] [::1]:61580 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:28:06 2026] [::1]:61580 Closing
+[Thu Sep 17 13:28:14 2026] [::1]:61584 Accepted
+[Thu Sep 17 13:28:15 2026] [::1]:61584 Closing
+[Thu Sep 17 13:28:16 2026] [::1]:61586 Accepted
+[Thu Sep 17 13:28:16 2026] [::1]:61586 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:28:16 2026] [::1]:61586 Closing
+[Thu Sep 17 13:28:21 2026] [::1]:61591 Accepted
+[Thu Sep 17 13:28:21 2026] [::1]:61591 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:28:21 2026] [::1]:61591 Closing
+[Thu Sep 17 13:28:22 2026] [::1]:53865 Accepted
+[Thu Sep 17 13:28:22 2026] [::1]:53865 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:28:22 2026] [::1]:53865 Closing
+[Thu Sep 17 13:28:26 2026] [::1]:64544 Accepted
+[Thu Sep 17 13:28:26 2026] [::1]:64544 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:28:26 2026] [::1]:64544 Closing
+[Thu Sep 17 13:28:33 2026] [::1]:64546 Accepted
+[Thu Sep 17 13:28:33 2026] [::1]:64546 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:28:33 2026] [::1]:64546 Closing
+[Thu Sep 17 13:28:34 2026] [::1]:63710 Accepted
+[Thu Sep 17 13:28:36 2026] [::1]:63710 Closing
+[Thu Sep 17 13:28:36 2026] [::1]:63712 Accepted
+[Thu Sep 17 13:28:36 2026] [::1]:63712 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:28:36 2026] [::1]:63712 Closing
+[Thu Sep 17 13:28:46 2026] [::1]:63716 Accepted
+[Thu Sep 17 13:28:46 2026] [::1]:63716 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:28:46 2026] [::1]:63716 Closing
+[Thu Sep 17 13:28:48 2026] [::1]:63719 Accepted
+[Thu Sep 17 13:28:48 2026] [::1]:63719 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:28:48 2026] [::1]:63719 Closing
+[Thu Sep 17 13:28:54 2026] [::1]:63725 Accepted
+[Thu Sep 17 13:28:55 2026] [::1]:63725 Closing
+[Thu Sep 17 13:28:56 2026] [::1]:63727 Accepted
+[Thu Sep 17 13:28:56 2026] [::1]:63727 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:28:56 2026] [::1]:63727 Closing
+[Thu Sep 17 13:29:03 2026] [::1]:63749 Accepted
+[Thu Sep 17 13:29:03 2026] [::1]:63749 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:29:03 2026] [::1]:63749 Closing
+[Thu Sep 17 13:29:06 2026] [::1]:55917 Accepted
+[Thu Sep 17 13:29:06 2026] [::1]:55917 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:29:06 2026] [::1]:55917 Closing
+[Thu Sep 17 13:29:14 2026] [::1]:55920 Accepted
+[Thu Sep 17 13:29:14 2026] [::1]:55920 Closing
+[Thu Sep 17 13:29:16 2026] [::1]:55922 Accepted
+[Thu Sep 17 13:29:16 2026] [::1]:55922 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:29:16 2026] [::1]:55922 Closing
+[Thu Sep 17 13:29:16 2026] [::1]:55924 Accepted
+[Thu Sep 17 13:29:16 2026] [::1]:55924 Closing
+[Thu Sep 17 13:29:16 2026] [::1]:55926 Accepted
+[Thu Sep 17 13:29:16 2026] [::1]:55926 Closing
+[Thu Sep 17 13:29:17 2026] [::1]:55930 Accepted
+[Thu Sep 17 13:29:17 2026] [::1]:55930 Closing
+[Thu Sep 17 13:29:17 2026] [::1]:55934 Accepted
+[Thu Sep 17 13:29:17 2026] [::1]:55934 Closing
+[Thu Sep 17 13:29:17 2026] [::1]:55935 Accepted
+[Thu Sep 17 13:29:17 2026] [::1]:55935 Closing
+[Thu Sep 17 13:29:18 2026] [::1]:55942 Accepted
+[Thu Sep 17 13:29:18 2026] [::1]:55942 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:29:18 2026] [::1]:55942 Closing
+[Thu Sep 17 13:29:22 2026] [::1]:54362 Accepted
+[Thu Sep 17 13:29:22 2026] [::1]:54362 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:29:23 2026] [::1]:54362 Closing
+[Thu Sep 17 13:29:26 2026] [::1]:50114 Accepted
+[Thu Sep 17 13:29:26 2026] [::1]:50114 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:29:26 2026] [::1]:50114 Closing
+[Thu Sep 17 13:29:31 2026] [::1]:50118 Accepted
+[Thu Sep 17 13:29:31 2026] [::1]:50118 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:29:31 2026] [::1]:50118 Closing
+[Thu Sep 17 13:29:34 2026] [::1]:55376 Accepted
+[Thu Sep 17 13:29:35 2026] [::1]:55376 Closing
+[Thu Sep 17 13:29:36 2026] [::1]:55378 Accepted
+[Thu Sep 17 13:29:36 2026] [::1]:55378 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:29:36 2026] [::1]:55378 Closing
+[Thu Sep 17 13:29:43 2026] [::1]:55380 Accepted
+[Thu Sep 17 13:29:43 2026] [::1]:55380 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:29:43 2026] [::1]:55380 Closing
+[Thu Sep 17 13:29:46 2026] [::1]:55382 Accepted
+[Thu Sep 17 13:29:46 2026] [::1]:55382 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:29:46 2026] [::1]:55382 Closing
+[Thu Sep 17 13:29:54 2026] [::1]:55387 Accepted
+[Thu Sep 17 13:29:55 2026] [::1]:55387 Closing
+[Thu Sep 17 13:29:56 2026] [::1]:55389 Accepted
+[Thu Sep 17 13:29:56 2026] [::1]:55389 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:29:56 2026] [::1]:55389 Closing
+[Thu Sep 17 13:29:58 2026] [::1]:55392 Accepted
+[Thu Sep 17 13:29:58 2026] [::1]:55392 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:29:58 2026] [::1]:55392 Closing
+[Thu Sep 17 13:30:06 2026] [::1]:53025 Accepted
+[Thu Sep 17 13:30:06 2026] [::1]:53025 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:30:06 2026] [::1]:53025 Closing
+[Thu Sep 17 13:30:13 2026] [::1]:53029 Accepted
+[Thu Sep 17 13:30:13 2026] [::1]:53029 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:30:13 2026] [::1]:53029 Closing
+[Thu Sep 17 13:30:14 2026] [::1]:53031 Accepted
+[Thu Sep 17 13:30:14 2026] [::1]:53031 Closing
+[Thu Sep 17 13:30:16 2026] [::1]:53033 Accepted
+[Thu Sep 17 13:30:16 2026] [::1]:53033 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:30:16 2026] [::1]:53033 Closing
+[Thu Sep 17 13:30:22 2026] [::1]:59097 Accepted
+[Thu Sep 17 13:30:22 2026] [::1]:59097 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:30:22 2026] [::1]:59097 Closing
+[Thu Sep 17 13:30:26 2026] [::1]:55374 Accepted
+[Thu Sep 17 13:30:26 2026] [::1]:55374 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:30:26 2026] [::1]:55374 Closing
+[Thu Sep 17 13:30:28 2026] [::1]:55380 Accepted
+[Thu Sep 17 13:30:28 2026] [::1]:55380 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:30:28 2026] [::1]:55380 Closing
+[Thu Sep 17 13:30:34 2026] [::1]:64983 Accepted
+[Thu Sep 17 13:30:34 2026] [::1]:64983 Closing
+[Thu Sep 17 13:30:36 2026] [::1]:64985 Accepted
+[Thu Sep 17 13:30:36 2026] [::1]:64985 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:30:36 2026] [::1]:64985 Closing
+[Thu Sep 17 13:30:41 2026] [::1]:64988 Accepted
+[Thu Sep 17 13:30:41 2026] [::1]:64988 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:30:41 2026] [::1]:64988 Closing
+[Thu Sep 17 13:30:46 2026] [::1]:64997 Accepted
+[Thu Sep 17 13:30:46 2026] [::1]:64997 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:30:46 2026] [::1]:64997 Closing
+[Thu Sep 17 13:30:53 2026] [::1]:65000 Accepted
+[Thu Sep 17 13:30:53 2026] [::1]:65000 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:30:53 2026] [::1]:65000 Closing
+[Thu Sep 17 13:30:54 2026] [::1]:65003 Accepted
+[Thu Sep 17 13:30:54 2026] [::1]:65003 Closing
+[Thu Sep 17 13:30:56 2026] [::1]:65005 Accepted
+[Thu Sep 17 13:30:56 2026] [::1]:65005 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:30:56 2026] [::1]:65005 Closing
+[Thu Sep 17 13:31:06 2026] [::1]:65008 Accepted
+[Thu Sep 17 13:31:06 2026] [::1]:65008 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:31:06 2026] [::1]:65008 Closing
+[Thu Sep 17 13:31:08 2026] [::1]:65011 Accepted
+[Thu Sep 17 13:31:08 2026] [::1]:65011 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:31:08 2026] [::1]:65011 Closing
+[Thu Sep 17 13:31:14 2026] [::1]:65013 Accepted
+[Thu Sep 17 13:31:14 2026] [::1]:65013 Closing
+[Thu Sep 17 13:31:16 2026] [::1]:65015 Accepted
+[Thu Sep 17 13:31:16 2026] [::1]:65015 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:31:16 2026] [::1]:65015 Closing
+[Thu Sep 17 13:31:22 2026] [::1]:60055 Accepted
+[Thu Sep 17 13:31:22 2026] [::1]:60055 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:31:22 2026] [::1]:60055 Closing
+[Thu Sep 17 13:31:23 2026] [::1]:60672 Accepted
+[Thu Sep 17 13:31:23 2026] [::1]:60672 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:31:23 2026] [::1]:60672 Closing
+[Thu Sep 17 13:31:26 2026] [::1]:60675 Accepted
+[Thu Sep 17 13:31:26 2026] [::1]:60675 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:31:26 2026] [::1]:60675 Closing
+[Thu Sep 17 13:31:34 2026] [::1]:60681 Accepted
+[Thu Sep 17 13:31:34 2026] [::1]:60681 Closing
+[Thu Sep 17 13:31:36 2026] [::1]:60684 Accepted
+[Thu Sep 17 13:31:36 2026] [::1]:60684 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:31:36 2026] [::1]:60684 Closing
+[Thu Sep 17 13:31:38 2026] [::1]:60686 Accepted
+[Thu Sep 17 13:31:38 2026] [::1]:60686 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:31:38 2026] [::1]:60686 Closing
+[Thu Sep 17 13:31:46 2026] [::1]:60688 Accepted
+[Thu Sep 17 13:31:46 2026] [::1]:60688 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:31:46 2026] [::1]:60688 Closing
+[Thu Sep 17 13:31:53 2026] [::1]:60692 Accepted
+[Thu Sep 17 13:31:53 2026] [::1]:60692 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:31:53 2026] [::1]:60692 Closing
+[Thu Sep 17 13:31:54 2026] [::1]:60694 Accepted
+[Thu Sep 17 13:31:54 2026] [::1]:60694 Closing
+[Thu Sep 17 13:31:56 2026] [::1]:60696 Accepted
+[Thu Sep 17 13:31:56 2026] [::1]:60696 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:31:56 2026] [::1]:60696 Closing
+[Thu Sep 17 13:32:06 2026] [::1]:60701 Accepted
+[Thu Sep 17 13:32:06 2026] [::1]:60701 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:32:06 2026] [::1]:60701 Closing
+[Thu Sep 17 13:32:08 2026] [::1]:60703 Accepted
+[Thu Sep 17 13:32:08 2026] [::1]:60703 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:32:08 2026] [::1]:60703 Closing
+[Thu Sep 17 13:32:14 2026] [::1]:60706 Accepted
+[Thu Sep 17 13:32:14 2026] [::1]:60706 Closing
+[Thu Sep 17 13:32:16 2026] [::1]:60708 Accepted
+[Thu Sep 17 13:32:16 2026] [::1]:60708 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:32:16 2026] [::1]:60708 Closing
+[Thu Sep 17 13:32:22 2026] [::1]:58160 Accepted
+[Thu Sep 17 13:32:22 2026] [::1]:58160 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:32:22 2026] [::1]:58160 Closing
+[Thu Sep 17 13:32:23 2026] [::1]:58163 Accepted
+[Thu Sep 17 13:32:23 2026] [::1]:58163 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:32:23 2026] [::1]:58163 Closing
+[Thu Sep 17 13:32:26 2026] [::1]:58165 Accepted
+[Thu Sep 17 13:32:26 2026] [::1]:58165 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:32:26 2026] [::1]:58165 Closing
+[Thu Sep 17 13:32:34 2026] [::1]:58168 Accepted
+[Thu Sep 17 13:32:34 2026] [::1]:58168 Closing
+[Thu Sep 17 13:32:35 2026] [::1]:58171 Accepted
+[Thu Sep 17 13:32:35 2026] [::1]:58171 Closing
+[Thu Sep 17 13:32:35 2026] [::1]:58173 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58173 [200]: GET /index.php
+[Thu Sep 17 13:32:36 2026] [::1]:58173 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58175 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58176 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58177 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58178 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58175 [200]: GET /assets/css/bootstrap.min.css?v=1785815138
+[Thu Sep 17 13:32:36 2026] [::1]:58179 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58176 [200]: GET /assets/vendors/css/vendors.min.css?v=1785815139
+[Thu Sep 17 13:32:36 2026] [::1]:58177 [200]: GET /assets/vendors/css/daterangepicker.min.css?v=1785815139
+[Thu Sep 17 13:32:36 2026] [::1]:58178 [200]: GET /assets/vendors/css/dataTables.bs5.min.css?v=1785815139
+[Thu Sep 17 13:32:36 2026] [::1]:58180 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58179 [200]: GET /assets/vendors/css/sweetalert2.min.css?v=1785815139
+[Thu Sep 17 13:32:36 2026] [::1]:58180 [200]: GET /assets/css/theme.min.css?v=1785815138
+[Thu Sep 17 13:32:36 2026] [::1]:58175 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58177 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58178 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58181 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58179 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58176 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58181 [200]: GET /assets/css/custom.css?v=1787017986
+[Thu Sep 17 13:32:36 2026] [::1]:58180 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58181 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58182 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58183 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58182 [200]: GET /assets/images/contracs.png
+[Thu Sep 17 13:32:36 2026] [::1]:58183 [200]: GET /assets/vendors/js/vendors.min.js?v=1785815140
+[Thu Sep 17 13:32:36 2026] [::1]:58182 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58183 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58184 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58185 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58184 [200]: GET /assets/vendors/js/daterangepicker.min.js?v=1785815139
+[Thu Sep 17 13:32:36 2026] [::1]:58186 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58185 [200]: GET /assets/vendors/js/apexcharts.min.js?v=1785815139
+[Thu Sep 17 13:32:36 2026] [::1]:58187 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58186 [200]: GET /assets/vendors/js/circle-progress.min.js?v=1785815139
+[Thu Sep 17 13:32:36 2026] [::1]:58188 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58187 [200]: GET /assets/js/common-init.min.js?v=1785815138
+[Thu Sep 17 13:32:36 2026] [::1]:58184 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58189 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58188 [200]: GET /assets/vendors/js/dataTables.min.js?v=1785815139
+[Thu Sep 17 13:32:36 2026] [::1]:58190 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58189 [200]: GET /assets/vendors/js/dataTables.bs5.min.js?v=1785815139
+[Thu Sep 17 13:32:36 2026] [::1]:58186 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58190 [200]: GET /assets/vendors/js/sweetalert2.min.js?v=1785815140
+[Thu Sep 17 13:32:36 2026] [::1]:58187 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58191 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58185 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58188 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58192 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58191 [200]: GET /assets/js/source-guard.js?v=1786593795
+[Thu Sep 17 13:32:36 2026] [::1]:58189 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58192 [200]: GET /assets/js/app-main.js?v=1789622735
+[Thu Sep 17 13:32:36 2026] [::1]:58190 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58191 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58192 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58193 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58193 [200]: GET /assets/vendors/fonts/feather.ttf?oz8w89
+[Thu Sep 17 13:32:36 2026] [::1]:58193 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58194 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58194 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:32:36 2026] [::1]:58194 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58195 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58196 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58195 [200]: POST /theme.php?ajax=1&action=set
+[Thu Sep 17 13:32:36 2026] [::1]:58195 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58197 Accepted
+[Thu Sep 17 13:32:36 2026] [::1]:58196 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:32:36 2026] [::1]:58196 Closing
+[Thu Sep 17 13:32:36 2026] [::1]:58197 [200]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:32:36 2026] [::1]:58197 Closing
+[Thu Sep 17 13:32:38 2026] [::1]:58201 Accepted
+[Thu Sep 17 13:32:38 2026] [::1]:58201 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:32:38 2026] [::1]:58201 Closing
+[Thu Sep 17 13:32:46 2026] [::1]:58204 Accepted
+[Thu Sep 17 13:32:46 2026] [::1]:58204 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:32:46 2026] [::1]:58204 Closing
+[Thu Sep 17 13:32:51 2026] [::1]:58207 Accepted
+[Thu Sep 17 13:32:51 2026] [::1]:58207 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:32:51 2026] [::1]:58207 Closing
+[Thu Sep 17 13:32:56 2026] [::1]:60147 Accepted
+[Thu Sep 17 13:32:56 2026] [::1]:60147 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:32:56 2026] [::1]:60147 Closing
+[Thu Sep 17 13:33:03 2026] [::1]:60151 Accepted
+[Thu Sep 17 13:33:03 2026] [::1]:60151 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:33:03 2026] [::1]:60151 Closing
+[Thu Sep 17 13:33:06 2026] [::1]:60154 Accepted
+[Thu Sep 17 13:33:06 2026] [::1]:60154 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:33:06 2026] [::1]:60154 Closing
+[Thu Sep 17 13:33:06 2026] [::1]:60156 Accepted
+[Thu Sep 17 13:33:06 2026] [::1]:60156 [200]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:33:06 2026] [::1]:60156 Closing
+[Thu Sep 17 13:33:16 2026] [::1]:60159 Accepted
+[Thu Sep 17 13:33:16 2026] [::1]:60159 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:33:16 2026] [::1]:60159 Closing
+[Thu Sep 17 13:33:18 2026] [::1]:60163 Accepted
+[Thu Sep 17 13:33:18 2026] [::1]:60163 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:33:18 2026] [::1]:60163 Closing
+[Thu Sep 17 13:33:22 2026] [::1]:58890 Accepted
+[Thu Sep 17 13:33:22 2026] [::1]:58890 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:33:22 2026] [::1]:58890 Closing
+[Thu Sep 17 13:33:24 2026] [::1]:57315 Accepted
+[Thu Sep 17 13:33:24 2026] [::1]:57315 [200]: GET /attendance.php
+[Thu Sep 17 13:33:24 2026] [::1]:57315 Closing
+[Thu Sep 17 13:33:24 2026] [::1]:57317 Accepted
+[Thu Sep 17 13:33:24 2026] [::1]:57317 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:33:24 2026] [::1]:57317 Closing
+[Thu Sep 17 13:33:24 2026] [::1]:57319 Accepted
+[Thu Sep 17 13:33:24 2026] [::1]:57319 [200]: GET /uploads/attendance/20260806/u299_112350_ae511860.png
+[Thu Sep 17 13:33:24 2026] [::1]:57319 Closing
+[Thu Sep 17 13:33:26 2026] [::1]:57321 Accepted
+[Thu Sep 17 13:33:26 2026] [::1]:57321 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:33:26 2026] [::1]:57321 Closing
+[Thu Sep 17 13:33:31 2026] [::1]:57323 Accepted
+[Thu Sep 17 13:33:31 2026] [::1]:57323 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:33:31 2026] [::1]:57323 Closing
+[Thu Sep 17 13:33:36 2026] [::1]:57326 Accepted
+[Thu Sep 17 13:33:36 2026] [::1]:57326 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:33:36 2026] [::1]:57326 Closing
+[Thu Sep 17 13:33:46 2026] [::1]:57329 Accepted
+[Thu Sep 17 13:33:46 2026] [::1]:57330 Accepted
+[Thu Sep 17 13:33:46 2026] [::1]:57329 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:33:46 2026] [::1]:57329 Closing
+[Thu Sep 17 13:33:46 2026] [::1]:57330 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:33:46 2026] [::1]:57330 Closing
+[Thu Sep 17 13:33:54 2026] [::1]:57341 Accepted
+[Thu Sep 17 13:33:54 2026] [::1]:57341 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:33:54 2026] [::1]:57341 Closing
+[Thu Sep 17 13:33:56 2026] [::1]:57345 Accepted
+[Thu Sep 17 13:33:56 2026] [::1]:57345 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:33:56 2026] [::1]:57345 Closing
+[Thu Sep 17 13:34:01 2026] [::1]:57349 Accepted
+[Thu Sep 17 13:34:01 2026] [::1]:57349 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:34:01 2026] [::1]:57349 Closing
+[Thu Sep 17 13:34:06 2026] [::1]:57352 Accepted
+[Thu Sep 17 13:34:06 2026] [::1]:57352 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:34:06 2026] [::1]:57352 Closing
+[Thu Sep 17 13:34:16 2026] [::1]:57358 Accepted
+[Thu Sep 17 13:34:16 2026] [::1]:57359 Accepted
+[Thu Sep 17 13:34:16 2026] [::1]:57358 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:34:16 2026] [::1]:57358 Closing
+[Thu Sep 17 13:34:16 2026] [::1]:57359 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:34:16 2026] [::1]:57359 Closing
+[Thu Sep 17 13:34:22 2026] [::1]:65206 Accepted
+[Thu Sep 17 13:34:22 2026] [::1]:65206 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:34:22 2026] [::1]:65206 Closing
+[Thu Sep 17 13:34:24 2026] [::1]:64948 Accepted
+[Thu Sep 17 13:34:24 2026] [::1]:64948 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:34:24 2026] [::1]:64948 Closing
+[Thu Sep 17 13:34:26 2026] [::1]:64950 Accepted
+[Thu Sep 17 13:34:26 2026] [::1]:64950 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:34:26 2026] [::1]:64950 Closing
+[Thu Sep 17 13:34:31 2026] [::1]:64955 Accepted
+[Thu Sep 17 13:34:31 2026] [::1]:64955 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:34:31 2026] [::1]:64955 Closing
+[Thu Sep 17 13:34:36 2026] [::1]:64957 Accepted
+[Thu Sep 17 13:34:36 2026] [::1]:64957 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:34:36 2026] [::1]:64957 Closing
+[Thu Sep 17 13:34:46 2026] [::1]:64965 Accepted
+[Thu Sep 17 13:34:46 2026] [::1]:64966 Accepted
+[Thu Sep 17 13:34:46 2026] [::1]:64965 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:34:46 2026] [::1]:64965 Closing
+[Thu Sep 17 13:34:46 2026] [::1]:64966 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:34:46 2026] [::1]:64966 Closing
+[Thu Sep 17 13:34:54 2026] [::1]:64970 Accepted
+[Thu Sep 17 13:34:54 2026] [::1]:64970 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:34:54 2026] [::1]:64970 Closing
+[Thu Sep 17 13:34:56 2026] [::1]:64972 Accepted
+[Thu Sep 17 13:34:56 2026] [::1]:64972 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:34:56 2026] [::1]:64972 Closing
+[Thu Sep 17 13:35:01 2026] [::1]:64974 Accepted
+[Thu Sep 17 13:35:01 2026] [::1]:64974 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:35:01 2026] [::1]:64974 Closing
+[Thu Sep 17 13:35:06 2026] [::1]:64976 Accepted
+[Thu Sep 17 13:35:06 2026] [::1]:64976 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:35:06 2026] [::1]:64976 Closing
+[Thu Sep 17 13:35:16 2026] [::1]:64979 Accepted
+[Thu Sep 17 13:35:16 2026] [::1]:64980 Accepted
+[Thu Sep 17 13:35:16 2026] [::1]:64979 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:35:16 2026] [::1]:64979 Closing
+[Thu Sep 17 13:35:16 2026] [::1]:64980 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:35:16 2026] [::1]:64980 Closing
+[Thu Sep 17 13:35:22 2026] [::1]:59030 Accepted
+[Thu Sep 17 13:35:22 2026] [::1]:59030 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:35:22 2026] [::1]:59030 Closing
+[Thu Sep 17 13:35:24 2026] [::1]:59310 Accepted
+[Thu Sep 17 13:35:24 2026] [::1]:59310 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:35:24 2026] [::1]:59310 Closing
+[Thu Sep 17 13:35:26 2026] [::1]:59313 Accepted
+[Thu Sep 17 13:35:26 2026] [::1]:59313 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:35:26 2026] [::1]:59313 Closing
+[Thu Sep 17 13:35:31 2026] [::1]:59315 Accepted
+[Thu Sep 17 13:35:31 2026] [::1]:59315 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:35:31 2026] [::1]:59315 Closing
+[Thu Sep 17 13:35:36 2026] [::1]:59317 Accepted
+[Thu Sep 17 13:35:36 2026] [::1]:59317 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:35:36 2026] [::1]:59317 Closing
+[Thu Sep 17 13:35:46 2026] [::1]:59319 Accepted
+[Thu Sep 17 13:35:46 2026] [::1]:59320 Accepted
+[Thu Sep 17 13:35:46 2026] [::1]:59319 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:35:46 2026] [::1]:59319 Closing
+[Thu Sep 17 13:35:46 2026] [::1]:59320 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:35:46 2026] [::1]:59320 Closing
+[Thu Sep 17 13:35:54 2026] [::1]:59325 Accepted
+[Thu Sep 17 13:35:54 2026] [::1]:59325 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:35:54 2026] [::1]:59325 Closing
+[Thu Sep 17 13:35:56 2026] [::1]:59327 Accepted
+[Thu Sep 17 13:35:56 2026] [::1]:59327 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:35:56 2026] [::1]:59327 Closing
+[Thu Sep 17 13:36:01 2026] [::1]:59330 Accepted
+[Thu Sep 17 13:36:01 2026] [::1]:59330 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:36:01 2026] [::1]:59330 Closing
+[Thu Sep 17 13:36:06 2026] [::1]:59333 Accepted
+[Thu Sep 17 13:36:06 2026] [::1]:59333 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:36:06 2026] [::1]:59333 Closing
+[Thu Sep 17 13:36:13 2026] [::1]:59335 Accepted
+[Thu Sep 17 13:36:13 2026] [::1]:59335 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:36:13 2026] [::1]:59335 Closing
+[Thu Sep 17 13:36:16 2026] [::1]:59337 Accepted
+[Thu Sep 17 13:36:16 2026] [::1]:59337 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:36:16 2026] [::1]:59337 Closing
+[Thu Sep 17 13:36:22 2026] [::1]:53504 Accepted
+[Thu Sep 17 13:36:22 2026] [::1]:53504 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:36:22 2026] [::1]:53504 Closing
+[Thu Sep 17 13:36:24 2026] [::1]:59821 Accepted
+[Thu Sep 17 13:36:24 2026] [::1]:59821 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:36:24 2026] [::1]:59821 Closing
+[Thu Sep 17 13:36:26 2026] [::1]:59823 Accepted
+[Thu Sep 17 13:36:26 2026] [::1]:59823 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:36:26 2026] [::1]:59823 Closing
+[Thu Sep 17 13:36:28 2026] [::1]:59825 Accepted
+[Thu Sep 17 13:36:28 2026] [::1]:59825 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:36:28 2026] [::1]:59825 Closing
+[Thu Sep 17 13:36:36 2026] [::1]:59828 Accepted
+[Thu Sep 17 13:36:36 2026] [::1]:59828 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:36:36 2026] [::1]:59828 Closing
+[Thu Sep 17 13:36:43 2026] [::1]:59831 Accepted
+[Thu Sep 17 13:36:43 2026] [::1]:59831 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:36:43 2026] [::1]:59831 Closing
+[Thu Sep 17 13:36:46 2026] [::1]:59834 Accepted
+[Thu Sep 17 13:36:46 2026] [::1]:59834 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:36:46 2026] [::1]:59834 Closing
+[Thu Sep 17 13:36:54 2026] [::1]:59837 Accepted
+[Thu Sep 17 13:36:54 2026] [::1]:59837 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:36:54 2026] [::1]:59837 Closing
+[Thu Sep 17 13:36:56 2026] [::1]:59839 Accepted
+[Thu Sep 17 13:36:56 2026] [::1]:59840 Accepted
+[Thu Sep 17 13:36:56 2026] [::1]:59839 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:36:56 2026] [::1]:59839 Closing
+[Thu Sep 17 13:36:56 2026] [::1]:59840 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:36:56 2026] [::1]:59840 Closing
+[Thu Sep 17 13:37:06 2026] [::1]:59843 Accepted
+[Thu Sep 17 13:37:06 2026] [::1]:59843 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:37:06 2026] [::1]:59843 Closing
+[Thu Sep 17 13:37:11 2026] [::1]:59846 Accepted
+[Thu Sep 17 13:37:11 2026] [::1]:59846 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:37:11 2026] [::1]:59846 Closing
+[Thu Sep 17 13:37:16 2026] [::1]:59848 Accepted
+[Thu Sep 17 13:37:16 2026] [::1]:59848 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:37:16 2026] [::1]:59848 Closing
+[Thu Sep 17 13:37:22 2026] [::1]:55423 Accepted
+[Thu Sep 17 13:37:22 2026] [::1]:55423 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:37:22 2026] [::1]:55423 Closing
+[Thu Sep 17 13:37:24 2026] [::1]:51866 Accepted
+[Thu Sep 17 13:37:24 2026] [::1]:51866 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:37:24 2026] [::1]:51866 Closing
+[Thu Sep 17 13:37:26 2026] [::1]:51870 Accepted
+[Thu Sep 17 13:37:26 2026] [::1]:51871 Accepted
+[Thu Sep 17 13:37:26 2026] [::1]:51870 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:37:26 2026] [::1]:51870 Closing
+[Thu Sep 17 13:37:26 2026] [::1]:51871 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:37:26 2026] [::1]:51871 Closing
+[Thu Sep 17 13:37:36 2026] [::1]:51883 Accepted
+[Thu Sep 17 13:37:36 2026] [::1]:51883 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:37:36 2026] [::1]:51883 Closing
+[Thu Sep 17 13:37:38 2026] [::1]:51886 Accepted
+[Thu Sep 17 13:37:38 2026] [::1]:51886 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:37:38 2026] [::1]:51886 Closing
+[Thu Sep 17 13:37:46 2026] [::1]:51888 Accepted
+[Thu Sep 17 13:37:46 2026] [::1]:51888 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:37:46 2026] [::1]:51888 Closing
+[Thu Sep 17 13:37:51 2026] [::1]:51894 Accepted
+[Thu Sep 17 13:37:51 2026] [::1]:51894 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:37:51 2026] [::1]:51894 Closing
+[Thu Sep 17 13:37:54 2026] [::1]:51896 Accepted
+[Thu Sep 17 13:37:54 2026] [::1]:51896 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:37:54 2026] [::1]:51896 Closing
+[Thu Sep 17 13:37:56 2026] [::1]:54601 Accepted
+[Thu Sep 17 13:37:56 2026] [::1]:54601 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:37:56 2026] [::1]:54601 Closing
+[Thu Sep 17 13:38:06 2026] [::1]:54605 Accepted
+[Thu Sep 17 13:38:06 2026] [::1]:54606 Accepted
+[Thu Sep 17 13:38:06 2026] [::1]:54605 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:38:06 2026] [::1]:54605 Closing
+[Thu Sep 17 13:38:06 2026] [::1]:54606 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:38:06 2026] [::1]:54606 Closing
+[Thu Sep 17 13:38:16 2026] [::1]:54610 Accepted
+[Thu Sep 17 13:38:16 2026] [::1]:54610 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:38:16 2026] [::1]:54610 Closing
+[Thu Sep 17 13:38:21 2026] [::1]:54613 Accepted
+[Thu Sep 17 13:38:21 2026] [::1]:54613 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:38:21 2026] [::1]:54613 Closing
+[Thu Sep 17 13:38:22 2026] [::1]:64369 Accepted
+[Thu Sep 17 13:38:22 2026] [::1]:64369 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:38:22 2026] [::1]:64369 Closing
+[Thu Sep 17 13:38:24 2026] [::1]:64897 Accepted
+[Thu Sep 17 13:38:24 2026] [::1]:64897 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:38:24 2026] [::1]:64897 Closing
+[Thu Sep 17 13:38:26 2026] [::1]:64899 Accepted
+[Thu Sep 17 13:38:26 2026] [::1]:64899 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:38:26 2026] [::1]:64899 Closing
+[Thu Sep 17 13:38:36 2026] [::1]:64902 Accepted
+[Thu Sep 17 13:38:36 2026] [::1]:64903 Accepted
+[Thu Sep 17 13:38:36 2026] [::1]:64902 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:38:36 2026] [::1]:64902 Closing
+[Thu Sep 17 13:38:36 2026] [::1]:64903 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:38:36 2026] [::1]:64903 Closing
+[Thu Sep 17 13:38:46 2026] [::1]:64908 Accepted
+[Thu Sep 17 13:38:46 2026] [::1]:64908 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:38:46 2026] [::1]:64908 Closing
+[Thu Sep 17 13:38:48 2026] [::1]:64910 Accepted
+[Thu Sep 17 13:38:48 2026] [::1]:64910 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:38:48 2026] [::1]:64910 Closing
+[Thu Sep 17 13:38:54 2026] [::1]:64915 Accepted
+[Thu Sep 17 13:38:54 2026] [::1]:64915 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:38:54 2026] [::1]:64915 Closing
+[Thu Sep 17 13:38:56 2026] [::1]:64917 Accepted
+[Thu Sep 17 13:38:56 2026] [::1]:64917 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:38:56 2026] [::1]:64917 Closing
+[Thu Sep 17 13:39:03 2026] [::1]:64919 Accepted
+[Thu Sep 17 13:39:03 2026] [::1]:64919 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:39:03 2026] [::1]:64919 Closing
+[Thu Sep 17 13:39:06 2026] [::1]:64921 Accepted
+[Thu Sep 17 13:39:06 2026] [::1]:64921 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:39:06 2026] [::1]:64921 Closing
+[Thu Sep 17 13:39:16 2026] [::1]:64925 Accepted
+[Thu Sep 17 13:39:16 2026] [::1]:64925 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:39:16 2026] [::1]:64925 Closing
+[Thu Sep 17 13:39:18 2026] [::1]:64927 Accepted
+[Thu Sep 17 13:39:18 2026] [::1]:64927 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:39:18 2026] [::1]:64927 Closing
+[Thu Sep 17 13:39:22 2026] [::1]:51916 Accepted
+[Thu Sep 17 13:39:22 2026] [::1]:51916 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:39:22 2026] [::1]:51916 Closing
+[Thu Sep 17 13:39:24 2026] [::1]:50151 Accepted
+[Thu Sep 17 13:39:24 2026] [::1]:50151 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:39:24 2026] [::1]:50151 Closing
+[Thu Sep 17 13:39:26 2026] [::1]:50154 Accepted
+[Thu Sep 17 13:39:26 2026] [::1]:50154 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:39:26 2026] [::1]:50154 Closing
+[Thu Sep 17 13:39:31 2026] [::1]:50156 Accepted
+[Thu Sep 17 13:39:31 2026] [::1]:50156 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:39:31 2026] [::1]:50156 Closing
+[Thu Sep 17 13:39:36 2026] [::1]:50159 Accepted
+[Thu Sep 17 13:39:36 2026] [::1]:50159 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:39:36 2026] [::1]:50159 Closing
+[Thu Sep 17 13:39:43 2026] [::1]:50161 Accepted
+[Thu Sep 17 13:39:43 2026] [::1]:50161 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:39:43 2026] [::1]:50161 Closing
+[Thu Sep 17 13:39:46 2026] [::1]:50163 Accepted
+[Thu Sep 17 13:39:46 2026] [::1]:50163 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:39:46 2026] [::1]:50163 Closing
+[Thu Sep 17 13:39:54 2026] [::1]:50167 Accepted
+[Thu Sep 17 13:39:54 2026] [::1]:50167 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:39:54 2026] [::1]:50167 Closing
+[Thu Sep 17 13:39:56 2026] [::1]:50169 Accepted
+[Thu Sep 17 13:39:56 2026] [::1]:50169 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:39:56 2026] [::1]:50169 Closing
+[Thu Sep 17 13:39:58 2026] [::1]:50171 Accepted
+[Thu Sep 17 13:39:58 2026] [::1]:50171 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:39:58 2026] [::1]:50171 Closing
+[Thu Sep 17 13:40:06 2026] [::1]:50175 Accepted
+[Thu Sep 17 13:40:06 2026] [::1]:50175 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:40:06 2026] [::1]:50175 Closing
+[Thu Sep 17 13:40:13 2026] [::1]:50177 Accepted
+[Thu Sep 17 13:40:13 2026] [::1]:50177 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:40:13 2026] [::1]:50177 Closing
+[Thu Sep 17 13:40:16 2026] [::1]:50179 Accepted
+[Thu Sep 17 13:40:16 2026] [::1]:50179 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:40:16 2026] [::1]:50179 Closing
+[Thu Sep 17 13:40:22 2026] [::1]:61299 Accepted
+[Thu Sep 17 13:40:22 2026] [::1]:61299 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:40:22 2026] [::1]:61299 Closing
+[Thu Sep 17 13:40:24 2026] [::1]:51824 Accepted
+[Thu Sep 17 13:40:24 2026] [::1]:51824 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:40:24 2026] [::1]:51824 Closing
+[Thu Sep 17 13:40:26 2026] [::1]:51826 Accepted
+[Thu Sep 17 13:40:26 2026] [::1]:51826 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:40:26 2026] [::1]:51826 Closing
+[Thu Sep 17 13:40:28 2026] [::1]:51828 Accepted
+[Thu Sep 17 13:40:28 2026] [::1]:51828 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:40:28 2026] [::1]:51828 Closing
+[Thu Sep 17 13:40:36 2026] [::1]:51831 Accepted
+[Thu Sep 17 13:40:36 2026] [::1]:51831 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:40:36 2026] [::1]:51831 Closing
+[Thu Sep 17 13:40:43 2026] [::1]:51834 Accepted
+[Thu Sep 17 13:40:43 2026] [::1]:51834 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:40:43 2026] [::1]:51834 Closing
+[Thu Sep 17 13:40:46 2026] [::1]:51837 Accepted
+[Thu Sep 17 13:40:46 2026] [::1]:51837 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:40:46 2026] [::1]:51837 Closing
+[Thu Sep 17 13:40:54 2026] [::1]:51840 Accepted
+[Thu Sep 17 13:40:54 2026] [::1]:51840 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:40:54 2026] [::1]:51840 Closing
+[Thu Sep 17 13:40:56 2026] [::1]:51842 Accepted
+[Thu Sep 17 13:40:56 2026] [::1]:51842 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:40:56 2026] [::1]:51842 Closing
+[Thu Sep 17 13:40:58 2026] [::1]:51844 Accepted
+[Thu Sep 17 13:40:58 2026] [::1]:51844 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:40:58 2026] [::1]:51844 Closing
+[Thu Sep 17 13:41:06 2026] [::1]:51846 Accepted
+[Thu Sep 17 13:41:06 2026] [::1]:51846 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:41:06 2026] [::1]:51846 Closing
+[Thu Sep 17 13:41:13 2026] [::1]:51849 Accepted
+[Thu Sep 17 13:41:13 2026] [::1]:51849 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:41:13 2026] [::1]:51849 Closing
+[Thu Sep 17 13:41:16 2026] [::1]:51851 Accepted
+[Thu Sep 17 13:41:16 2026] [::1]:51851 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:41:16 2026] [::1]:51851 Closing
+[Thu Sep 17 13:41:22 2026] [::1]:56408 Accepted
+[Thu Sep 17 13:41:22 2026] [::1]:56408 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:41:22 2026] [::1]:56408 Closing
+[Thu Sep 17 13:41:24 2026] [::1]:64561 Accepted
+[Thu Sep 17 13:41:24 2026] [::1]:64561 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:41:24 2026] [::1]:64561 Closing
+[Thu Sep 17 13:41:26 2026] [::1]:64564 Accepted
+[Thu Sep 17 13:41:26 2026] [::1]:64564 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:41:26 2026] [::1]:64564 Closing
+[Thu Sep 17 13:41:28 2026] [::1]:64566 Accepted
+[Thu Sep 17 13:41:28 2026] [::1]:64566 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:41:28 2026] [::1]:64566 Closing
+[Thu Sep 17 13:41:36 2026] [::1]:64568 Accepted
+[Thu Sep 17 13:41:36 2026] [::1]:64568 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:41:36 2026] [::1]:64568 Closing
+[Thu Sep 17 13:41:43 2026] [::1]:64570 Accepted
+[Thu Sep 17 13:41:43 2026] [::1]:64570 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:41:43 2026] [::1]:64570 Closing
+[Thu Sep 17 13:41:46 2026] [::1]:64572 Accepted
+[Thu Sep 17 13:41:46 2026] [::1]:64572 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:41:46 2026] [::1]:64572 Closing
+[Thu Sep 17 13:41:54 2026] [::1]:64576 Accepted
+[Thu Sep 17 13:41:54 2026] [::1]:64576 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:41:54 2026] [::1]:64576 Closing
+[Thu Sep 17 13:41:56 2026] [::1]:64578 Accepted
+[Thu Sep 17 13:41:56 2026] [::1]:64578 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:41:56 2026] [::1]:64578 Closing
+[Thu Sep 17 13:41:58 2026] [::1]:64580 Accepted
+[Thu Sep 17 13:41:58 2026] [::1]:64580 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:41:58 2026] [::1]:64580 Closing
+[Thu Sep 17 13:42:06 2026] [::1]:64584 Accepted
+[Thu Sep 17 13:42:06 2026] [::1]:64584 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:42:06 2026] [::1]:64584 Closing
+[Thu Sep 17 13:42:11 2026] [::1]:64586 Accepted
+[Thu Sep 17 13:42:11 2026] [::1]:64586 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:42:11 2026] [::1]:64586 Closing
+[Thu Sep 17 13:42:16 2026] [::1]:64588 Accepted
+[Thu Sep 17 13:42:16 2026] [::1]:64588 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:42:16 2026] [::1]:64588 Closing
+[Thu Sep 17 13:42:22 2026] [::1]:52797 Accepted
+[Thu Sep 17 13:42:22 2026] [::1]:52797 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:42:22 2026] [::1]:52797 Closing
+[Thu Sep 17 13:42:23 2026] [::1]:61211 Accepted
+[Thu Sep 17 13:42:23 2026] [::1]:61211 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:42:23 2026] [::1]:61211 Closing
+[Thu Sep 17 13:42:24 2026] [::1]:61213 Accepted
+[Thu Sep 17 13:42:24 2026] [::1]:61213 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:42:24 2026] [::1]:61213 Closing
+[Thu Sep 17 13:42:26 2026] [::1]:61215 Accepted
+[Thu Sep 17 13:42:26 2026] [::1]:61215 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:42:26 2026] [::1]:61215 Closing
+[Thu Sep 17 13:42:36 2026] [::1]:61218 Accepted
+[Thu Sep 17 13:42:36 2026] [::1]:61219 Accepted
+[Thu Sep 17 13:42:36 2026] [::1]:61218 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:42:36 2026] [::1]:61218 Closing
+[Thu Sep 17 13:42:36 2026] [::1]:61219 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:42:36 2026] [::1]:61219 Closing
+[Thu Sep 17 13:42:46 2026] [::1]:58484 Accepted
+[Thu Sep 17 13:42:46 2026] [::1]:58484 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:42:46 2026] [::1]:58484 Closing
+[Thu Sep 17 13:42:51 2026] [::1]:58487 Accepted
+[Thu Sep 17 13:42:51 2026] [::1]:58487 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:42:51 2026] [::1]:58487 Closing
+[Thu Sep 17 13:42:54 2026] [::1]:58489 Accepted
+[Thu Sep 17 13:42:54 2026] [::1]:58489 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:42:54 2026] [::1]:58489 Closing
+[Thu Sep 17 13:42:56 2026] [::1]:58491 Accepted
+[Thu Sep 17 13:42:56 2026] [::1]:58491 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:42:56 2026] [::1]:58491 Closing
+[Thu Sep 17 13:43:03 2026] [::1]:62907 Accepted
+[Thu Sep 17 13:43:03 2026] [::1]:62907 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:43:03 2026] [::1]:62907 Closing
+[Thu Sep 17 13:43:06 2026] [::1]:62909 Accepted
+[Thu Sep 17 13:43:06 2026] [::1]:62909 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:43:06 2026] [::1]:62909 Closing
+[Thu Sep 17 13:43:16 2026] [::1]:62912 Accepted
+[Thu Sep 17 13:43:16 2026] [::1]:62912 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:43:16 2026] [::1]:62912 Closing
+[Thu Sep 17 13:43:18 2026] [::1]:62914 Accepted
+[Thu Sep 17 13:43:18 2026] [::1]:62914 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:43:18 2026] [::1]:62914 Closing
+[Thu Sep 17 13:43:22 2026] [::1]:54659 Accepted
+[Thu Sep 17 13:43:22 2026] [::1]:54659 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:43:22 2026] [::1]:54659 Closing
+[Thu Sep 17 13:43:24 2026] [::1]:54662 Accepted
+[Thu Sep 17 13:43:24 2026] [::1]:54662 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:43:24 2026] [::1]:54662 Closing
+[Thu Sep 17 13:43:26 2026] [::1]:54665 Accepted
+[Thu Sep 17 13:43:26 2026] [::1]:54665 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:43:26 2026] [::1]:54665 Closing
+[Thu Sep 17 13:43:31 2026] [::1]:54667 Accepted
+[Thu Sep 17 13:43:31 2026] [::1]:54667 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:43:31 2026] [::1]:54667 Closing
+[Thu Sep 17 13:43:36 2026] [::1]:54669 Accepted
+[Thu Sep 17 13:43:36 2026] [::1]:54669 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:43:36 2026] [::1]:54669 Closing
+[Thu Sep 17 13:43:46 2026] [::1]:54671 Accepted
+[Thu Sep 17 13:43:46 2026] [::1]:54672 Accepted
+[Thu Sep 17 13:43:46 2026] [::1]:54671 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:43:46 2026] [::1]:54671 Closing
+[Thu Sep 17 13:43:46 2026] [::1]:54672 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:43:46 2026] [::1]:54672 Closing
+[Thu Sep 17 13:43:54 2026] [::1]:54679 Accepted
+[Thu Sep 17 13:43:54 2026] [::1]:54679 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:43:54 2026] [::1]:54679 Closing
+[Thu Sep 17 13:43:56 2026] [::1]:54681 Accepted
+[Thu Sep 17 13:43:56 2026] [::1]:54681 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:43:56 2026] [::1]:54681 Closing
+[Thu Sep 17 13:43:58 2026] [::1]:54683 Accepted
+[Thu Sep 17 13:43:58 2026] [::1]:54683 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:43:58 2026] [::1]:54683 Closing
+[Thu Sep 17 13:44:06 2026] [::1]:54687 Accepted
+[Thu Sep 17 13:44:06 2026] [::1]:54687 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:44:06 2026] [::1]:54687 Closing
+[Thu Sep 17 13:44:13 2026] [::1]:54690 Accepted
+[Thu Sep 17 13:44:13 2026] [::1]:54690 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:44:13 2026] [::1]:54690 Closing
+[Thu Sep 17 13:44:16 2026] [::1]:54692 Accepted
+[Thu Sep 17 13:44:16 2026] [::1]:54692 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:44:16 2026] [::1]:54692 Closing
+[Thu Sep 17 13:44:22 2026] [::1]:58487 Accepted
+[Thu Sep 17 13:44:22 2026] [::1]:58487 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:44:22 2026] [::1]:58487 Closing
+[Thu Sep 17 13:44:24 2026] [::1]:55215 Accepted
+[Thu Sep 17 13:44:24 2026] [::1]:55215 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:44:24 2026] [::1]:55215 Closing
+[Thu Sep 17 13:44:26 2026] [::1]:55217 Accepted
+[Thu Sep 17 13:44:26 2026] [::1]:55218 Accepted
+[Thu Sep 17 13:44:26 2026] [::1]:55217 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:44:26 2026] [::1]:55217 Closing
+[Thu Sep 17 13:44:26 2026] [::1]:55218 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:44:26 2026] [::1]:55218 Closing
+[Thu Sep 17 13:44:36 2026] [::1]:55222 Accepted
+[Thu Sep 17 13:44:36 2026] [::1]:55222 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:44:36 2026] [::1]:55222 Closing
+[Thu Sep 17 13:44:38 2026] [::1]:55224 Accepted
+[Thu Sep 17 13:44:38 2026] [::1]:55224 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:44:38 2026] [::1]:55224 Closing
+[Thu Sep 17 13:44:46 2026] [::1]:55228 Accepted
+[Thu Sep 17 13:44:46 2026] [::1]:55228 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:44:46 2026] [::1]:55228 Closing
+[Thu Sep 17 13:44:53 2026] [::1]:55231 Accepted
+[Thu Sep 17 13:44:53 2026] [::1]:55231 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:44:53 2026] [::1]:55231 Closing
+[Thu Sep 17 13:44:54 2026] [::1]:55233 Accepted
+[Thu Sep 17 13:44:54 2026] [::1]:55233 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:44:54 2026] [::1]:55233 Closing
+[Thu Sep 17 13:44:56 2026] [::1]:55235 Accepted
+[Thu Sep 17 13:44:56 2026] [::1]:55235 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:44:56 2026] [::1]:55235 Closing
+[Thu Sep 17 13:45:06 2026] [::1]:55237 Accepted
+[Thu Sep 17 13:45:06 2026] [::1]:55237 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:45:06 2026] [::1]:55237 Closing
+[Thu Sep 17 13:45:08 2026] [::1]:55239 Accepted
+[Thu Sep 17 13:45:08 2026] [::1]:55239 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:45:08 2026] [::1]:55239 Closing
+[Thu Sep 17 13:45:16 2026] [::1]:55242 Accepted
+[Thu Sep 17 13:45:16 2026] [::1]:55242 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:45:16 2026] [::1]:55242 Closing
+[Thu Sep 17 13:45:22 2026] [::1]:62445 Accepted
+[Thu Sep 17 13:45:22 2026] [::1]:62445 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:45:22 2026] [::1]:62445 Closing
+[Thu Sep 17 13:45:23 2026] [::1]:54433 Accepted
+[Thu Sep 17 13:45:23 2026] [::1]:54433 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:45:23 2026] [::1]:54433 Closing
+[Thu Sep 17 13:45:24 2026] [::1]:54435 Accepted
+[Thu Sep 17 13:45:24 2026] [::1]:54435 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:45:24 2026] [::1]:54435 Closing
+[Thu Sep 17 13:45:26 2026] [::1]:54438 Accepted
+[Thu Sep 17 13:45:26 2026] [::1]:54438 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:45:26 2026] [::1]:54438 Closing
+[Thu Sep 17 13:45:36 2026] [::1]:54440 Accepted
+[Thu Sep 17 13:45:36 2026] [::1]:54440 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:45:36 2026] [::1]:54440 Closing
+[Thu Sep 17 13:45:38 2026] [::1]:54442 Accepted
+[Thu Sep 17 13:45:38 2026] [::1]:54442 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:45:38 2026] [::1]:54442 Closing
+[Thu Sep 17 13:45:46 2026] [::1]:54444 Accepted
+[Thu Sep 17 13:45:46 2026] [::1]:54444 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:45:46 2026] [::1]:54444 Closing
+[Thu Sep 17 13:45:53 2026] [::1]:54447 Accepted
+[Thu Sep 17 13:45:53 2026] [::1]:54447 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:45:53 2026] [::1]:54447 Closing
+[Thu Sep 17 13:45:54 2026] [::1]:54450 Accepted
+[Thu Sep 17 13:45:54 2026] [::1]:54450 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:45:54 2026] [::1]:54450 Closing
+[Thu Sep 17 13:45:56 2026] [::1]:54452 Accepted
+[Thu Sep 17 13:45:56 2026] [::1]:54452 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:45:56 2026] [::1]:54452 Closing
+[Thu Sep 17 13:46:06 2026] [::1]:54456 Accepted
+[Thu Sep 17 13:46:06 2026] [::1]:54456 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:46:06 2026] [::1]:54456 Closing
+[Thu Sep 17 13:46:08 2026] [::1]:54458 Accepted
+[Thu Sep 17 13:46:08 2026] [::1]:54458 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:46:08 2026] [::1]:54458 Closing
+[Thu Sep 17 13:46:16 2026] [::1]:54460 Accepted
+[Thu Sep 17 13:46:16 2026] [::1]:54460 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:46:16 2026] [::1]:54460 Closing
+[Thu Sep 17 13:46:22 2026] [::1]:55519 Accepted
+[Thu Sep 17 13:46:22 2026] [::1]:55519 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:46:22 2026] [::1]:55519 Closing
+[Thu Sep 17 13:46:23 2026] [::1]:52526 Accepted
+[Thu Sep 17 13:46:23 2026] [::1]:52526 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:46:23 2026] [::1]:52526 Closing
+[Thu Sep 17 13:46:24 2026] [::1]:52528 Accepted
+[Thu Sep 17 13:46:24 2026] [::1]:52528 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:46:24 2026] [::1]:52528 Closing
+[Thu Sep 17 13:46:26 2026] [::1]:52530 Accepted
+[Thu Sep 17 13:46:26 2026] [::1]:52530 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:46:26 2026] [::1]:52530 Closing
+[Thu Sep 17 13:46:36 2026] [::1]:52533 Accepted
+[Thu Sep 17 13:46:36 2026] [::1]:52533 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:46:36 2026] [::1]:52533 Closing
+[Thu Sep 17 13:46:38 2026] [::1]:52535 Accepted
+[Thu Sep 17 13:46:38 2026] [::1]:52535 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:46:38 2026] [::1]:52535 Closing
+[Thu Sep 17 13:46:46 2026] [::1]:52539 Accepted
+[Thu Sep 17 13:46:46 2026] [::1]:52539 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:46:46 2026] [::1]:52539 Closing
+[Thu Sep 17 13:46:53 2026] [::1]:52544 Accepted
+[Thu Sep 17 13:46:53 2026] [::1]:52544 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:46:53 2026] [::1]:52544 Closing
+[Thu Sep 17 13:46:54 2026] [::1]:52546 Accepted
+[Thu Sep 17 13:46:54 2026] [::1]:52546 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:46:54 2026] [::1]:52546 Closing
+[Thu Sep 17 13:46:56 2026] [::1]:52548 Accepted
+[Thu Sep 17 13:46:56 2026] [::1]:52548 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:46:56 2026] [::1]:52548 Closing
+[Thu Sep 17 13:47:06 2026] [::1]:52550 Accepted
+[Thu Sep 17 13:47:06 2026] [::1]:52550 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:47:06 2026] [::1]:52550 Closing
+[Thu Sep 17 13:47:08 2026] [::1]:52552 Accepted
+[Thu Sep 17 13:47:08 2026] [::1]:52552 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:47:08 2026] [::1]:52552 Closing
+[Thu Sep 17 13:47:16 2026] [::1]:52555 Accepted
+[Thu Sep 17 13:47:16 2026] [::1]:52555 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:47:16 2026] [::1]:52555 Closing
+[Thu Sep 17 13:47:21 2026] [::1]:52558 Accepted
+[Thu Sep 17 13:47:21 2026] [::1]:52558 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:47:21 2026] [::1]:52558 Closing
+[Thu Sep 17 13:47:22 2026] [::1]:62889 Accepted
+[Thu Sep 17 13:47:22 2026] [::1]:62889 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:47:22 2026] [::1]:62889 Closing
+[Thu Sep 17 13:47:24 2026] [::1]:62894 Accepted
+[Thu Sep 17 13:47:24 2026] [::1]:62894 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:47:24 2026] [::1]:62894 Closing
+[Thu Sep 17 13:47:26 2026] [::1]:62897 Accepted
+[Thu Sep 17 13:47:26 2026] [::1]:62897 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:47:26 2026] [::1]:62897 Closing
+[Thu Sep 17 13:47:36 2026] [::1]:62904 Accepted
+[Thu Sep 17 13:47:36 2026] [::1]:62905 Accepted
+[Thu Sep 17 13:47:36 2026] [::1]:62904 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:47:36 2026] [::1]:62904 Closing
+[Thu Sep 17 13:47:36 2026] [::1]:62905 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:47:36 2026] [::1]:62905 Closing
+[Thu Sep 17 13:47:46 2026] [::1]:62909 Accepted
+[Thu Sep 17 13:47:46 2026] [::1]:62909 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:47:46 2026] [::1]:62909 Closing
+[Thu Sep 17 13:47:48 2026] [::1]:62911 Accepted
+[Thu Sep 17 13:47:48 2026] [::1]:62911 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:47:48 2026] [::1]:62911 Closing
+[Thu Sep 17 13:47:54 2026] [::1]:62914 Accepted
+[Thu Sep 17 13:47:54 2026] [::1]:62914 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:47:54 2026] [::1]:62914 Closing
+[Thu Sep 17 13:47:56 2026] [::1]:62917 Accepted
+[Thu Sep 17 13:47:56 2026] [::1]:62917 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:47:56 2026] [::1]:62917 Closing
+[Thu Sep 17 13:48:03 2026] [::1]:65424 Accepted
+[Thu Sep 17 13:48:03 2026] [::1]:65424 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:48:03 2026] [::1]:65424 Closing
+[Thu Sep 17 13:48:06 2026] [::1]:56458 Accepted
+[Thu Sep 17 13:48:06 2026] [::1]:56458 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:48:06 2026] [::1]:56458 Closing
+[Thu Sep 17 13:48:16 2026] [::1]:56877 Accepted
+[Thu Sep 17 13:48:16 2026] [::1]:56877 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:48:16 2026] [::1]:56877 Closing
+[Thu Sep 17 13:48:18 2026] [::1]:56879 Accepted
+[Thu Sep 17 13:48:18 2026] [::1]:56879 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:48:18 2026] [::1]:56879 Closing
+[Thu Sep 17 13:48:22 2026] [::1]:54267 Accepted
+[Thu Sep 17 13:48:22 2026] [::1]:54267 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:48:22 2026] [::1]:54267 Closing
+[Thu Sep 17 13:48:24 2026] [::1]:56189 Accepted
+[Thu Sep 17 13:48:24 2026] [::1]:56189 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:48:24 2026] [::1]:56189 Closing
+[Thu Sep 17 13:48:26 2026] [::1]:56191 Accepted
+[Thu Sep 17 13:48:26 2026] [::1]:56191 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:48:26 2026] [::1]:56191 Closing
+[Thu Sep 17 13:48:33 2026] [::1]:56193 Accepted
+[Thu Sep 17 13:48:33 2026] [::1]:56193 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:48:33 2026] [::1]:56193 Closing
+[Thu Sep 17 13:48:36 2026] [::1]:56196 Accepted
+[Thu Sep 17 13:48:36 2026] [::1]:56196 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:48:36 2026] [::1]:56196 Closing
+[Thu Sep 17 13:48:46 2026] [::1]:50072 Accepted
+[Thu Sep 17 13:48:46 2026] [::1]:50072 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:48:46 2026] [::1]:50072 Closing
+[Thu Sep 17 13:48:48 2026] [::1]:53585 Accepted
+[Thu Sep 17 13:48:48 2026] [::1]:53585 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:48:48 2026] [::1]:53585 Closing
+[Thu Sep 17 13:48:54 2026] [::1]:65477 Accepted
+[Thu Sep 17 13:48:54 2026] [::1]:65477 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:48:54 2026] [::1]:65477 Closing
+[Thu Sep 17 13:48:56 2026] [::1]:65479 Accepted
+[Thu Sep 17 13:48:56 2026] [::1]:65479 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:48:56 2026] [::1]:65479 Closing
+[Thu Sep 17 13:49:03 2026] [::1]:65487 Accepted
+[Thu Sep 17 13:49:03 2026] [::1]:65487 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:49:03 2026] [::1]:65487 Closing
+[Thu Sep 17 13:49:06 2026] [::1]:65489 Accepted
+[Thu Sep 17 13:49:06 2026] [::1]:65489 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:49:06 2026] [::1]:65489 Closing
+[Thu Sep 17 13:49:16 2026] [::1]:65493 Accepted
+[Thu Sep 17 13:49:16 2026] [::1]:65493 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:49:16 2026] [::1]:65493 Closing
+[Thu Sep 17 13:49:18 2026] [::1]:65495 Accepted
+[Thu Sep 17 13:49:18 2026] [::1]:65495 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:49:18 2026] [::1]:65495 Closing
+[Thu Sep 17 13:49:22 2026] [::1]:61178 Accepted
+[Thu Sep 17 13:49:22 2026] [::1]:61178 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:49:22 2026] [::1]:61178 Closing
+[Thu Sep 17 13:49:24 2026] [::1]:61182 Accepted
+[Thu Sep 17 13:49:24 2026] [::1]:61182 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:49:24 2026] [::1]:61182 Closing
+[Thu Sep 17 13:49:26 2026] [::1]:61185 Accepted
+[Thu Sep 17 13:49:26 2026] [::1]:61185 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:49:26 2026] [::1]:61185 Closing
+[Thu Sep 17 13:49:33 2026] [::1]:61190 Accepted
+[Thu Sep 17 13:49:33 2026] [::1]:61190 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:49:33 2026] [::1]:61190 Closing
+[Thu Sep 17 13:49:36 2026] [::1]:61192 Accepted
+[Thu Sep 17 13:49:36 2026] [::1]:61192 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:49:36 2026] [::1]:61192 Closing
+[Thu Sep 17 13:49:46 2026] [::1]:61194 Accepted
+[Thu Sep 17 13:49:46 2026] [::1]:61194 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:49:46 2026] [::1]:61194 Closing
+[Thu Sep 17 13:49:48 2026] [::1]:61196 Accepted
+[Thu Sep 17 13:49:48 2026] [::1]:61196 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:49:48 2026] [::1]:61196 Closing
+[Thu Sep 17 13:49:54 2026] [::1]:61199 Accepted
+[Thu Sep 17 13:49:54 2026] [::1]:61199 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:49:54 2026] [::1]:61199 Closing
+[Thu Sep 17 13:49:56 2026] [::1]:61202 Accepted
+[Thu Sep 17 13:49:56 2026] [::1]:61202 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:49:56 2026] [::1]:61202 Closing
+[Thu Sep 17 13:50:01 2026] [::1]:61204 Accepted
+[Thu Sep 17 13:50:01 2026] [::1]:61204 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:50:01 2026] [::1]:61204 Closing
+[Thu Sep 17 13:50:06 2026] [::1]:61208 Accepted
+[Thu Sep 17 13:50:06 2026] [::1]:61208 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:50:06 2026] [::1]:61208 Closing
+[Thu Sep 17 13:50:16 2026] [::1]:61211 Accepted
+[Thu Sep 17 13:50:16 2026] [::1]:61212 Accepted
+[Thu Sep 17 13:50:16 2026] [::1]:61211 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:50:16 2026] [::1]:61211 Closing
+[Thu Sep 17 13:50:16 2026] [::1]:61212 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:50:16 2026] [::1]:61212 Closing
+[Thu Sep 17 13:50:22 2026] [::1]:50745 Accepted
+[Thu Sep 17 13:50:22 2026] [::1]:50745 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:50:22 2026] [::1]:50745 Closing
+[Thu Sep 17 13:50:24 2026] [::1]:50490 Accepted
+[Thu Sep 17 13:50:24 2026] [::1]:50490 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:50:24 2026] [::1]:50490 Closing
+[Thu Sep 17 13:50:26 2026] [::1]:50492 Accepted
+[Thu Sep 17 13:50:26 2026] [::1]:50492 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:50:26 2026] [::1]:50492 Closing
+[Thu Sep 17 13:50:31 2026] [::1]:50501 Accepted
+[Thu Sep 17 13:50:31 2026] [::1]:50501 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:50:31 2026] [::1]:50501 Closing
+[Thu Sep 17 13:50:36 2026] [::1]:50503 Accepted
+[Thu Sep 17 13:50:36 2026] [::1]:50503 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:50:36 2026] [::1]:50503 Closing
+[Thu Sep 17 13:50:46 2026] [::1]:50508 Accepted
+[Thu Sep 17 13:50:46 2026] [::1]:50509 Accepted
+[Thu Sep 17 13:50:46 2026] [::1]:50508 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:50:46 2026] [::1]:50508 Closing
+[Thu Sep 17 13:50:46 2026] [::1]:50509 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:50:46 2026] [::1]:50509 Closing
+[Thu Sep 17 13:50:54 2026] [::1]:50513 Accepted
+[Thu Sep 17 13:50:54 2026] [::1]:50513 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:50:54 2026] [::1]:50513 Closing
+[Thu Sep 17 13:50:56 2026] [::1]:50515 Accepted
+[Thu Sep 17 13:50:56 2026] [::1]:50515 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:50:56 2026] [::1]:50515 Closing
+[Thu Sep 17 13:50:58 2026] [::1]:50517 Accepted
+[Thu Sep 17 13:50:58 2026] [::1]:50517 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:50:58 2026] [::1]:50517 Closing
+[Thu Sep 17 13:51:06 2026] [::1]:50520 Accepted
+[Thu Sep 17 13:51:06 2026] [::1]:50520 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:51:06 2026] [::1]:50520 Closing
+[Thu Sep 17 13:51:13 2026] [::1]:50522 Accepted
+[Thu Sep 17 13:51:13 2026] [::1]:50522 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:51:13 2026] [::1]:50522 Closing
+[Thu Sep 17 13:51:16 2026] [::1]:50524 Accepted
+[Thu Sep 17 13:51:16 2026] [::1]:50524 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:51:16 2026] [::1]:50524 Closing
+[Thu Sep 17 13:51:22 2026] [::1]:51172 Accepted
+[Thu Sep 17 13:51:22 2026] [::1]:51172 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:51:22 2026] [::1]:51172 Closing
+[Thu Sep 17 13:51:24 2026] [::1]:60711 Accepted
+[Thu Sep 17 13:51:24 2026] [::1]:60711 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:51:24 2026] [::1]:60711 Closing
+[Thu Sep 17 13:51:26 2026] [::1]:60714 Accepted
+[Thu Sep 17 13:51:26 2026] [::1]:60715 Accepted
+[Thu Sep 17 13:51:26 2026] [::1]:60714 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:51:26 2026] [::1]:60714 Closing
+[Thu Sep 17 13:51:26 2026] [::1]:60715 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:51:26 2026] [::1]:60715 Closing
+[Thu Sep 17 13:51:36 2026] [::1]:52903 Accepted
+[Thu Sep 17 13:51:36 2026] [::1]:52903 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:51:36 2026] [::1]:52903 Closing
+[Thu Sep 17 13:51:41 2026] [::1]:52905 Accepted
+[Thu Sep 17 13:51:41 2026] [::1]:52905 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:51:41 2026] [::1]:52905 Closing
+[Thu Sep 17 13:51:46 2026] [::1]:52907 Accepted
+[Thu Sep 17 13:51:46 2026] [::1]:52907 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:51:46 2026] [::1]:52907 Closing
+[Thu Sep 17 13:51:53 2026] [::1]:52910 Accepted
+[Thu Sep 17 13:51:53 2026] [::1]:52910 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:51:53 2026] [::1]:52910 Closing
+[Thu Sep 17 13:51:54 2026] [::1]:52912 Accepted
+[Thu Sep 17 13:51:54 2026] [::1]:52912 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:51:54 2026] [::1]:52912 Closing
+[Thu Sep 17 13:51:56 2026] [::1]:52914 Accepted
+[Thu Sep 17 13:51:56 2026] [::1]:52914 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:51:56 2026] [::1]:52914 Closing
+[Thu Sep 17 13:52:06 2026] [::1]:52919 Accepted
+[Thu Sep 17 13:52:06 2026] [::1]:52919 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:52:06 2026] [::1]:52919 Closing
+[Thu Sep 17 13:52:08 2026] [::1]:52921 Accepted
+[Thu Sep 17 13:52:08 2026] [::1]:52921 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:52:08 2026] [::1]:52921 Closing
+[Thu Sep 17 13:52:16 2026] [::1]:52924 Accepted
+[Thu Sep 17 13:52:16 2026] [::1]:52924 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:52:16 2026] [::1]:52924 Closing
+[Thu Sep 17 13:52:21 2026] [::1]:52931 Accepted
+[Thu Sep 17 13:52:21 2026] [::1]:52931 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:52:21 2026] [::1]:52931 Closing
+[Thu Sep 17 13:52:22 2026] [::1]:52149 Accepted
+[Thu Sep 17 13:52:22 2026] [::1]:52149 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:52:22 2026] [::1]:52149 Closing
+[Thu Sep 17 13:52:24 2026] [::1]:51760 Accepted
+[Thu Sep 17 13:52:24 2026] [::1]:51760 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:52:24 2026] [::1]:51760 Closing
+[Thu Sep 17 13:52:26 2026] [::1]:51762 Accepted
+[Thu Sep 17 13:52:26 2026] [::1]:51762 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:52:26 2026] [::1]:51762 Closing
+[Thu Sep 17 13:52:33 2026] [::1]:51764 Accepted
+[Thu Sep 17 13:52:33 2026] [::1]:51764 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:52:33 2026] [::1]:51764 Closing
+[Thu Sep 17 13:52:36 2026] [::1]:51766 Accepted
+[Thu Sep 17 13:52:36 2026] [::1]:51766 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:52:36 2026] [::1]:51766 Closing
+[Thu Sep 17 13:52:46 2026] [::1]:51772 Accepted
+[Thu Sep 17 13:52:46 2026] [::1]:51772 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:52:46 2026] [::1]:51772 Closing
+[Thu Sep 17 13:52:48 2026] [::1]:51774 Accepted
+[Thu Sep 17 13:52:48 2026] [::1]:51774 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:52:48 2026] [::1]:51774 Closing
+[Thu Sep 17 13:52:54 2026] [::1]:51779 Accepted
+[Thu Sep 17 13:52:54 2026] [::1]:51779 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:52:54 2026] [::1]:51779 Closing
+[Thu Sep 17 13:52:56 2026] [::1]:51781 Accepted
+[Thu Sep 17 13:52:56 2026] [::1]:51781 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:52:56 2026] [::1]:51781 Closing
+[Thu Sep 17 13:53:03 2026] [::1]:58715 Accepted
+[Thu Sep 17 13:53:03 2026] [::1]:58715 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:53:03 2026] [::1]:58715 Closing
+[Thu Sep 17 13:53:06 2026] [::1]:58717 Accepted
+[Thu Sep 17 13:53:06 2026] [::1]:58717 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:53:06 2026] [::1]:58717 Closing
+[Thu Sep 17 13:53:16 2026] [::1]:58719 Accepted
+[Thu Sep 17 13:53:16 2026] [::1]:58719 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:53:16 2026] [::1]:58719 Closing
+[Thu Sep 17 13:53:18 2026] [::1]:58722 Accepted
+[Thu Sep 17 13:53:18 2026] [::1]:58722 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:53:18 2026] [::1]:58722 Closing
+[Thu Sep 17 13:53:22 2026] [::1]:49647 Accepted
+[Thu Sep 17 13:53:22 2026] [::1]:49647 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:53:22 2026] [::1]:49647 Closing
+[Thu Sep 17 13:53:24 2026] [::1]:63320 Accepted
+[Thu Sep 17 13:53:24 2026] [::1]:63320 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:53:24 2026] [::1]:63320 Closing
+[Thu Sep 17 13:53:26 2026] [::1]:63323 Accepted
+[Thu Sep 17 13:53:26 2026] [::1]:63323 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:53:26 2026] [::1]:63323 Closing
+[Thu Sep 17 13:53:31 2026] [::1]:63325 Accepted
+[Thu Sep 17 13:53:31 2026] [::1]:63325 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:53:31 2026] [::1]:63325 Closing
+[Thu Sep 17 13:53:36 2026] [::1]:63329 Accepted
+[Thu Sep 17 13:53:36 2026] [::1]:63329 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:53:36 2026] [::1]:63329 Closing
+[Thu Sep 17 13:53:43 2026] [::1]:63331 Accepted
+[Thu Sep 17 13:53:43 2026] [::1]:63331 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:53:43 2026] [::1]:63331 Closing
+[Thu Sep 17 13:53:46 2026] [::1]:63333 Accepted
+[Thu Sep 17 13:53:46 2026] [::1]:63333 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:53:46 2026] [::1]:63333 Closing
+[Thu Sep 17 13:53:54 2026] [::1]:63338 Accepted
+[Thu Sep 17 13:53:54 2026] [::1]:63338 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:53:54 2026] [::1]:63338 Closing
+[Thu Sep 17 13:53:56 2026] [::1]:63340 Accepted
+[Thu Sep 17 13:53:56 2026] [::1]:63340 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:53:56 2026] [::1]:63340 Closing
+[Thu Sep 17 13:53:58 2026] [::1]:63343 Accepted
+[Thu Sep 17 13:53:58 2026] [::1]:63343 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:53:58 2026] [::1]:63343 Closing
+[Thu Sep 17 13:54:06 2026] [::1]:63347 Accepted
+[Thu Sep 17 13:54:06 2026] [::1]:63347 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:54:06 2026] [::1]:63347 Closing
+[Thu Sep 17 13:54:13 2026] [::1]:63350 Accepted
+[Thu Sep 17 13:54:13 2026] [::1]:63350 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:54:13 2026] [::1]:63350 Closing
+[Thu Sep 17 13:54:16 2026] [::1]:63352 Accepted
+[Thu Sep 17 13:54:16 2026] [::1]:63352 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:54:16 2026] [::1]:63352 Closing
+[Thu Sep 17 13:54:22 2026] [::1]:55263 Accepted
+[Thu Sep 17 13:54:22 2026] [::1]:55263 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:54:22 2026] [::1]:55263 Closing
+[Thu Sep 17 13:54:24 2026] [::1]:55267 Accepted
+[Thu Sep 17 13:54:24 2026] [::1]:55267 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:54:24 2026] [::1]:55267 Closing
+[Thu Sep 17 13:54:26 2026] [::1]:55269 Accepted
+[Thu Sep 17 13:54:26 2026] [::1]:55270 Accepted
+[Thu Sep 17 13:54:26 2026] [::1]:55269 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:54:26 2026] [::1]:55269 Closing
+[Thu Sep 17 13:54:26 2026] [::1]:55270 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:54:26 2026] [::1]:55270 Closing
+[Thu Sep 17 13:54:36 2026] [::1]:55273 Accepted
+[Thu Sep 17 13:54:36 2026] [::1]:55273 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:54:36 2026] [::1]:55273 Closing
+[Thu Sep 17 13:54:38 2026] [::1]:55276 Accepted
+[Thu Sep 17 13:54:38 2026] [::1]:55276 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:54:38 2026] [::1]:55276 Closing
+[Thu Sep 17 13:54:46 2026] [::1]:55280 Accepted
+[Thu Sep 17 13:54:46 2026] [::1]:55280 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:54:46 2026] [::1]:55280 Closing
+[Thu Sep 17 13:54:51 2026] [::1]:55283 Accepted
+[Thu Sep 17 13:54:51 2026] [::1]:55283 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:54:51 2026] [::1]:55283 Closing
+[Thu Sep 17 13:54:54 2026] [::1]:55285 Accepted
+[Thu Sep 17 13:54:54 2026] [::1]:55285 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:54:54 2026] [::1]:55285 Closing
+[Thu Sep 17 13:54:56 2026] [::1]:55287 Accepted
+[Thu Sep 17 13:54:56 2026] [::1]:55287 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:54:56 2026] [::1]:55287 Closing
+[Thu Sep 17 13:55:03 2026] [::1]:55289 Accepted
+[Thu Sep 17 13:55:03 2026] [::1]:55289 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:55:03 2026] [::1]:55289 Closing
+[Thu Sep 17 13:55:06 2026] [::1]:55291 Accepted
+[Thu Sep 17 13:55:06 2026] [::1]:55291 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:55:06 2026] [::1]:55291 Closing
+[Thu Sep 17 13:55:16 2026] [::1]:55293 Accepted
+[Thu Sep 17 13:55:16 2026] [::1]:55293 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:55:16 2026] [::1]:55293 Closing
+[Thu Sep 17 13:55:18 2026] [::1]:55296 Accepted
+[Thu Sep 17 13:55:18 2026] [::1]:55296 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:55:18 2026] [::1]:55296 Closing
+[Thu Sep 17 13:55:22 2026] [::1]:59483 Accepted
+[Thu Sep 17 13:55:22 2026] [::1]:59483 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:55:22 2026] [::1]:59483 Closing
+[Thu Sep 17 13:55:24 2026] [::1]:52970 Accepted
+[Thu Sep 17 13:55:24 2026] [::1]:52970 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:55:24 2026] [::1]:52970 Closing
+[Thu Sep 17 13:55:26 2026] [::1]:52973 Accepted
+[Thu Sep 17 13:55:26 2026] [::1]:52973 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:55:26 2026] [::1]:52973 Closing
+[Thu Sep 17 13:55:33 2026] [::1]:52975 Accepted
+[Thu Sep 17 13:55:33 2026] [::1]:52975 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:55:33 2026] [::1]:52975 Closing
+[Thu Sep 17 13:55:36 2026] [::1]:52977 Accepted
+[Thu Sep 17 13:55:36 2026] [::1]:52977 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:55:36 2026] [::1]:52977 Closing
+[Thu Sep 17 13:55:46 2026] [::1]:52979 Accepted
+[Thu Sep 17 13:55:46 2026] [::1]:52979 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:55:46 2026] [::1]:52979 Closing
+[Thu Sep 17 13:55:48 2026] [::1]:52981 Accepted
+[Thu Sep 17 13:55:48 2026] [::1]:52981 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:55:48 2026] [::1]:52981 Closing
+[Thu Sep 17 13:55:54 2026] [::1]:52984 Accepted
+[Thu Sep 17 13:55:54 2026] [::1]:52984 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:55:54 2026] [::1]:52984 Closing
+[Thu Sep 17 13:55:56 2026] [::1]:52986 Accepted
+[Thu Sep 17 13:55:56 2026] [::1]:52986 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:55:56 2026] [::1]:52986 Closing
+[Thu Sep 17 13:56:01 2026] [::1]:52989 Accepted
+[Thu Sep 17 13:56:01 2026] [::1]:52989 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:56:01 2026] [::1]:52989 Closing
+[Thu Sep 17 13:56:06 2026] [::1]:52993 Accepted
+[Thu Sep 17 13:56:06 2026] [::1]:52993 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:56:06 2026] [::1]:52993 Closing
+[Thu Sep 17 13:56:16 2026] [::1]:52995 Accepted
+[Thu Sep 17 13:56:16 2026] [::1]:52996 Accepted
+[Thu Sep 17 13:56:16 2026] [::1]:52995 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:56:16 2026] [::1]:52995 Closing
+[Thu Sep 17 13:56:16 2026] [::1]:52996 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:56:16 2026] [::1]:52996 Closing
+[Thu Sep 17 13:56:22 2026] [::1]:62382 Accepted
+[Thu Sep 17 13:56:22 2026] [::1]:62382 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:56:22 2026] [::1]:62382 Closing
+[Thu Sep 17 13:56:24 2026] [::1]:62386 Accepted
+[Thu Sep 17 13:56:24 2026] [::1]:62386 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:56:24 2026] [::1]:62386 Closing
+[Thu Sep 17 13:56:26 2026] [::1]:62388 Accepted
+[Thu Sep 17 13:56:26 2026] [::1]:62388 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:56:26 2026] [::1]:62388 Closing
+[Thu Sep 17 13:56:28 2026] [::1]:62390 Accepted
+[Thu Sep 17 13:56:28 2026] [::1]:62390 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:56:28 2026] [::1]:62390 Closing
+[Thu Sep 17 13:56:36 2026] [::1]:62392 Accepted
+[Thu Sep 17 13:56:36 2026] [::1]:62392 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:56:36 2026] [::1]:62392 Closing
+[Thu Sep 17 13:56:43 2026] [::1]:62395 Accepted
+[Thu Sep 17 13:56:43 2026] [::1]:62395 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:56:43 2026] [::1]:62395 Closing
+[Thu Sep 17 13:56:46 2026] [::1]:62399 Accepted
+[Thu Sep 17 13:56:46 2026] [::1]:62399 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:56:46 2026] [::1]:62399 Closing
+[Thu Sep 17 13:56:54 2026] [::1]:49335 Accepted
+[Thu Sep 17 13:56:54 2026] [::1]:49335 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:56:54 2026] [::1]:49335 Closing
+[Thu Sep 17 13:56:56 2026] [::1]:49337 Accepted
+[Thu Sep 17 13:56:56 2026] [::1]:49338 Accepted
+[Thu Sep 17 13:56:56 2026] [::1]:49337 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:56:56 2026] [::1]:49337 Closing
+[Thu Sep 17 13:56:56 2026] [::1]:49338 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:56:56 2026] [::1]:49338 Closing
+[Thu Sep 17 13:57:06 2026] [::1]:49341 Accepted
+[Thu Sep 17 13:57:06 2026] [::1]:49341 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:57:06 2026] [::1]:49341 Closing
+[Thu Sep 17 13:57:08 2026] [::1]:49343 Accepted
+[Thu Sep 17 13:57:08 2026] [::1]:49343 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:57:08 2026] [::1]:49343 Closing
+[Thu Sep 17 13:57:16 2026] [::1]:49345 Accepted
+[Thu Sep 17 13:57:16 2026] [::1]:49345 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:57:16 2026] [::1]:49345 Closing
+[Thu Sep 17 13:57:21 2026] [::1]:49349 Accepted
+[Thu Sep 17 13:57:21 2026] [::1]:49349 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:57:21 2026] [::1]:49349 Closing
+[Thu Sep 17 13:57:22 2026] [::1]:54666 Accepted
+[Thu Sep 17 13:57:22 2026] [::1]:54666 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:57:22 2026] [::1]:54666 Closing
+[Thu Sep 17 13:57:24 2026] [::1]:54028 Accepted
+[Thu Sep 17 13:57:24 2026] [::1]:54028 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:57:24 2026] [::1]:54028 Closing
+[Thu Sep 17 13:57:26 2026] [::1]:54031 Accepted
+[Thu Sep 17 13:57:26 2026] [::1]:54031 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:57:26 2026] [::1]:54031 Closing
+[Thu Sep 17 13:57:36 2026] [::1]:54037 Accepted
+[Thu Sep 17 13:57:36 2026] [::1]:54038 Accepted
+[Thu Sep 17 13:57:36 2026] [::1]:54037 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:57:36 2026] [::1]:54037 Closing
+[Thu Sep 17 13:57:36 2026] [::1]:54038 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:57:36 2026] [::1]:54038 Closing
+[Thu Sep 17 13:57:46 2026] [::1]:54041 Accepted
+[Thu Sep 17 13:57:46 2026] [::1]:54041 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:57:46 2026] [::1]:54041 Closing
+[Thu Sep 17 13:57:48 2026] [::1]:54043 Accepted
+[Thu Sep 17 13:57:48 2026] [::1]:54043 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:57:48 2026] [::1]:54043 Closing
+[Thu Sep 17 13:57:54 2026] [::1]:54046 Accepted
+[Thu Sep 17 13:57:54 2026] [::1]:54046 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:57:54 2026] [::1]:54046 Closing
+[Thu Sep 17 13:57:56 2026] [::1]:54048 Accepted
+[Thu Sep 17 13:57:56 2026] [::1]:54048 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:57:56 2026] [::1]:54048 Closing
+[Thu Sep 17 13:58:03 2026] [::1]:57439 Accepted
+[Thu Sep 17 13:58:03 2026] [::1]:57439 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:58:03 2026] [::1]:57439 Closing
+[Thu Sep 17 13:58:06 2026] [::1]:57443 Accepted
+[Thu Sep 17 13:58:06 2026] [::1]:57443 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:58:06 2026] [::1]:57443 Closing
+[Thu Sep 17 13:58:16 2026] [::1]:57446 Accepted
+[Thu Sep 17 13:58:16 2026] [::1]:57446 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:58:16 2026] [::1]:57446 Closing
+[Thu Sep 17 13:58:18 2026] [::1]:57448 Accepted
+[Thu Sep 17 13:58:18 2026] [::1]:57448 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:58:18 2026] [::1]:57448 Closing
+[Thu Sep 17 13:58:22 2026] [::1]:53559 Accepted
+[Thu Sep 17 13:58:22 2026] [::1]:53559 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:58:22 2026] [::1]:53559 Closing
+[Thu Sep 17 13:58:24 2026] [::1]:53016 Accepted
+[Thu Sep 17 13:58:24 2026] [::1]:53016 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:58:24 2026] [::1]:53016 Closing
+[Thu Sep 17 13:58:26 2026] [::1]:53018 Accepted
+[Thu Sep 17 13:58:26 2026] [::1]:53018 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:58:26 2026] [::1]:53018 Closing
+[Thu Sep 17 13:58:33 2026] [::1]:53020 Accepted
+[Thu Sep 17 13:58:33 2026] [::1]:53020 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:58:33 2026] [::1]:53020 Closing
+[Thu Sep 17 13:58:36 2026] [::1]:53022 Accepted
+[Thu Sep 17 13:58:36 2026] [::1]:53022 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:58:36 2026] [::1]:53022 Closing
+[Thu Sep 17 13:58:46 2026] [::1]:53027 Accepted
+[Thu Sep 17 13:58:46 2026] [::1]:53028 Accepted
+[Thu Sep 17 13:58:46 2026] [::1]:53027 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:58:46 2026] [::1]:53027 Closing
+[Thu Sep 17 13:58:46 2026] [::1]:53028 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:58:46 2026] [::1]:53028 Closing
+[Thu Sep 17 13:58:54 2026] [::1]:53035 Accepted
+[Thu Sep 17 13:58:54 2026] [::1]:53035 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:58:54 2026] [::1]:53035 Closing
+[Thu Sep 17 13:58:56 2026] [::1]:53037 Accepted
+[Thu Sep 17 13:58:56 2026] [::1]:53037 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:58:56 2026] [::1]:53037 Closing
+[Thu Sep 17 13:58:58 2026] [::1]:53039 Accepted
+[Thu Sep 17 13:58:58 2026] [::1]:53039 [304]: GET /notifications.php?action=list
+[Thu Sep 17 13:58:58 2026] [::1]:53039 Closing
+[Thu Sep 17 13:59:06 2026] [::1]:53041 Accepted
+[Thu Sep 17 13:59:06 2026] [::1]:53041 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:59:06 2026] [::1]:53041 Closing
+[Thu Sep 17 13:59:13 2026] [::1]:53044 Accepted
+[Thu Sep 17 13:59:13 2026] [::1]:53044 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:59:13 2026] [::1]:53044 Closing
+[Thu Sep 17 13:59:16 2026] [::1]:53046 Accepted
+[Thu Sep 17 13:59:16 2026] [::1]:53046 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:59:16 2026] [::1]:53046 Closing
+[Thu Sep 17 13:59:22 2026] [::1]:53857 Accepted
+[Thu Sep 17 13:59:22 2026] [::1]:53857 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 13:59:22 2026] [::1]:53857 Closing
+[Thu Sep 17 13:59:24 2026] [::1]:64761 Accepted
+[Thu Sep 17 13:59:24 2026] [::1]:64761 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:59:24 2026] [::1]:64761 Closing
+[Thu Sep 17 13:59:26 2026] [::1]:64765 Accepted
+[Thu Sep 17 13:59:26 2026] [::1]:64765 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:59:26 2026] [::1]:64765 Closing
+[Thu Sep 17 13:59:28 2026] [::1]:64767 Accepted
+[Thu Sep 17 13:59:28 2026] [::1]:64767 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:59:28 2026] [::1]:64767 Closing
+[Thu Sep 17 13:59:36 2026] [::1]:64771 Accepted
+[Thu Sep 17 13:59:36 2026] [::1]:64771 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:59:36 2026] [::1]:64771 Closing
+[Thu Sep 17 13:59:43 2026] [::1]:64773 Accepted
+[Thu Sep 17 13:59:46 2026] [::1]:64773 [200]: GET /notifications.php?action=list
+[Thu Sep 17 13:59:46 2026] [::1]:64773 Closing
+[Thu Sep 17 13:59:46 2026] [::1]:64775 Accepted
+[Thu Sep 17 13:59:46 2026] [::1]:64775 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:59:46 2026] [::1]:64775 Closing
+[Thu Sep 17 13:59:54 2026] [::1]:64779 Accepted
+[Thu Sep 17 13:59:54 2026] [::1]:64779 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 13:59:54 2026] [::1]:64779 Closing
+[Thu Sep 17 13:59:56 2026] [::1]:64781 Accepted
+[Thu Sep 17 13:59:56 2026] [::1]:64781 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 13:59:56 2026] [::1]:64781 Closing
+[Thu Sep 17 14:00:01 2026] [::1]:64786 Accepted
+[Thu Sep 17 14:00:01 2026] [::1]:64786 [200]: GET /notifications.php?action=list
+[Thu Sep 17 14:00:01 2026] [::1]:64786 Closing
+[Thu Sep 17 14:00:06 2026] [::1]:59561 Accepted
+[Thu Sep 17 14:00:06 2026] [::1]:59561 [200]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 14:00:06 2026] [::1]:59561 Closing
+[Thu Sep 17 14:00:11 2026] [::1]:61257 Accepted
+[Thu Sep 17 14:00:11 2026] [::1]:61257 [304]: GET /notifications.php?action=list
+[Thu Sep 17 14:00:11 2026] [::1]:61257 Closing
+[Thu Sep 17 14:00:16 2026] [::1]:64127 Accepted
+[Thu Sep 17 14:00:16 2026] [::1]:64127 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 14:00:16 2026] [::1]:64127 Closing
+[Thu Sep 17 14:00:22 2026] [::1]:55559 Accepted
+[Thu Sep 17 14:00:22 2026] [::1]:55559 [401]: GET /index.php?ajax=1&action=get_stats
+[Thu Sep 17 14:00:22 2026] [::1]:55559 Closing
+[Thu Sep 17 14:00:23 2026] [::1]:62992 Accepted
+[Thu Sep 17 14:00:23 2026] [::1]:62992 [200]: GET /notifications.php?action=list
+[Thu Sep 17 14:00:23 2026] [::1]:62992 Closing
+[Thu Sep 17 14:00:24 2026] [::1]:62994 Accepted
+[Thu Sep 17 14:00:24 2026] [::1]:62994 [200]: GET /attendance.php?ajax=1&action=list_logs&page=1&per_page=50
+[Thu Sep 17 14:00:24 2026] [::1]:62994 Closing
+[Thu Sep 17 14:00:26 2026] [::1]:62996 Accepted
+[Thu Sep 17 14:00:26 2026] [::1]:62996 [304]: GET /notifications.php?action=list_plan_payment_records
+[Thu Sep 17 14:00:26 2026] [::1]:62996 Closing

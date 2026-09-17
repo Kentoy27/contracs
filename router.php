@@ -6,7 +6,9 @@
  *
  * Mirrors the production .htaccess rules closely enough for local use:
  *   - Serves real files (php, css, js, images, uploads) directly.
- *   - Maps extensionless URLs (e.g. /login, /attendance) to *.php.
+ *   - Maps extensionless URLs (e.g. /login, /attendance) to *.php — the app
+ *     itself also emits explicit .php URLs on this server (CTR_PHP_URLS),
+ *     so it works identically with or without this router.
  *   - Blocks config/includes/tmp/logs and sensitive uploads folders.
  *   - Requires the AJAX header for /ajax/*.php, like the .htaccess rule.
  *   - Falls back to 404.php for anything that doesn't match a page.
