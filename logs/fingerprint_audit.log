@@ -1,0 +1,15 @@
+2026-04-14 15:40:12 - User ID: 7 - Fingerprint enrolled successfully
+2026-04-14 15:40:18 - User ID: 7 - Fingerprint verification successful
+2026-04-14 15:40:25 - User ID: 7 - Fingerprint verification successful
+2026-04-14 15:40:35 - User ID: 7 - Fingerprint verification successful
+2026-04-14 15:41:11 - User ID: 7 - Fingerprint verification successful
+2026-04-14 15:42:18 - User ID: 8 - Fingerprint enrolled successfully
+CS9711 {"ts":"2026-05-07T09:51:23+08:00","event":"api_status","context":{"ok":false}}
+CS9711 {"ts":"2026-05-07T09:52:15+08:00","event":"api_status","context":{"ok":false}}
+CS9711 {"ts":"2026-05-07T11:27:06+08:00","event":"api_status","context":{"ok":false}}
+CS9711 {"ts":"2026-05-07T11:39:17+08:00","event":"api_status","context":{"ok":false}}
+CS9711 {"ts":"2026-05-07T11:39:40+08:00","event":"api_status","context":{"ok":false}}
+CS9711 {"ts":"2026-05-07T11:48:19+08:00","event":"api_status","context":{"ok":false}}
+CS9711 {"ts":"2026-05-07T11:50:55+08:00","event":"api_status","context":{"ok":false}}
+CS9711 {"ts":"2026-05-07T13:45:19+08:00","event":"api_status","context":{"ok":false}}
+CS9711 {"ts":"2026-06-25T14:16:36+08:00","event":"api_status","context":{"ok":false}}

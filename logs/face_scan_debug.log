@@ -1,0 +1,496 @@
+[2026-08-04 12:13:47] face_scan attempt: in_values=42
+  user_id=299 name=admin662 stored=42 dist=0.5284
+
+[2026-08-04 12:17:36] face_scan attempt: in_values=42
+  user_id=299 name=admin662 stored=42 dist=0.5097
+
+[2026-08-04 12:17:42] face_scan attempt: in_values=42
+  user_id=299 name=admin662 stored=42 dist=0.4988
+
+[2026-08-05 16:20:39] face_scan attempt: in_values=42
+  user_id=82 name=admin stored=42 dist=3.0809
+
+[2026-08-05 16:25:08] face_scan attempt: in_values=90
+  user_id=82 name=admin stored=42 dist=0.3831
+
+[2026-08-05 16:48:51] face_scan attempt: in_dims=192 kind=embed
+  user_id=82 name=admin kind=legacy dist=3.0625 thr=0.55
+  user_id=310 name=CTR Face Test kind=legacy dist=0 thr=0.55
+
+[2026-08-05 16:49:14] face_scan attempt: in_dims=192 kind=embed
+  user_id=82 name=admin kind=legacy dist=3.0625 thr=0.55
+  user_id=310 name=CTR Face Test kind=legacy dist=0 thr=0.55
+
+[2026-08-05 16:49:32] face_scan attempt: in_dims=192 kind=embed
+  user_id=82 name=admin kind=legacy dist=3.2398 thr=0.55
+  user_id=310 name=CTR Face Test kind=embed dist=0 thr=0.45
+
+[2026-08-05 16:49:32] face_scan attempt: in_dims=192 kind=embed
+  user_id=82 name=admin kind=legacy dist=3.4633 thr=0.55
+  user_id=310 name=CTR Face Test kind=embed dist=1 thr=0.45
+
+[2026-08-05 17:06:54] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=legacy dist=3.1208 thr=0.55
+  user_id=311 name=CTR Face Test 2 kind=embed dist=0.005 thr=0.55
+
+[2026-08-05 17:06:54] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=legacy dist=3.1208 thr=0.55
+  user_id=311 name=CTR Face Test 2 kind=embed dist=11.567 thr=0.55
+
+[2026-08-05 17:14:09] face_scan attempt: in_dims=42 kind=legacy
+  user_id=82 name=admin kind=legacy dist=3.1208 thr=0.55
+  user_id=312 name=CTR A kind=embed dist=0 thr=0.55
+  user_id=313 name=CTR B kind=embed dist=0.6963 thr=0.55
+
+[2026-08-05 17:22:04] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1952 thr=0.55
+
+[2026-08-05 17:22:08] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1599 thr=0.55
+
+[2026-08-05 17:22:13] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1653 thr=0.55
+
+[2026-08-05 17:22:23] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1464 thr=0.55
+
+[2026-08-05 17:22:49] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1747 thr=0.55
+
+[2026-08-06 08:39:17] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2616 thr=0.55
+
+[2026-08-06 08:39:25] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2041 thr=0.55
+
+[2026-08-06 08:56:51] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2196 thr=0.55
+
+[2026-08-06 09:06:44] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1036 thr=0.55
+
+[2026-08-06 09:07:42] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.6015 thr=0.55
+  user_id=305 name=user1 kind=embed dist=0.1686 thr=0.55
+
+[2026-08-06 10:20:14] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=1.9432 thr=0.55
+  user_id=305 name=user1 kind=embed dist=1.963 thr=0.55
+
+[2026-08-06 10:20:19] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=2.2061 thr=0.55
+  user_id=305 name=user1 kind=embed dist=1.9326 thr=0.55
+
+[2026-08-06 10:20:42] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=0.7325 thr=0.55
+  user_id=305 name=user1 kind=embed dist=0.9178 thr=0.55
+
+[2026-08-06 10:20:49] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=0.3929 thr=0.55
+  user_id=305 name=user1 kind=embed dist=1.1145 thr=0.55
+
+[2026-08-06 10:20:55] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=0.482 thr=0.55
+  user_id=305 name=user1 kind=embed dist=0.8179 thr=0.55
+
+[2026-08-06 10:21:30] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=0.4401 thr=0.55
+  user_id=305 name=user1 kind=embed dist=1.3903 thr=0.55
+
+[2026-08-06 10:21:48] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=0.6096 thr=0.55
+  user_id=305 name=user1 kind=embed dist=0.6965 thr=0.55
+
+[2026-08-06 10:23:44] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=1.09 thr=0.55
+  user_id=305 name=user1 kind=embed dist=0.4059 thr=0.55
+
+[2026-08-06 10:23:48] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=0.8798 thr=0.55
+  user_id=305 name=user1 kind=embed dist=0.4511 thr=0.55
+
+[2026-08-06 11:53:40] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.592 thr=0.55
+  user_id=305 name=user1 kind=embed dist=0.5435 thr=0.55
+  user_id=306 name=user2 kind=embed dist=0.2629 thr=0.55
+
+[2026-08-06 11:56:20] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.69 thr=0.55
+  user_id=305 name=user1 kind=embed dist=0.636 thr=0.55
+  user_id=306 name=user2 kind=embed dist=0.624 thr=0.55
+  user_id=309 name=a4 kind=embed dist=0.1699 thr=0.55
+
+[2026-08-07 14:35:16] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.3106 thr=0.55
+  user_id=305 name=user1 kind=embed dist=0.6091 thr=0.55
+  user_id=306 name=user2 kind=embed dist=0.6426 thr=0.55
+  user_id=309 name=a4 kind=embed dist=0.6641 thr=0.55
+
+[2026-08-07 15:23:10] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1471 thr=0.55
+  user_id=305 name=user1 kind=embed dist=0.6216 thr=0.55
+  user_id=306 name=user2 kind=embed dist=0.6618 thr=0.55
+  user_id=309 name=a4 kind=embed dist=0.6159 thr=0.55
+
+[2026-08-07 16:58:23] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.186 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6239 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6524 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.609 thr=0.45
+
+[2026-08-10 12:05:59] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1845 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6361 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6582 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6313 thr=0.45
+
+[2026-08-10 17:04:34] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1353 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6231 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6853 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6408 thr=0.45
+
+[2026-08-11 12:03:52] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1524 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6098 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6768 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6139 thr=0.45
+
+[2026-08-11 12:28:28] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1964 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6255 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.661 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6457 thr=0.45
+
+[2026-08-12 10:28:30] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.172 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6087 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6823 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6314 thr=0.45
+
+[2026-08-12 10:29:11] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1417 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6273 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6924 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.633 thr=0.45
+
+[2026-08-12 10:32:10] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2311 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.623 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6798 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6256 thr=0.45
+
+[2026-08-12 10:32:32] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1767 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6213 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6781 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6354 thr=0.45
+
+[2026-08-12 10:32:44] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2299 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6066 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6666 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6405 thr=0.45
+
+[2026-08-12 10:34:06] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1774 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6253 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6784 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6223 thr=0.45
+
+[2026-08-12 10:34:17] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2257 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6493 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.7006 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.639 thr=0.45
+
+[2026-08-12 10:34:23] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2557 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6611 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6984 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6423 thr=0.45
+
+[2026-08-12 10:34:34] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=3.5427 thr=0.45
+  user_id=305 name=user1 kind=embed dist=3.4175 thr=0.45
+  user_id=306 name=user2 kind=embed dist=3.5964 thr=0.45
+  user_id=309 name=a4 kind=embed dist=3.1818 thr=0.45
+
+[2026-08-12 10:34:48] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2119 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6212 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6755 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6229 thr=0.45
+
+[2026-08-12 10:35:05] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2504 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.5984 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.659 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.5915 thr=0.45
+
+[2026-08-12 10:36:53] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1787 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6303 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6811 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6287 thr=0.45
+
+[2026-08-12 10:37:02] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1809 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6291 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.685 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6286 thr=0.45
+
+[2026-08-12 10:37:17] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=2.1835 thr=0.45
+  user_id=305 name=user1 kind=embed dist=2.9392 thr=0.45
+  user_id=306 name=user2 kind=embed dist=1.8694 thr=0.45
+  user_id=309 name=a4 kind=embed dist=2.5565 thr=0.45
+
+[2026-08-12 10:37:29] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2756 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6297 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.7121 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6613 thr=0.45
+
+[2026-08-12 10:37:45] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.4614 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.5956 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.671 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6321 thr=0.45
+
+[2026-08-12 10:38:00] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.4058 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6623 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.7205 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.7303 thr=0.45
+
+[2026-08-12 10:38:44] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.1886 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.607 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6759 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6198 thr=0.45
+
+[2026-08-12 10:43:31] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.5569 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.5775 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.5594 thr=0.45
+  user_id=308 name=c kind=embed dist=0.3538 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.565 thr=0.45
+
+[2026-08-12 11:48:56] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.5258 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.2977 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.5772 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5596 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6219 thr=0.45
+
+[2026-08-12 15:54:10] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=1.3196 thr=0.45
+  user_id=305 name=user1 kind=embed dist=1.8899 thr=0.45
+  user_id=306 name=user2 kind=embed dist=1.6347 thr=0.45
+  user_id=308 name=c kind=embed dist=1.3176 thr=0.45
+  user_id=309 name=a4 kind=embed dist=1.6056 thr=0.45
+
+[2026-08-12 15:54:19] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.3097 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6501 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.714 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5855 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6622 thr=0.45
+
+[2026-08-12 15:54:33] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=2.2896 thr=0.45
+  user_id=305 name=user1 kind=embed dist=2.7743 thr=0.45
+  user_id=306 name=user2 kind=embed dist=2.3049 thr=0.45
+  user_id=308 name=c kind=embed dist=2.2031 thr=0.45
+  user_id=309 name=a4 kind=embed dist=2.5222 thr=0.45
+
+[2026-08-12 15:59:46] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=2.5393 thr=0.45
+  user_id=305 name=user1 kind=embed dist=2.9144 thr=0.45
+  user_id=306 name=user2 kind=embed dist=2.5527 thr=0.45
+  user_id=308 name=c kind=embed dist=2.3738 thr=0.45
+  user_id=309 name=a4 kind=embed dist=2.6412 thr=0.45
+
+[2026-08-12 16:39:06] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2253 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6082 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6475 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5233 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6406 thr=0.45
+
+[2026-08-12 16:39:13] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2014 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6496 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6929 thr=0.45
+  user_id=308 name=c kind=embed dist=0.566 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6628 thr=0.45
+
+[2026-08-13 09:29:05] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.3164 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.569 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6463 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5345 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6093 thr=0.45
+
+[2026-08-13 09:31:25] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.6521 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6737 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.7347 thr=0.45
+  user_id=308 name=c kind=embed dist=0.6877 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6422 thr=0.45
+
+[2026-08-13 09:33:33] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.4999 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6622 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.7543 thr=0.45
+  user_id=308 name=c kind=embed dist=0.6687 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6442 thr=0.45
+
+[2026-08-13 09:36:11] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.4264 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.5912 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6601 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5996 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6176 thr=0.45
+
+[2026-08-13 09:36:17] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=1.635 thr=0.45
+  user_id=305 name=user1 kind=embed dist=1.8204 thr=0.45
+  user_id=306 name=user2 kind=embed dist=2.2497 thr=0.45
+  user_id=308 name=c kind=embed dist=1.5264 thr=0.45
+  user_id=309 name=a4 kind=embed dist=1.4401 thr=0.45
+
+[2026-08-13 10:06:07] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2789 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.5863 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6846 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5456 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.5979 thr=0.45
+
+[2026-08-13 10:06:16] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2996 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6115 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6762 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5745 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6243 thr=0.45
+
+[2026-08-13 10:06:23] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.3276 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.638 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.689 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5788 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6296 thr=0.45
+
+[2026-08-13 10:06:28] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2936 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6232 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6756 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5635 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6211 thr=0.45
+
+[2026-08-13 10:08:16] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=1.543 thr=0.45
+  user_id=305 name=user1 kind=embed dist=1.883 thr=0.45
+  user_id=306 name=user2 kind=embed dist=1.6673 thr=0.45
+  user_id=308 name=c kind=embed dist=0.9363 thr=0.45
+  user_id=309 name=a4 kind=embed dist=1.2922 thr=0.45
+
+[2026-08-13 10:08:22] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=1.9294 thr=0.45
+  user_id=305 name=user1 kind=embed dist=2.6285 thr=0.45
+  user_id=306 name=user2 kind=embed dist=1.6444 thr=0.45
+  user_id=308 name=c kind=embed dist=1.4311 thr=0.45
+  user_id=309 name=a4 kind=embed dist=2.0902 thr=0.45
+
+[2026-08-13 10:08:27] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=1.516 thr=0.45
+  user_id=305 name=user1 kind=embed dist=1.9424 thr=0.45
+  user_id=306 name=user2 kind=embed dist=2.1181 thr=0.45
+  user_id=308 name=c kind=embed dist=1.5353 thr=0.45
+  user_id=309 name=a4 kind=embed dist=1.601 thr=0.45
+
+[2026-08-13 10:08:36] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=2.3733 thr=0.45
+  user_id=305 name=user1 kind=embed dist=2.7287 thr=0.45
+  user_id=306 name=user2 kind=embed dist=2.0845 thr=0.45
+  user_id=308 name=c kind=embed dist=1.6556 thr=0.45
+  user_id=309 name=a4 kind=embed dist=2.1477 thr=0.45
+
+[2026-08-13 10:14:50] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2902 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.5993 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6763 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5723 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6131 thr=0.45
+
+[2026-08-13 10:14:59] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.2927 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.579 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6656 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5633 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6006 thr=0.45
+
+[2026-08-13 10:15:18] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.3277 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.598 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6491 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5733 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.638 thr=0.45
+
+[2026-08-13 10:15:27] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.4291 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.5639 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6436 thr=0.45
+  user_id=308 name=c kind=embed dist=0.6104 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.5925 thr=0.45
+
+[2026-08-13 10:18:49] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=2.1262 thr=0.45
+  user_id=305 name=user1 kind=embed dist=2.7109 thr=0.45
+  user_id=306 name=user2 kind=embed dist=2.5179 thr=0.45
+  user_id=308 name=c kind=embed dist=2.2757 thr=0.45
+  user_id=309 name=a4 kind=embed dist=2.4848 thr=0.45
+
+[2026-08-13 17:11:59] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.3071 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6156 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6766 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5539 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.617 thr=0.45
+
+[2026-08-14 09:46:39] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.3038 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.626 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6893 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5833 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6551 thr=0.45
+
+[2026-08-14 09:46:53] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.3006 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.5862 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6387 thr=0.45
+  user_id=308 name=c kind=embed dist=0.535 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.5991 thr=0.45
+
+[2026-08-14 09:47:54] face_scan attempt: in_dims=90 kind=legacy
+  user_id=82 name=admin kind=embed dist=5.8842 thr=0.45
+  user_id=305 name=user1 kind=embed dist=6.3481 thr=0.45
+  user_id=306 name=user2 kind=embed dist=5.8061 thr=0.45
+  user_id=308 name=c kind=embed dist=5.7728 thr=0.45
+  user_id=309 name=a4 kind=embed dist=6.0825 thr=0.45
+
+[2026-08-18 14:23:41] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.3154 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.6023 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6686 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5617 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6199 thr=0.45
+
+[2026-08-18 14:41:03] face_scan attempt: in_dims=128 kind=embed
+  user_id=82 name=admin kind=embed dist=0.3255 thr=0.45
+  user_id=305 name=user1 kind=embed dist=0.5938 thr=0.45
+  user_id=306 name=user2 kind=embed dist=0.6617 thr=0.45
+  user_id=308 name=c kind=embed dist=0.5746 thr=0.45
+  user_id=309 name=a4 kind=embed dist=0.6157 thr=0.45
+

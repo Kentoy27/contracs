@@ -1,0 +1,724 @@
+.modal-backdrop {
+    backdrop-filter: none !important;
+}
+
+body.modal-open .nxl-header,
+body.modal-open .nxl-navigation,
+body.modal-open .page-header,
+body.modal-open .nxl-container {
+    filter: none !important;
+}
+
+html.app-skin-dark {
+    color-scheme: dark;
+}
+
+html.app-skin-dark .nxl-navigation .m-header,
+html.app-skin-dark .nxl-navigation .m-header img.logo,
+html.app-skin-dark .nxl-navigation .m-header img.logo.logo-lg,
+html.app-skin-dark .nxl-navigation .m-header img.logo.logo-sm,
+html.app-skin-dark .nxl-navigation .m-header .b-brand img {
+    -webkit-filter: none !important;
+    filter: none !important;
+}
+
+html.app-skin-dark select,
+html.app-skin-dark .form-select {
+    background-color: #0f172a !important;
+    color: #ffffff !important;
+    border-color: #1b2436 !important;
+}
+
+html.app-skin-dark select option,
+html.app-skin-dark select optgroup {
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+#manageCategoriesModal .dataTables_wrapper {
+    width: 100%;
+}
+
+#manageCategoriesModal .dataTables_wrapper .row {
+    --bs-gutter-x: 0;
+}
+
+#manageCategoriesModal .dataTables_scroll,
+#manageCategoriesModal .dataTables_scrollHead,
+#manageCategoriesModal .dataTables_scrollHeadInner,
+#manageCategoriesModal .dataTables_scrollBody {
+    width: 100% !important;
+}
+
+#manageCategoriesModal .dataTables_scrollBody {
+    overflow-x: auto !important;
+}
+
+#categoriesManageTable {
+    width: 100% !important;
+}
+
+#eventsTable {
+    width: 100% !important;
+    min-width: 1100px;
+}
+
+#eventsTable th {
+    white-space: nowrap;
+}
+
+.dataTables_wrapper .dataTables_scrollBody {
+    overflow-x: auto !important;
+}
+
+.dataTables_wrapper table.dataTable th,
+.dataTables_wrapper table.dataTable td {
+    vertical-align: middle;
+}
+
+.dataTables_wrapper table.dataTable th.dt-check-col,
+.dataTables_wrapper table.dataTable td.dt-check-col {
+    width: 44px !important;
+    min-width: 44px !important;
+    max-width: 44px !important;
+}
+
+.dataTables_wrapper table.dataTable th.dt-check-col .form-check-input,
+.dataTables_wrapper table.dataTable td.dt-check-col .form-check-input {
+    margin: 0;
+}
+
+.dataTables_wrapper .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dataTables_wrapper>.row:first-child,
+.dataTables_wrapper>.row:last-child {
+    width: 100%;
+}
+
+.dt-controls-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: end;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+.dt-controls-bar .dataTables_filter {
+    margin-left: auto;
+}
+
+.dt-controls-bar .dataTables_length,
+.dt-controls-bar .dataTables_filter,
+.dt-controls-bar .dt-buttons {
+    margin: 0;
+}
+
+.dt-controls-bar .dataTables_filter label,
+.dt-controls-bar .dataTables_length label {
+    margin-bottom: 0;
+    white-space: normal;
+}
+
+.dt-controls-bar .dataTables_filter input {
+    margin-left: 0 !important;
+}
+
+.dt-controls-bar select,
+.dt-controls-bar input[type="search"],
+.dt-controls-bar input[type="text"] {
+    min-width: 0 !important;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .dt-controls-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .dt-controls-bar .dataTables_filter {
+        margin-left: 0;
+    }
+
+    .dt-controls-bar .dataTables_filter input,
+    .dt-controls-bar .dataTables_length select,
+    .dt-controls-bar select {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-height: 38px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .dataTables_wrapper>.row:first-child,
+    .dataTables_wrapper>.row:last-child {
+        padding: 12px 12px !important;
+    }
+
+    .dataTables_wrapper > .row:first-child,
+    .dataTables_wrapper > .row:last-child {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 0.5rem !important;
+        align-items: center !important;
+    }
+
+    .dataTables_wrapper > .row > [class*="col-"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+
+    .dataTables_wrapper table.dataTable th,
+    .dataTables_wrapper table.dataTable td {
+        padding: 10px 10px;
+    }
+
+    .dataTables_wrapper .dataTables_length,
+    .dataTables_wrapper .dataTables_filter {
+        width: 100%;
+        text-align: left !important;
+    }
+
+    .dataTables_wrapper .dataTables_filter label,
+    .dataTables_wrapper .dataTables_length label {
+        display: block;
+        width: 100%;
+        white-space: normal;
+    }
+
+    .dataTables_wrapper .dataTables_filter input,
+    .dataTables_wrapper .dataTables_length select {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+        margin-left: 0 !important;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .pagination {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Topbar Icon Group Spacing */
+.header-icons-group .nxl-h-item {
+    margin-left: 2px;
+}
+
+.header-icons-group .nxl-h-item:last-child {
+    margin-left: 4px;
+}
+
+.header-icons-group .nxl-h-item .nxl-head-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.header-icons-group .nxl-h-item .nxl-head-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+html[data-bs-theme="dark"] .header-icons-group .nxl-h-item .nxl-head-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Credits Modal Styles */
+.ctr-credits-modal {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.ctr-credits-header {
+    background: linear-gradient(135deg, rgba(31, 101, 184, 0.96) 0%, rgba(47, 125, 40, 0.94) 100%);
+    color: #fff;
+    border: none;
+}
+
+.ctr-credits-header .modal-title {
+    color: #fff;
+}
+
+.ctr-credits-body {
+    background: #fff;
+    color: #1e293b;
+}
+
+.ctr-credits-title {
+    color: #1e293b;
+}
+
+.ctr-credits-subtitle {
+    color: #64748b;
+}
+
+.ctr-credits-divider {
+    border-color: #e2e8f0;
+}
+
+.ctr-credits-info-box {
+    background: #f1f5f9;
+}
+
+.ctr-credits-name {
+    color: #1e293b;
+}
+
+.ctr-credits-role {
+    color: #64748b;
+}
+
+.ctr-credits-footer {
+    background: #fff;
+    border-top: 1px solid #e2e8f0;
+}
+
+/* Credits Modal Dark Mode */
+html[data-bs-theme="dark"] .ctr-credits-body,
+html.app-skin-dark .ctr-credits-body {
+    background: #1e293b;
+    color: rgba(248, 250, 252, 0.92);
+}
+
+html[data-bs-theme="dark"] .ctr-credits-title,
+html.app-skin-dark .ctr-credits-title {
+    color: rgba(248, 250, 252, 0.92) !important;
+}
+
+html[data-bs-theme="dark"] .ctr-credits-subtitle,
+html.app-skin-dark .ctr-credits-subtitle {
+    color: rgba(226, 232, 240, 0.70) !important;
+}
+
+html[data-bs-theme="dark"] .ctr-credits-divider,
+html.app-skin-dark .ctr-credits-divider {
+    border-color: rgba(148, 163, 184, 0.22);
+}
+
+html[data-bs-theme="dark"] .ctr-credits-info-box,
+html.app-skin-dark .ctr-credits-info-box {
+    background: rgba(148, 163, 184, 0.14) !important;
+}
+
+html[data-bs-theme="dark"] .ctr-credits-name,
+html.app-skin-dark .ctr-credits-name {
+    color: rgba(248, 250, 252, 0.92) !important;
+}
+
+html[data-bs-theme="dark"] .ctr-credits-role,
+html.app-skin-dark .ctr-credits-role {
+    color: rgba(226, 232, 240, 0.70) !important;
+}
+
+html[data-bs-theme="dark"] .ctr-credits-footer,
+html.app-skin-dark .ctr-credits-footer {
+    background: #1e293b;
+    border-top: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+/* Topbar Responsive */
+@media (max-width: 768px) {
+    .nxl-header .header-wrapper {
+        padding: 0 12px;
+        min-height: 50px;
+    }
+
+    .nxl-header .header-wrapper .header-left {
+        gap: 8px;
+    }
+
+    .nxl-header .header-wrapper .header-left .nxl-navigation-toggle {
+        display: none;
+    }
+
+    .header-icons-group {
+        gap: 0 !important;
+    }
+
+    .header-icons-group .nxl-h-item .nxl-head-link {
+        width: 32px;
+        height: 32px;
+    }
+
+    .header-icons-group .nxl-h-item .nxl-head-link i {
+        font-size: 16px;
+    }
+
+    .nxl-header .header-wrapper .nxl-h-dropdown {
+        min-width: 280px !important;
+        max-width: calc(100vw - 24px);
+    }
+}
+
+@media (max-width: 480px) {
+    .nxl-header .header-wrapper {
+        padding: 0 10px;
+        min-height: 46px;
+    }
+
+    .header-icons-group {
+        gap: 0 !important;
+    }
+
+    .header-icons-group .nxl-h-item {
+        margin-left: 0 !important;
+    }
+
+    .header-icons-group .nxl-h-item:last-child {
+        margin-left: 0 !important;
+    }
+
+    .header-icons-group .nxl-h-item .nxl-head-link {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header-icons-group .nxl-h-item .nxl-head-link i {
+        font-size: 15px;
+    }
+
+    /* Dropdown menus on phones: the template's <=575px rules (position:
+       static wrapper + full-width menu) already keep them on-screen. The
+       old `position: fixed` override here anchored every dropdown menu
+       below the bottom of the viewport, so the Theme Color and
+       Notifications buttons looked unclickable on mobile. Let Popper place
+       the menus normally and only cap their width so they fit narrow
+       screens. */
+    .nxl-header .header-wrapper .nxl-h-dropdown {
+        max-width: calc(100vw - 16px) !important;
+    }
+
+    .nxl-notifications-menu {
+        min-width: auto !important;
+        max-width: calc(100vw - 16px) !important;
+    }
+}
+
+.td-clip-200,
+.td-clip-280 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.td-clip-200 {
+    max-width: 200px;
+}
+
+.td-clip-280 {
+    max-width: 280px;
+}
+
+@media (max-width: 576px) {
+    .td-clip-200 {
+        max-width: 140px;
+    }
+
+    .td-clip-280 {
+        max-width: 180px;
+    }
+}
+
+#teamsTable {
+    width: 100% !important;
+}
+
+#usersTable {
+    width: 100% !important;
+}
+
+@media (min-width: 992px) {
+    #teamsTable {
+        min-width: 860px;
+    }
+
+    #usersTable {
+        min-width: 760px;
+    }
+}
+
+/* External DataTables controls (kept outside the table wrapper so they are
+   not affected when the table is moved). */
+#usersControls .ctr-ext-length label,
+#attendanceControls .ctr-ext-length label,
+#usersControls .ctr-ext-search label,
+#attendanceControls .ctr-ext-search label {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    color: var(--bs-secondary-color, #6c757d);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+#usersControls .ctr-ext-length select,
+#attendanceControls .ctr-ext-length select,
+#usersControls .ctr-ext-search input,
+#attendanceControls .ctr-ext-search input {
+    font-size: 0.875rem;
+}
+
+#usersControls,
+#attendanceControls {
+    position: relative;
+    z-index: 2;
+}
+
+/* Attendance toolbar buttons: allow wrapping and give them enough touch
+   target on small screens so they never overflow off the viewport. */
+.ctr-att-btn-row {
+    flex-wrap: wrap;
+}
+
+.ctr-att-btn-row .btn {
+    white-space: normal;
+}
+
+@media (max-width: 575.98px) {
+    .ctr-att-btn-row {
+        width: 100%;
+    }
+
+    .ctr-att-btn-row .btn,
+    .ctr-att-btn-row .dropdown {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+}
+
+/* ===== Dashboard (index.php) stat boxes ===== */
+.ctr-dash .ctr-stat-card,
+.ctr-dash .ctr-list-card {
+    border: 1px solid rgba(40, 60, 80, 0.08) !important;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(40, 60, 80, 0.05), 0 12px 28px -18px rgba(40, 60, 80, 0.28) !important;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.ctr-dash .ctr-stat-card[role="button"],
+.ctr-dash .ctr-list-card[role="button"] {
+    cursor: pointer;
+}
+
+.ctr-dash .ctr-stat-card[role="button"]:hover,
+.ctr-dash .ctr-list-card[role="button"]:hover,
+.ctr-dash .ctr-stat-card[role="button"]:focus-visible,
+.ctr-dash .ctr-list-card[role="button"]:focus-visible {
+    transform: translateY(-3px);
+    border-color: rgba(52, 84, 209, 0.22) !important;
+    box-shadow: 0 6px 14px rgba(40, 60, 80, 0.08), 0 22px 44px -18px rgba(52, 84, 209, 0.35) !important;
+    outline: none;
+}
+
+/* Stat card inner layout */
+.ctr-dash .ctr-stat-card .card-body {
+    padding: 0.8rem 1rem;
+}
+
+.ctr-dash .ctr-stat-label {
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin-bottom: 0.15rem;
+    color: #64748b !important;
+}
+
+.ctr-dash .ctr-stat-value {
+    font-size: 1.4rem !important;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+/* Icon chips */
+.ctr-dash .ctr-stat-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    font-size: 1.05rem;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.ctr-dash .ctr-stat-icon-sm {
+    width: 32px;
+    height: 32px;
+    border-radius: 9px;
+    font-size: 0.9rem;
+}
+
+.ctr-dash .ctr-stat-icon-primary   { background: #e8edfb; color: #3454d1; }
+.ctr-dash .ctr-stat-icon-success   { background: #e0f7ea; color: #0fae57; }
+.ctr-dash .ctr-stat-icon-info      { background: #ddf3f1; color: #0e8f88; }
+.ctr-dash .ctr-stat-icon-warning   { background: #fff0da; color: #c26e00; }
+.ctr-dash .ctr-stat-icon-danger    { background: #fdeaea; color: #d63a3a; }
+.ctr-dash .ctr-stat-icon-secondary { background: #e9edf2; color: #64748b; }
+
+/* Ranking lists (Most Active / Most Absences) */
+.ctr-dash .ctr-list-card .card-body {
+    padding: 0.8rem 1rem;
+}
+
+.ctr-dash .ctr-list-card .mb-2 {
+    margin-bottom: 0.25rem !important;
+}
+
+.ctr-dash .list-group-flush > .list-group-item {
+    background: transparent;
+    border-color: rgba(40, 60, 80, 0.06);
+    padding: 0.3rem 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #283c50;
+}
+
+.ctr-dash .list-group-flush > .list-group-item:first-child {
+    padding-top: 0.15rem;
+}
+
+.ctr-dash .list-group-flush > .list-group-item .badge {
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 0.3em 0.55em;
+}
+
+.ctr-dash .ctr-rank-medal {
+    font-size: 0.9rem;
+    letter-spacing: 0;
+}
+
+/* Recent logs table */
+.ctr-dash #recentLogsTable th {
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #64748b;
+    border-bottom: 1px solid rgba(40, 60, 80, 0.08);
+}
+
+.ctr-dash #recentLogsTable td {
+    font-size: 0.78rem;
+}
+
+.ctr-dash #recentLogsTable th,
+.ctr-dash #recentLogsTable td {
+    padding: 0.35rem 0.5rem;
+    white-space: nowrap;
+}
+
+.ctr-dash #recentLogsTable th:first-child,
+.ctr-dash #recentLogsTable td:first-child {
+    padding-left: 0;
+}
+
+.ctr-dash #recentLogsTable th:last-child,
+.ctr-dash #recentLogsTable td:last-child {
+    padding-right: 0;
+}
+
+/* Dark mode */
+html.app-skin-dark .ctr-dash .ctr-stat-card,
+html.app-skin-dark .ctr-dash .ctr-list-card,
+html[data-bs-theme="dark"] .ctr-dash .ctr-stat-card,
+html[data-bs-theme="dark"] .ctr-dash .ctr-list-card {
+    border-color: rgba(148, 163, 184, 0.16) !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 14px 32px -20px rgba(0, 0, 0, 0.6);
+}
+
+html.app-skin-dark .ctr-dash .ctr-stat-card[role="button"]:hover,
+html.app-skin-dark .ctr-dash .ctr-list-card[role="button"]:hover,
+html[data-bs-theme="dark"] .ctr-dash .ctr-stat-card[role="button"]:hover,
+html[data-bs-theme="dark"] .ctr-dash .ctr-list-card[role="button"]:hover {
+    border-color: rgba(99, 133, 245, 0.45) !important;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35), 0 24px 48px -20px rgba(99, 133, 245, 0.35);
+}
+
+html.app-skin-dark .ctr-dash .ctr-stat-label,
+html[data-bs-theme="dark"] .ctr-dash .ctr-stat-label {
+    color: #94a3b8 !important;
+}
+
+html.app-skin-dark .ctr-dash .ctr-stat-icon-primary,
+html[data-bs-theme="dark"] .ctr-dash .ctr-stat-icon-primary   { background: rgba(52, 84, 209, 0.22); color: #9db3f0; }
+html.app-skin-dark .ctr-dash .ctr-stat-icon-success,
+html[data-bs-theme="dark"] .ctr-dash .ctr-stat-icon-success   { background: rgba(15, 174, 87, 0.20); color: #6fdc9d; }
+html.app-skin-dark .ctr-dash .ctr-stat-icon-info,
+html[data-bs-theme="dark"] .ctr-dash .ctr-stat-icon-info      { background: rgba(14, 143, 136, 0.22); color: #5fc9c2; }
+html.app-skin-dark .ctr-dash .ctr-stat-icon-warning,
+html[data-bs-theme="dark"] .ctr-dash .ctr-stat-icon-warning   { background: rgba(194, 110, 0, 0.24); color: #f5b45c; }
+html.app-skin-dark .ctr-dash .ctr-stat-icon-danger,
+html[data-bs-theme="dark"] .ctr-dash .ctr-stat-icon-danger    { background: rgba(214, 58, 58, 0.22); color: #f09090; }
+html.app-skin-dark .ctr-dash .ctr-stat-icon-secondary,
+html[data-bs-theme="dark"] .ctr-dash .ctr-stat-icon-secondary { background: rgba(100, 116, 139, 0.25); color: #a5b4c6; }
+
+html.app-skin-dark .ctr-dash .list-group-flush > .list-group-item,
+html[data-bs-theme="dark"] .ctr-dash .list-group-flush > .list-group-item {
+    border-color: rgba(148, 163, 184, 0.10);
+    color: #e2e8f0;
+}
+
+html.app-skin-dark .ctr-dash #recentLogsTable th,
+html[data-bs-theme="dark"] .ctr-dash #recentLogsTable th {
+    color: #94a3b8;
+    border-color: rgba(148, 163, 184, 0.12);
+}
+
+@media (max-width: 575.98px) {
+    .ctr-dash .ctr-stat-card .card-body {
+        padding: 0.9rem 1rem;
+    }
+
+    .ctr-dash .ctr-stat-icon {
+        width: 42px;
+        height: 42px;
+        border-radius: 12px;
+        font-size: 1.1rem;
+    }
+
+    .ctr-dash .ctr-stat-value {
+        font-size: 1.6rem !important;
+    }
+}
+
+/* Between the mobile off-canvas breakpoint (1024px) and the desktop layout
+   (1200px+) the template zeroes the content margin, so the fixed sidebar
+   slides OVER the tables instead of sitting beside them — and toggling the
+   sidebar does not move the content at all. Restore the side-by-side layout
+   for this range so tables always sit next to the sidebar and auto-adjust
+   when it collapses/expands. */
+@media (min-width: 1025px) and (max-width: 1199.98px) {
+    .nxl-container {
+        margin-left: 280px;
+    }
+
+    .minimenu .nxl-container {
+        margin-left: 100px;
+    }
+
+    .page-header {
+        left: 280px;
+    }
+
+    .minimenu .page-header {
+        left: 100px;
+    }
+}

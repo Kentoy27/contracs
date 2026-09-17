@@ -1,0 +1,91 @@
+RewriteEngine On
+
+# Never allow directory browsing.
+Options -Indexes
+
+# Increase PHP Upload Limits
+<IfModule mod_php.c>
+    php_value upload_max_filesize 256M
+    php_value post_max_size 256M
+    php_value memory_limit 512M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+    php_flag expose_php Off
+</IfModule>
+<IfModule mod_php7.c>
+    php_value upload_max_filesize 256M
+    php_value post_max_size 256M
+    php_value memory_limit 512M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+    php_flag expose_php Off
+</IfModule>
+<IfModule mod_php8.c>
+    php_value upload_max_filesize 256M
+    php_value post_max_size 256M
+    php_value memory_limit 512M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+    php_flag expose_php Off
+</IfModule>
+
+DirectoryIndex login.php
+ErrorDocument 403 /contracs/404.php
+ErrorDocument 404 /contracs/404.php
+RewriteRule ^(\.ht|\.env|\.git) - [F,L]
+RewriteRule ^(config|includes|tmp|logs)/ - [F,L]
+RewriteRule ^(uploads/access|uploads/faces)/ - [F,L]
+RewriteRule ^(assets|ajax|modals|includes)/?$ - [F,L]
+
+RewriteCond %{HTTP:X-Requested-With} !XMLHttpRequest [NC]
+RewriteRule ^ajax/.*\.php$ - [F,L]
+
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+?)/?$ - [F,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !\.php$ [NC]
+RewriteRule ^(.+?)/?$ $1.php [L,QSA]
+
+# Allow Service Worker at assets/sw.js to control root scope
+<IfModule mod_headers.c>
+    <FilesMatch "sw\.js$">
+        Header set Service-Worker-Allowed "/"
+    </FilesMatch>
+    # Don't advertise the PHP version to potential attackers.
+    Header unset X-Powered-By
+    Header unset Server
+</IfModule>
+
+# Compress text responses when possible
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# Long-term cache for static assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css                  "access plus 30 days"
+    ExpiresByType application/javascript    "access plus 30 days"
+    ExpiresByType image/png                 "access plus 30 days"
+    ExpiresByType image/jpeg                "access plus 30 days"
+    ExpiresByType image/gif                 "access plus 30 days"
+    ExpiresByType image/webp                "access plus 30 days"
+    ExpiresByType image/svg+xml             "access plus 30 days"
+    ExpiresByType image/x-icon              "access plus 30 days"
+    ExpiresByType font/woff2                "access plus 1 year"
+    ExpiresByType font/woff                 "access plus 1 year"
+    ExpiresByType font/ttf                  "access plus 1 year"
+    ExpiresByType application/manifest+json "access plus 1 week"
+</IfModule>
+
+# ETag / Last-Modified + Cache-Control for static assets
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|eot)$">
+        Header set Cache-Control "public, max-age=2592000, must-revalidate"
+    </FilesMatch>
+    <FilesMatch "\.(html|php)$">
+        Header append Vary "Accept-Encoding, Cookie"
+    </FilesMatch>
+</IfModule>
