@@ -46,8 +46,8 @@ try {
     $cs = paymongo_create_checkout_session(
         100,
         'SMOKE-TEST-' . time(),
-        'http://localhost/contracs/notifications.php?action=paymongo_return&payment_id=0',
-        'http://localhost/contracs/index.php',
+        'http://localhost/notifications.php?action=paymongo_return&payment_id=0',
+        'http://localhost/index.php',
         'ConTracS plan extension - smoke test'
     );
     echo 'SESSION ID: ' . $cs['id'] . "\n";

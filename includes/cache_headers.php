@@ -13,7 +13,20 @@ if (!defined('CTR_CACHE_HEADERS_LOADED')) {
     define('CTR_CACHE_HEADERS_LOADED', true);
 
     if (!defined('CTR_BASE_PATH')) {
-        $bp = trim((string)(getenv('CONTRACS_BASE_PATH') ?: '/contracs'));
+        $bp = trim((string)(getenv('CONTRACS_BASE_PATH') ?: ''));
+        if ($bp === '') {
+            // Auto-detect the install subfolder from this file's location
+            // (…/includes/cache_headers.php) so the app works when served as
+            // the web root (e.g. php -S localhost:8000) or from a subfolder
+            // (e.g. http://localhost/contracs).
+            $bp = str_replace('\\', '/', dirname(__DIR__));
+            $docRoot = str_replace('\\', '/', (string)($_SERVER['DOCUMENT_ROOT'] ?? ''));
+            if ($docRoot !== '' && strpos($bp . '/', $docRoot . '/') === 0) {
+                $bp = substr($bp, strlen($docRoot));
+            } else {
+                $bp = '';
+            }
+        }
         $bp = '/' . trim($bp, '/');
         if ($bp === '/') $bp = '';
         define('CTR_BASE_PATH', $bp);

@@ -5,11 +5,11 @@ ctr_session_start();
 $loggedIn = (!empty($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) || (!empty($_SESSION['user_id']));
 
 if ($loggedIn) {
-    header('Location: /contracs/index');
+    header('Location: ' . ctr_url('index'));
     exit;
 }
 
-$target = '/contracs/login';
+$target = ctr_url('login');
 $delayMs = 3500;
 $delaySeconds = (int)ceil($delayMs / 1000);
 ?>

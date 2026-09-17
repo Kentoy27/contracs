@@ -804,7 +804,7 @@ if ($action === 'create_plan_extension_payment') {
 
         $checkoutUrl = '';
         if ($provider === 'paymongo') {
-            $base = paymongo_app_base_url() . '/contracs';
+            $base = paymongo_app_base_url() . (CTR_BASE_PATH === '' ? '' : CTR_BASE_PATH);
             $successUrl = $base . '/notifications.php?action=paymongo_return&payment_id=' . $pid;
             $cancelUrl = $base . '/index.php';
             $description = 'ConTracS plan extension - ' . $months . ' month' . ($months === 1 ? '' : 's');
@@ -887,7 +887,7 @@ if ($action === 'paymongo_return') {
         $html .= '<body style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;padding:18px;text-align:center;">';
         $html .= '<div style="font-weight:800;font-size:18px;">' . htmlspecialchars($title, ENT_QUOTES, 'UTF-8') . '</div>';
         $html .= '<div style="color:#667085;margin-top:6px;">' . htmlspecialchars($msg, ENT_QUOTES, 'UTF-8') . '</div>';
-        $html .= '<script>(function(){try{if(window.opener){window.opener.postMessage({type:"ctr_plan_payment_paid",payment_id:' . (int)$pid . ',paid:' . ($isPaid ? 'true' : 'false') . '},"*");}}catch(e){};setTimeout(function(){try{if(window.opener){window.close();}else{window.location.href=' . json_encode(paymongo_app_base_url() . '/contracs/index.php') . ';}}catch(e2){};},1500);})();</script>';
+        $html .= '<script>(function(){try{if(window.opener){window.opener.postMessage({type:"ctr_plan_payment_paid",payment_id:' . (int)$pid . ',paid:' . ($isPaid ? 'true' : 'false') . '},"*");}}catch(e){};setTimeout(function(){try{if(window.opener){window.close();}else{window.location.href=' . json_encode(paymongo_app_base_url() . (CTR_BASE_PATH === '' ? '' : CTR_BASE_PATH) . '/index.php') . ';}}catch(e2){};},1500);})();</script>';
         $html .= '</body></html>';
         html_response($html, 200);
     } catch (Throwable $e) {

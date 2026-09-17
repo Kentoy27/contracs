@@ -109,10 +109,10 @@ function deny_home_key(string $message, int $status = 403): void
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Access denied</title>
     <base href="<?php echo htmlspecialchars($baseHref, ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="icon" type="image/png" href="/contracs/assets/images/favicon.png?v=<?php echo @filemtime(__DIR__ . '/assets/images/favicon.png'); ?>">
-    <link rel="stylesheet" type="text/css" href="/contracs/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/contracs/assets/vendors/css/vendors.min.css">
-    <link rel="stylesheet" type="text/css" href="/contracs/assets/css/theme.min.css">
+    <link rel="icon" type="image/png" href="<?php echo ctr_url('assets/images/favicon.png'); ?>?v=<?php echo @filemtime(__DIR__ . '/assets/images/favicon.png'); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo ctr_url('assets/css/bootstrap.min.css'); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo ctr_url('assets/vendors/css/vendors.min.css'); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo ctr_url('assets/css/theme.min.css'); ?>">
 </head>
 <body class="bg-light d-flex align-items-center justify-content-center min-vh-100">
     <main class="container">
@@ -120,7 +120,7 @@ function deny_home_key(string $message, int $status = 403): void
             <div class="col-12 col-md-8 col-lg-6">
                 <div class="card shadow-sm border-0">
                     <div class="card-body text-center p-5">
-                        <img src="/contracs/assets/images/contracs.png" alt="Logo" class="img-fluid mb-3" style="max-width: 96px;">
+                        <img src="<?php echo ctr_url('assets/images/contracs.png'); ?>" alt="Logo" class="img-fluid mb-3" style="max-width: 96px;">
                         <h1 class="display-4 fw-bold mb-2"><?php echo (int)$status; ?></h1>
                         <h4 class="fw-semibold mb-3">Access denied</h4>
                         <p class="text-muted mb-4"><?php echo $m; ?></p>
@@ -263,13 +263,13 @@ ctr_cookie_consent_banner();
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="<?php echo htmlspecialchars($themeBase, ENT_QUOTES, 'UTF-8'); ?>" />
     <title>ConTracS | Home</title>
-    <link rel="icon" type="image/png" href="/contracs/assets/images/favicon.png?v=<?php echo @filemtime(__DIR__ . '/assets/images/favicon.png'); ?>" />
-    <link rel="manifest" href="/contracs/assets/manifest.json" />
+    <link rel="icon" type="image/png" href="<?php echo ctr_url('assets/images/favicon.png'); ?>?v=<?php echo @filemtime(__DIR__ . '/assets/images/favicon.png'); ?>" />
+    <link rel="manifest" href="<?php echo ctr_url('assets/manifest.json'); ?>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="/contracs/assets/css/inter.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="/contracs/assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/contracs/assets/vendors/css/vendors.min.css" />
+    <link href="<?php echo ctr_url('assets/css/inter.css'); ?>" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="<?php echo ctr_url('assets/css/bootstrap.min.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo ctr_url('assets/vendors/css/vendors.min.css'); ?>" />
     <style>
         :root {
             color-scheme: dark;
@@ -3046,7 +3046,7 @@ ctr_cookie_consent_banner();
         <div class="container-fluid px-2 px-md-3">
             <div class="home-header-row">
                 <div class="home-header-left">
-                    <img src="/contracs/assets/images/sdo.png" alt="Schools Division Office logo" loading="eager" decoding="async" class="home-header-logo">
+                    <img src="<?php echo ctr_url('assets/images/sdo.png'); ?>" alt="Schools Division Office logo" loading="eager" decoding="async" class="home-header-logo">
                     <h1 class="home-header-title m-0"><?php echo htmlspecialchars($homeHeaderTitle, ENT_QUOTES, 'UTF-8'); ?></h1>
                 </div>
                 <nav class="home-header-icons" aria-label="Quick actions">
@@ -3165,7 +3165,7 @@ ctr_cookie_consent_banner();
 
         <aside class="home-right-col" aria-label="Status and last record">
             <div class="home-right-top">
-                <img class="home-brand" src="/contracs/assets/images/contracs.png" alt="ConTracS" loading="lazy" decoding="async">
+                <img class="home-brand" src="<?php echo ctr_url('assets/images/contracs.png'); ?>" alt="ConTracS" loading="lazy" decoding="async">
                 <div class="home-subtitle">ConTracS Tracking System</div>
                 <div class="home-version">v4.0.5</div>
                 <div class="home-date" id="homeDateText"></div>
@@ -3436,7 +3436,7 @@ ctr_cookie_consent_banner();
                     </div>
                     <div class="text-center mb-3">
                         <div class="d-inline-block p-2 border rounded bg-white">
-                            <img src="/contracs/assets/images/qrgcash.png" alt="GCash QR Code" style="width:220px;height:220px;display:block;border-radius:8px;" onerror="this.style.display='none';this.parentNode.innerHTML='<div class=\'text-muted p-4\'>QR Code</div>';">
+                            <img src="<?php echo ctr_url('assets/images/qrgcash.png'); ?>" alt="GCash QR Code" style="width:220px;height:220px;display:block;border-radius:8px;" onerror="this.style.display='none';this.parentNode.innerHTML='<div class=\'text-muted p-4\'>QR Code</div>';">
                         </div>
                         <div class="text-muted small mt-2 fst-italic fw-bold" style="font-size:11px;">This system is a testament to the developer's hard work and dedication in creating a reliable and user-friendly solution.</div>
                     </div>
